@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://laiweijun.com/"/>
-  <updated>2018-03-06T10:09:55.392Z</updated>
+  <updated>2018-03-06T12:04:15.380Z</updated>
   <id>http://laiweijun.com/</id>
   
   <author>
@@ -17,13 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>🔒空间布局</title>
+    <link href="http://laiweijun.com/2018/03/06/%E7%A9%BA%E9%97%B4%E5%B8%83%E5%B1%80/"/>
+    <id>http://laiweijun.com/2018/03/06/空间布局/</id>
+    <published>2018-03-06T12:02:23.000Z</published>
+    <updated>2018-03-06T12:04:15.380Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 3-3 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX19DJYjwWUgE08HgAfyy2XEAvH77kCqKJbKOEg0ZH2T4nXUomOzWVukgvuHRL7YhCmxldtT3qo9pp7XOTA39cN/wBqYckOEzTDS4B2AaYj1RnSg/q9UgCzBEmxSYPIvBrpJcMaPO9VQRzTkmN2rWd5axFxyYVM9E0Sv5jJ5YuYAOlqs+PXPmxkbPRUK97Xa4q4u/S8XYGvpLczZd5lvvDvFJNNQbbWDn6TU=</div>]]></content>
+    
+    <summary type="html">
+    
+      神秘的空间
+    
+    </summary>
+    
+      <category term="布局" scheme="http://laiweijun.com/categories/%E5%B8%83%E5%B1%80/"/>
+    
+    
+      <category term="加密" scheme="http://laiweijun.com/tags/%E5%8A%A0%E5%AF%86/"/>
+    
+      <category term="布局" scheme="http://laiweijun.com/tags/%E5%B8%83%E5%B1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>迁移数据</title>
     <link href="http://laiweijun.com/2018/03/06/%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/"/>
     <id>http://laiweijun.com/2018/03/06/迁移数据/</id>
     <published>2018-03-06T05:29:46.000Z</published>
-    <updated>2018-03-06T10:09:55.392Z</updated>
+    <updated>2018-03-06T12:04:50.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="本文已经迁移直云端"><a href="#本文已经迁移直云端" class="headerlink" title="本文已经迁移直云端"></a>本文已经迁移直云端</h3><p>显示正常<br>可以多端协同编辑博客<br>现在这是mac电脑修改的内容<br>//to do<br>现在这是pc电脑修改的内容<br>//to do</p><h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>可以看到<br>新行<br>~~ test syc<br>新行<br>新行<br>[] good to know everything is ok.</p><h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>真是太好了<br>很好很好，已经可以多端协同编写文章了。</p>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="本文已经迁移直云端"><a href="#本文已经迁移直云端" class="headerlink" title="本文已经迁移直云端"></a>本文已经迁移直云端</h3><p>显示正常<br>可以多端协同编辑博客<br>现在这是mac电脑修改的内容<br>//to do<br>现在这是pc电脑修改的内容<br>//to do</p><h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>可以看到<br>新行<br>~~ test syc<br>新行<br>| Tables        | Are           | Cool  |<br>| ————- |:————-:| —–:|<br>| col 3 is      | right-aligned | $1600 |<br>| col 2 is      | centered      |   $12 |<br>| zebra stripes | are neat      |    $1 |</p><p>新行<br>[] good to know everything is ok.</p><h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>真是太好了<br>很好很好，已经可以多端协同编写文章了。</p>]]></content>
     
     <summary type="html">
     
@@ -47,7 +71,7 @@
     <published>2018-03-02T06:52:24.000Z</published>
     <updated>2018-03-06T11:23:37.494Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 1-5 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX19jamuoNT8QJeIBZeC7QbYlmShVYaM1kmjnW6YoPaf8+wPBqhw2jDgOQDO4V1maK6lbQNUTlF1a6CSEGmydEXnoDUbl5f8pF3hU95xealTTbc3uZu3hIW53iSU33XJ7sKjmv5cwrfZ3w85+1CXpy52pBSm/9i1y3FcvGnwRr3xTyWNiMaJVI6t2tnWHICFjH2w6yBgHM6MdNrEfMMPi7jVJSc2zhN+g2MUcrjpwAiFjQyizp0WAV3Jkdb9vwvfIwXRy5T6I5C2pmi5pNcUQEUGvq9NQybNPNxxhEY6xbLNqXuINizFzW0v2+mzX1t+qtpkXG5awQP+2XzAPkmEhzutaZtiZ0B+SfL1gkekQwJ5jOxUgC57Zc0VBW9FDiYOB2LEb6ObJZuD/4UE4HVX+tkAv+57j6C9mtvRFZV2mvpbzbwIBOAWIPgaN6BDMdAYPoMsDvs/2QOXzoDbvW2rxRbu9DMpoJgd0TGSgAp1v4k0ysvXlIAi9IbOCpd3Uj7D3Mq5J3/wVm5+a/01CiGTq5PRKYmMlcZmS0fyOreZ2K7g5QZojwqDzMErtRUHBA0Kqq/057vK3uSPUBphwCTBnHtSMAK8IKnJmY6R5fyqO+/lRLb4Mnl3YzlVAcbAFjvghpPr1TIlPCOFy1IBIgxqP+eLO9KFU63HV7wlpIQ/5ZqTfCn5epTU9s6T7</div>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 1-5 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX1+TwFsjqcRGPn8zakv3vw2xwb1jSrqvRYsBQHgbCK3zvFccMLJkstXniulqzZ/Q3U+FQOk6yBWh52lB6qAZCCcTWh2VG+zk4vdIXZRl+BgCMzF4ZySoTQDDcRz8tUX5tWiLSvXKHzNMd8kRUNmJ8ODTLuemMNKNtaGbV2u8sfWyQn+KPBrxvYSCeue0ool+Aesme5zL5zU1KRn2GD2pHjiM6NzKwtb/BH44SdoNKElawDNmhySiWkGoUDPJt2uWBClC9uqKeEfkoscxVGAz/ZAf/GPIFyvR1sb8z+166mf20UHiftC5mYcedCbrbrk4C8PygYtC9FIb+HqpsAc+gyLKFGebjTbMKWkYdJpmYsCnbkzpFqF9440TRaEZ4yL9V5N6x/YzZIDT+mlZYuR8uxQaCBaiSvJr6RRLb6fqpoEVZyd5YXzdIraNSfqU/pRodSJyYag/uBOpmvUI0w1jYE76/ZlXYytkSORjdgUDtX3opfqTmI58nfAzXS1JMK76/4Cr9LmyBQ6VFf3yjflTx7AiKBeKgBi7R+L9s+d24Lmj7Yg8byAEDdUWCPO3MUNqKfA4p+rQvjANqDlVpUod03U8ysTkmbmLjUR8o9fethMRnCZhxgkRWnQm4FniJMy7WO0EnBK9Crk8zdHjCTAJnr+2qUMpPQOrKSOGNFeAEqwAmxY8zfaYRQym</div>]]></content>
     
     <summary type="html">
     

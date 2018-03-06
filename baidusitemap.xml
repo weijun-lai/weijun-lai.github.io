@@ -3,18 +3,17 @@
 
 
     
-    
   <url>
-    <loc>http://laiweijun.com/2018/03/02/%E3%80%90%E5%8A%A0%E5%AF%86%E3%80%91%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E7%9C%9F%E5%A5%BD%EF%BC%81/</loc>
-    <lastmod>2018-03-06T11:23:37.494Z</lastmod>
+    <loc>http://laiweijun.com/2018/03/06/%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/</loc>
+    <lastmod>2018-03-06T12:04:50.000Z</lastmod>
     <data>
         <display>
-        <title>🔒今天天气真好！</title>
-        <pubTime>2018-03-02T06:52:24.000Z</pubTime>
+        <title>迁移数据</title>
+        <pubTime>2018-03-06T05:29:46.000Z</pubTime>
         
-        <tag>故事</tag>
+        <tag>迁移</tag>
          
-        <tag>加密</tag>
+        <tag>数据</tag>
          
          
            
@@ -27,16 +26,39 @@
 
     
   <url>
-    <loc>http://laiweijun.com/2018/03/06/%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/</loc>
-    <lastmod>2018-03-06T10:09:55.392Z</lastmod>
+    <loc>http://laiweijun.com/2018/03/06/%E7%A9%BA%E9%97%B4%E5%B8%83%E5%B1%80/</loc>
+    <lastmod>2018-03-06T12:04:15.380Z</lastmod>
     <data>
         <display>
-        <title>迁移数据</title>
-        <pubTime>2018-03-06T05:29:46.000Z</pubTime>
+        <title>🔒空间布局</title>
+        <pubTime>2018-03-06T12:02:23.000Z</pubTime>
         
-        <tag>迁移</tag>
+        <tag>加密</tag>
          
-        <tag>数据</tag>
+        <tag>布局</tag>
+         
+         
+           
+             
+              <breadCrumb title="布局" url="http://laiweijun.com/categories/%E5%B8%83%E5%B1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://laiweijun.com/2018/03/02/%E3%80%90%E5%8A%A0%E5%AF%86%E3%80%91%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E7%9C%9F%E5%A5%BD%EF%BC%81/</loc>
+    <lastmod>2018-03-06T11:23:37.494Z</lastmod>
+    <data>
+        <display>
+        <title>🔒今天天气真好！</title>
+        <pubTime>2018-03-02T06:52:24.000Z</pubTime>
+        
+        <tag>故事</tag>
+         
+        <tag>加密</tag>
          
          
            
