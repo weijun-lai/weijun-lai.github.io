@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Weijun Lai&#39;s blog</title>
+  
+  <subtitle>less is more</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://laiweijun.com/"/>
+  <updated>2018-03-06T10:09:55.392Z</updated>
+  <id>http://laiweijun.com/</id>
+  
+  <author>
+    <name>Weijun Lai</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>迁移数据</title>
+    <link href="http://laiweijun.com/2018/03/06/%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/"/>
+    <id>http://laiweijun.com/2018/03/06/迁移数据/</id>
+    <published>2018-03-06T05:29:46.000Z</published>
+    <updated>2018-03-06T10:09:55.392Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="本文已经迁移直云端"><a href="#本文已经迁移直云端" class="headerlink" title="本文已经迁移直云端"></a>本文已经迁移直云端</h3><p>显示正常<br>可以多端协同编辑博客<br>现在这是mac电脑修改的内容<br>//to do<br>现在这是pc电脑修改的内容<br>//to do</p><h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>可以看到<br>新行<br>~~ test syc<br>新行<br>新行<br>[] good to know everything is ok.</p><h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>真是太好了<br>很好很好，已经可以多端协同编写文章了。</p>]]></content>
+    
+    <summary type="html">
+    
+      多端协同编辑测试
+    
+    </summary>
+    
+      <category term="Hexo练习" scheme="http://laiweijun.com/categories/Hexo%E7%BB%83%E4%B9%A0/"/>
+    
+    
+      <category term="迁移" scheme="http://laiweijun.com/tags/%E8%BF%81%E7%A7%BB/"/>
+    
+      <category term="数据" scheme="http://laiweijun.com/tags/%E6%95%B0%E6%8D%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>🔒今天天气真好！</title>
+    <link href="http://laiweijun.com/2018/03/02/%E3%80%90%E5%8A%A0%E5%AF%86%E3%80%91%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E7%9C%9F%E5%A5%BD%EF%BC%81/"/>
+    <id>http://laiweijun.com/2018/03/02/【加密】今天天气真好！/</id>
+    <published>2018-03-02T06:52:24.000Z</published>
+    <updated>2018-03-06T11:23:37.494Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 1-5 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX18xpvDpnbYvTRfdPIVblO0AdXYNx3RyhJJ/8JvEt918mVUr/Cj2a+Qa2PPWmH6u3mWHwW5Nx2T/eyJFUHGAmnqrfBeLft75X60II0iyNYteMiyC2zHf7TxfkOMgdXbR/fX5MTu2M/wnsUhMzmmCm7h/1EJ2ssFGt8rQvxWG2HzX5QrIuu6D3gf3MiBzl8qs/eoP39L0K1NnSgS3aO3K1I37SjEpXoRYBDAsymXcq8EMCAK6ylESPpcKRmSKyUZV/XdMPYwwBTAgs8ZQ6HBU8/33QwhpPaTxCUaSL1hIQKIVbK2jLqAhpPXG9Pj9i5eHZTRZeNXP6up0nLpTZGb3vMU95T0wHFYbkMWRu2plU2FxqjSCQPtf7/+/nUGueCTT5A6nBmTe6r7HKQ/s3UqYI/geoyrjn2GCKeI19nIXOOcyelLH6fZq87f+k++RM2+3KMyhm+adeIjkhDVlzUhfpgLCQB4pUh48nmPKd6nhpc3W7+icP+O6doDHuiaGvsW89mII8g8Uh532C2FMUKkEhakfgCH3wS+kzyx4/0Njp9M2jSYJlUZ2XRYHawI9F6Q9d3a00pmnEZDcZ5ecS7ydx4nATEYCD2QBMLwYZi9933lUGb+UxAtOiRfdKfJkx3pvhMEs+50Sarv/+SO1TzziJRTYrcMbQjwqYwhi8nz32K1QnoHe4D4lguSZ</div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;i class=&quot;fa fa-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; 文章访问需要密码&lt;/br&gt;
+    
+    </summary>
+    
+      <category term="Hexo练习" scheme="http://laiweijun.com/categories/Hexo%E7%BB%83%E4%B9%A0/"/>
+    
+    
+      <category term="故事" scheme="http://laiweijun.com/tags/%E6%95%85%E4%BA%8B/"/>
+    
+      <category term="加密" scheme="http://laiweijun.com/tags/%E5%8A%A0%E5%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>中文</title>
+    <link href="http://laiweijun.com/2018/03/01/%E4%B8%AD%E6%96%87/"/>
+    <id>http://laiweijun.com/2018/03/01/中文/</id>
+    <published>2018-03-01T15:17:25.000Z</published>
+    <updated>2018-03-06T05:25:05.208Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>中文文字显示测试，看看中文是否可以正常显示。</p><h2 id="以下是测试内容"><a href="#以下是测试内容" class="headerlink" title="以下是测试内容"></a>以下是测试内容</h2><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>这是一个开始字段<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行</p><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>本文内容相当精彩<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行</p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>谢谢您的阅读<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;中文文字显示测试，看看中文是否可以正常显示。&lt;/p&gt;
+&lt;h2 id=&quot;以下是测试内容&quot;&gt;&lt;a href=&quot;#以下是测试内容&quot; class=&quot;headerlink&quot; title
+      
+    
+    </summary>
+    
+      <category term="Hexo练习" scheme="http://laiweijun.com/categories/Hexo%E7%BB%83%E4%B9%A0/"/>
+    
+    
+      <category term="中文" scheme="http://laiweijun.com/tags/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="测试" scheme="http://laiweijun.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="显示" scheme="http://laiweijun.com/tags/%E6%98%BE%E7%A4%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>来自1900</title>
+    <link href="http://laiweijun.com/1900/03/02/%E6%9D%A5%E8%87%AA1999/"/>
+    <id>http://laiweijun.com/1900/03/02/来自1999/</id>
+    <published>1900-03-01T18:15:55.000Z</published>
+    <updated>2018-03-06T05:25:05.210Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>假设这篇文章是1900年的老文章。<br>看看hexo是否会自动归类和正确显示时间信息</p><p>这里有历史旧闻故事</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;假设这篇文章是1900年的老文章。&lt;br&gt;看看hexo是否会自动归类和正确显示时间信息&lt;/p&gt;
+&lt;p&gt;这里有历史旧闻故事&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Hexo练习" scheme="http://laiweijun.com/categories/Hexo%E7%BB%83%E4%B9%A0/"/>
+    
+    
+      <category term="故事" scheme="http://laiweijun.com/tags/%E6%95%85%E4%BA%8B/"/>
+    
+      <category term="历史" scheme="http://laiweijun.com/tags/%E5%8E%86%E5%8F%B2/"/>
+    
+      <category term="旧闻" scheme="http://laiweijun.com/tags/%E6%97%A7%E9%97%BB/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[迁移数据]]></title>
+    <url>%2F2018%2F03%2F06%2F%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE%2F</url>
+    <content type="text"><![CDATA[本文已经迁移直云端显示正常可以多端协同编辑博客现在这是mac电脑修改的内容//to do现在这是pc电脑修改的内容//to do 正文可以看到新行~~ test syc新行新行[] good to know everything is ok. 结尾真是太好了很好很好，已经可以多端协同编写文章了。]]></content>
+      <categories>
+        <category>Hexo练习</category>
+      </categories>
+      <tags>
+        <tag>迁移</tag>
+        <tag>数据</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[🔒今天天气真好！]]></title>
+    <url>%2F2018%2F03%2F02%2F%E3%80%90%E5%8A%A0%E5%AF%86%E3%80%91%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E7%9C%9F%E5%A5%BD%EF%BC%81%2F</url>
+    <content type="text"><![CDATA[请输入密码 U2FsdGVkX18xpvDpnbYvTRfdPIVblO0AdXYNx3RyhJJ/8JvEt918mVUr/Cj2a+Qa2PPWmH6u3mWHwW5Nx2T/eyJFUHGAmnqrfBeLft75X60II0iyNYteMiyC2zHf7TxfkOMgdXbR/fX5MTu2M/wnsUhMzmmCm7h/1EJ2ssFGt8rQvxWG2HzX5QrIuu6D3gf3MiBzl8qs/eoP39L0K1NnSgS3aO3K1I37SjEpXoRYBDAsymXcq8EMCAK6ylESPpcKRmSKyUZV/XdMPYwwBTAgs8ZQ6HBU8/33QwhpPaTxCUaSL1hIQKIVbK2jLqAhpPXG9Pj9i5eHZTRZeNXP6up0nLpTZGb3vMU95T0wHFYbkMWRu2plU2FxqjSCQPtf7/+/nUGueCTT5A6nBmTe6r7HKQ/s3UqYI/geoyrjn2GCKeI19nIXOOcyelLH6fZq87f+k++RM2+3KMyhm+adeIjkhDVlzUhfpgLCQB4pUh48nmPKd6nhpc3W7+icP+O6doDHuiaGvsW89mII8g8Uh532C2FMUKkEhakfgCH3wS+kzyx4/0Njp9M2jSYJlUZ2XRYHawI9F6Q9d3a00pmnEZDcZ5ecS7ydx4nATEYCD2QBMLwYZi9933lUGb+UxAtOiRfdKfJkx3pvhMEs+50Sarv/+SO1TzziJRTYrcMbQjwqYwhi8nz32K1QnoHe4D4lguSZ]]></content>
+      <categories>
+        <category>Hexo练习</category>
+      </categories>
+      <tags>
+        <tag>故事</tag>
+        <tag>加密</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[中文]]></title>
+    <url>%2F2018%2F03%2F01%2F%E4%B8%AD%E6%96%87%2F</url>
+    <content type="text"><![CDATA[中文文字显示测试，看看中文是否可以正常显示。 以下是测试内容开始这是一个开始字段换行换行换行换行换行换行换行换行换行换行 内容本文内容相当精彩换行换行换行换行换行换行换行 最后谢谢您的阅读换行换行换行换行换行换行]]></content>
+      <categories>
+        <category>Hexo练习</category>
+      </categories>
+      <tags>
+        <tag>中文</tag>
+        <tag>测试</tag>
+        <tag>显示</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[来自1900]]></title>
+    <url>%2F1900%2F03%2F02%2F%E6%9D%A5%E8%87%AA1999%2F</url>
+    <content type="text"><![CDATA[假设这篇文章是1900年的老文章。看看hexo是否会自动归类和正确显示时间信息 这里有历史旧闻故事]]></content>
+      <categories>
+        <category>Hexo练习</category>
+      </categories>
+      <tags>
+        <tag>故事</tag>
+        <tag>历史</tag>
+        <tag>旧闻</tag>
+      </tags>
+  </entry>
+</search>
