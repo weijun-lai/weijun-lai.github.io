@@ -2,38 +2,17 @@ function decryptAES() {
     var pass = String(document.getElementById("pass").value);
     var labelmsg = document.getElementById("labelmsg");
     var labelpass = document.getElementById("pass");
-    var tips = String(document.getElementById("tips").value);
-    // /images/loading.svg
 
-    var errors = new Array(
-                          "❌ 密码不蒸雀🐦",
-                          "❌ 密码不争气",
-                          "❌ 密码扎心了老铁❤️",
-                          "❌ 密码是你个头👋",
-                          "❌ 你这是在乱输入么😊",
-                          "❌ 你用的是什么输入法😝",
-                          "💢 密码提示："+tips,
-                          "㊙️ 今天天气真好，密码就在天上，你却看不到😂",
-                          "🎵 刚才发生了一件搞笑事情，原来你不知道密码，哈哈哈😄",
-                          "☎️ 请联系我要密码吧 ☎️"
-                        );
     try {
         var content = CryptoJS.AES.decrypt(document.getElementById("encrypt-blog").innerHTML.trim(), pass);
         content = content.toString(CryptoJS.enc.Utf8);
         content = decodeBase64(content);
         content = unescape(content);
         if (content == '') {
-            alert("密码错误");
+            // alert("密码错误");
+            showErrors();
         } else {
-          labelmsg.style.color = "green";
-          labelmsg.style.textAlign="center";
-          labelmsg.innerHTML = '<img src="/images/balloon.svg" style="border:0px;padding:0px;height:24px;width:24px ;display:inline-block;" />';
-          labelmsg.innerHTML += "密码正确! 正在解密档案..<br/>";
-          labelmsg.innerHTML += '<img src="/images/loading.svg" style="border:0px;padding:0px;height:64px;width:64px ;display:inline-block;" />';
-
-
-          labelpass.value = "*****************";
-          labelpass.style.display = "none";
+          showOK();
 
           setTimeout(function(){
             document.getElementById("encrypt-blog").style.display    = "inline";
@@ -49,13 +28,45 @@ function decryptAES() {
           },5000);
         }
     } catch (e) {
+        showErrors();
         // alert("密码不争气");
-        labelmsg.style.color = "red";
-        var i = Math.floor(Math.random()*errors.length);
-        labelmsg.innerHTML = errors[i];
-        labelpass.value = "";
         // console.log(e);
     }
+}
+
+function showOK() {
+  var labelmsg = document.getElementById("labelmsg");
+  var labelpass = document.getElementById("pass");
+  labelmsg.style.color = "green";
+  labelmsg.style.textAlign="center";
+  labelmsg.innerHTML = '<img src="/images/balloon.svg" style="border:0px;padding:0px;height:24px;width:24px ;display:inline-block;" />';
+  labelmsg.innerHTML += "密码正确! 正在解密档案..<br/>";
+  labelmsg.innerHTML += '<img src="/images/loading.svg" style="border:0px;padding:0px;height:64px;width:64px ;display:inline-block;" />';
+
+  labelpass.value = "*****************";
+  labelpass.style.display = "none";
+}
+
+function showErrors() {
+  var labelmsg = document.getElementById("labelmsg");
+  var labelpass = document.getElementById("pass");
+  var tips = String(document.getElementById("tips").value);
+  var errors = new Array(
+                        "❌ 密码不蒸雀🐦",
+                        "❌ 密码不争气",
+                        "❌ 密码扎心了老铁❤️",
+                        "❌ 密码是你个头👋",
+                        "❌ 你这是在乱输入么😊",
+                        "❌ 你用的是什么输入法😝",
+                        "💢 密码提示："+tips,
+                        "㊙️ 今天天气真好，密码就在天上，你却看不到😂",
+                        "🎵 刚才发生了一件搞笑事情，原来你不知道密码，哈哈哈😄",
+                        "☎️ 请联系我要密码吧 ☎️"
+                      );
+    labelmsg.style.color = "red";
+    var i = Math.floor(Math.random()*errors.length);
+    labelmsg.innerHTML = errors[i];
+    labelpass.value = "";
 }
 
 function htmlDecode (str) {
