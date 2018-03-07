@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://laiweijun.com/"/>
-  <updated>2018-03-07T03:42:32.636Z</updated>
+  <updated>2018-03-07T07:01:18.477Z</updated>
   <id>http://laiweijun.com/</id>
   
   <author>
@@ -17,13 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>下载地址解析</title>
+    <link href="http://laiweijun.com/2018/03/07/%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90/"/>
+    <id>http://laiweijun.com/2018/03/07/下载地址解析/</id>
+    <published>2018-03-07T06:52:41.000Z</published>
+    <updated>2018-03-07T07:01:18.477Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script></p><div id="webapp"><br>    <div class="input-container"><br>        <input type="text" class="form-control" id="urlText" placeholder=" 请输入下载地址 "><br>        <label for="urlText">  </label><br>        <div class="bottom-line"></div><br>    </div><br></div><br><div id="result" style="display:none"><br>  <input type="text" class="form-control" id="resultText" placeholder=" 结果 "><br></div>]]></content>
+    
+    <summary type="html">
+    
+      在线小程序解析转换各类协议下载地址
+    
+    </summary>
+    
+      <category term="WebApp" scheme="http://laiweijun.com/categories/WebApp/"/>
+    
+    
+      <category term="下载" scheme="http://laiweijun.com/tags/%E4%B8%8B%E8%BD%BD/"/>
+    
+      <category term="解析" scheme="http://laiweijun.com/tags/%E8%A7%A3%E6%9E%90/"/>
+    
+      <category term="应用" scheme="http://laiweijun.com/tags/%E5%BA%94%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2018两会学习</title>
     <link href="http://laiweijun.com/2018/03/07/2018%E4%B8%A4%E4%BC%9A%E5%AD%A6%E4%B9%A0/"/>
     <id>http://laiweijun.com/2018/03/07/2018两会学习/</id>
     <published>2018-03-07T03:27:05.000Z</published>
-    <updated>2018-03-07T03:42:32.636Z</updated>
+    <updated>2018-03-07T06:08:17.281Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>今年两会发了很多个大红包，减轻了各种人群生产活动的负担，鼓励更多人参与劳动致富走向更好生活质量的中国梦。</p><h2 id="简要"><a href="#简要" class="headerlink" title="简要"></a>简要</h2><ol><li>√ 取消漫游流量</li><li>√ 提高个人所得税起点</li><li>√ 鼓励创业<br>….</li></ol>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><hr><p>今年两会发了很多个大红包，减轻了各种人群生产活动的负担，鼓励更多人参与劳动致富走向更好生活质量的中国梦。</p><hr><h2 id="简要"><a href="#简要" class="headerlink" title="简要"></a>简要</h2><h3 id="1-√-取消漫游流量-城乡网络全覆盖"><a href="#1-√-取消漫游流量-城乡网络全覆盖" class="headerlink" title="1. √ 取消漫游流量 城乡网络全覆盖"></a>1. √ 取消漫游流量 城乡网络全覆盖</h3><h3 id="2-√-提高个人所得税起征点"><a href="#2-√-提高个人所得税起征点" class="headerlink" title="2. √ 提高个人所得税起征点"></a>2. √ 提高个人所得税起征点</h3><h3 id="3-√-鼓励创业-发展智能产业"><a href="#3-√-鼓励创业-发展智能产业" class="headerlink" title="3. √ 鼓励创业 发展智能产业"></a>3. √ 鼓励创业 发展智能产业</h3><h3 id="4-√-数字中国"><a href="#4-√-数字中国" class="headerlink" title="4. √ 数字中国"></a>4. √ 数字中国</h3><h3 id="…"><a href="#…" class="headerlink" title="…."></a>….</h3>]]></content>
     
     <summary type="html">
     
@@ -47,7 +73,7 @@
     <published>2018-03-06T12:02:23.000Z</published>
     <updated>2018-03-07T04:49:29.102Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 3-3 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX19JeYJiu4BWh+liopNScKneNNuSnjFIL7Y+lZNRS6duwdfyAZXoyjs1lkeDOldQbotR+nA4vxmfgVEO511sxZwovA2O4s98kfJ7Quwc5X8UlcamwXKKFC2xDYSXs7WQj6tY0BUEfUi8hCnaQObW25XJmT3n4NeKpaeyChj7b/eAM21EF5L9ZwDz/mgqBoqR+ctvFDYCLV9kCIRx+V2ipOBCx4gvKrasOhkjOPskDfkBOcnmbyu4QAVhzYIqdWM6N1sLja/4P3YtbvYyC9DlWcJCrpHspxp1cLTmsrmEgr2+aPuuZ1+gYxfjEXe/SZpQQBiX2r/IFO+7m1adVzB7hZsLl1pxvd2I57Q/4JduCGtGiSJS16MZceyZ2gy5D2lVLTUt7TkKYQNblH+HOooXkpvkgL8ADKksI3oK1qlUZnzsrd45k8aVRE4ai5e2Lw7vh8wq27S9hSqSqNz+dBA6b6wb3WwHUBskGLcMcPBunjwm3AOsJMMSAtT57uJCFujzHNS4RivZZTfIvYVw+KnTk7CIa/f6uBLIEpoY3M9P7rpiNVWcRYTKUYeDd3rqHs2svBV/YSXm3gw4YT3BQoGZ8pbmwGvJnYxGHc+054RISWRIeeRl21T1n8tqEbBwbAo3/smDT60xz4hB0g1JIEZVbWQrmsqBupO78ngdMHpSvMT8gr3XUO/JWEajpcE6SMLtWc2QSZgUcgb54MED1uRm5iHZtJmu6+iLYNiSsleIqjsos4s0lnCwjYgiDR5aX70xSE2LEs9M4W9S8/MYHV3ByEoKvo480t7EBr7sPb0GA7NqqLYdRBgDZVK/5yYdcCufPCjI33qAuwe4LXTYfZ+6mbn0v6Tb0PYGMMjBsiKwgCYfv9D/7pLs50fI78F3F5nsGFEY3a8KMJOCp1KGVKLns8G/A6aNJDCzknxmGmUy7dFGVB/bhT3sYgwUcexeAJsEjRq+jgF69sE7g0OIcvwpJHmk4eTM02c+RdgmSWcXP6yLMJcLAz1yajXxkOR8qpLqa3itt+SasmUfU0ievd2MOABrfOaqErkFSCxdCfKEKBj53CnA4vwNqZzJDzIlI9W3GMHAtKHlm6CJeCkBlRtotpKVuI5QLKGJGcMLZ+Shz/2oGmvJtf/iUvgxv/EpYRA+x18KfzlfAJwar0raM94njmRfLxsYkC09H3SmGlGql7/alxn2Lkq6NVdBWq03D8JHBNei6L2o2otcFnVvtMiTK0LAfNubD+GPUdswAewM0+c/kZiwu6jPsFj7yQogX23AXMsGD/AKDaLkkDh5CvHVaccblXPdG4JtKtKPDGtseTt1qfDL48aNNF156nb1ufGBvhnRiS2xgkN3UGZ2w2QaunsqCivXJm5yAX/QdCFcH2srnObvRtzm0+XPRLZn255KsTD+kBaXzGMvNuQ0gu8HLnXRDR1zdHTABTemaI0ux1m8SCaZOVIN613AvyyPK48J0wx+OAGoANf16SMt2QoukTwq+POpkWloeQRoXkjQDAXK9QgGAXAvloJCgg3PtjVztlcqICsXKHsacdMwkH6WHm2ck6wOoHVevkitcJCjN/9tcleSVFSByI2g+bcFfXX4SwICAs1989h/f5LNwV+Xv2H63wrEJS9ORyv9lFGBWrLUPe4fsXML8r/cpf04h3veheeLM5Hj002QshkVc8OZjlhABQBe9LV/LXUL01OUV+6nxtLB8M7JnZeeB9gOPCl5Ry1MzgPFw5SXZXqihhTGw/yudzJFalE/q3s=</div>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 3-3 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX19YClzblyGqBxnBlTp8t8l4I4oeq7zR4hXKZxccdMrSlsmxMJDgbEYlzjw+TZYDPDECrNXtKW71xu5aBkxaUzYv0C4AEejSUMJ9wv/YBexG1l1iCX7A8dlQVDuUW3kWUuzN9OWBS4qzx8VhiGFbV+4zhFFrt5zrMKCOlsvR6Rk+c1B4nysDJdt70YFhUvkwJopmhsGfk/6dU8VzRFcTWv34sc/FKTi0jRbpQDAKbtJZqkvU+y2u0eeE9BBRGrxzWPFTOazFlu3Yw7ydnEWSKa7ly+wiUa16h0+sK7GegPAL9km6TwTxx92CLJVY7z1/gHldOyvXy1cmxr+SBVJgEwU/xlWb4XskUXx1SnyaIC0jE5z8+AG+0ie8jcKCsJ4OIhRqQhN2nOh3LsBIvoVdIzX3tyjqgZh+YEcSBuq+RxmiOyM6Dn5ne9xlq/ctMxYUQ6JH4srTSj31uM7KtjzrrZdA/qCCCrEGP4jtZbHdg7657nFGr5qc9rAMyXCTuvlfnOEVGicxoH6oD6a/O0Mcui5GjmnuUl8kmilQMYOGtlNv8NWMCN5jEaW81EWWlLaHdB0B6ykp78lWSPvg3sfmlAu14VDUe0C3RAJ6UEC7o7n4XThhxCw4iCkXagmEaUxxUaHQSgHJBqK2fUTbZF3GXCFK2emhD5CplnJzmOC5QOlXzxsdXVFnP4YrxpP15/2XDT6O7qrG2QzbmV8W9XJ5HbQiqFGIVjQDZdKQuT3afAvyYlnPtvuShIDCGYSyrI63AkC3HPw6Aqx2NVMfnJKFQhU9S2ENwEkK0djzNj0E5iZ3/skih1QVIxMlv4f+1iN15QF7zRvUwa47zPLgpcxs71jf2qOPJWr1TW5WAv2UMTbLzr/Gw8PtannCVsBVL2AkePr00xjYG1m3MA03kmE9dik1JlbRCkY7eP3uHx32IQc6tv3Z1J1FzivwqB+YjMnzZUj2L9M+ypNas37dpk3/wtQ/I86O0XG7PQ2ijOHd8gLyxH0tgXwsXhno6iUTYwouCneJqkKVJ4/9Zl/gI4RffIC4j/cecszg3csoH0YLPcqo1/4Yq7rFswNkzMZeWbZMcVLtfG1izPscS4B1D27uBzAQIDyHh8jRCnVITJDIlcIT3lHc2pjf1W61EaFAil9qapoQ1BJsL6yF3gZO0z9rm/tZ2G/QuH6idEOupIm123RD7HaEFxWQWlckCbQM6xsPlQ1w93iin3q9md/CjBY1Un/+umOQ3EoqUU77SPWO93q5Mkb1YtWjldMF+4bwYN5pqU9Y+WVmtGX1pzCoTVTdoGn3VY5Y6XDrbg32/a226jg/xJgGNIcKC6SUwvAUTsuaFD2I8K4L9K+N+tm5I83ArZ0HBrefGaOlIOvfXl7RtvFT+z98YWBztPlAH/0igLX9vPYZMqJM1MtTnM3i9X1qb3oXCU00wF6d8Lw+t24poVcO2HBFssEfNYIJq4K+2moc6rygE6U6JKbJyXjp1Az3L039Vbm4tw4aSLnKrRGG1t8+0aVCGCMoTt38jwYWcLXkoYB18HdNFiEZIRjM1eeo9V71FtNENMZoLndzR8foeCCVc5SX7xVMY8LLNcS8wQiow/tByF8A7pfxLvJKS26ZQx6kNDMU04YkWeFRV32lrfUApcdCBoE0HBdK+GE7AINXRjfwFYT/H4o93gUoLxcfmmwxNH168qNpqNTz7fX2t7Xr9WKA896EEVt6HU1AXo7B3TBPUTZJlrG7noc0jrWGlP3WdVQhbgDIusc=</div>]]></content>
     
     <summary type="html">
     
@@ -95,7 +121,7 @@
     <published>2018-03-02T06:52:24.000Z</published>
     <updated>2018-03-06T11:23:37.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 1-5 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX1+sHS9trt/qIdSpOeyfVsmOIe6Rc5zwK+iCkEBk3AcInriITBL6QwuIkZ3zyZ8maO7O+u+PleFspNr9Aa7pmKLp3GhXqbfoJUjl4K42A5NMc+xAQ16CB0m2m8RnRuKaFNvzBEW2UnYohfA8AbCSdLLdvrU2vzS/k9bRxDo5L/dqEO9rwnNmJg4LWMovnP4XLy1raGjn/gt9WLkszk7P47js3kVWX8wEOL8xJPOiBvnpSB3kbbpePe2KsplyURc1PRc1e8dHFUnnP7tLAZBfqel1CUk5/NFF0jDgdzyhCeW7jL1kNWb59poOSq1mnkqjt6+sdc/FdIbj1ChQpDXNCLKvZzvkgktXLlN8xE31MWQhcoPnEyfob68W4/rNzUmJPIUYTlWViQdpnoBRv66mV1mCzZ4ilR+8lVqdc/+qS4jnBW+mraAFKAcqPT97zIat9Fiai7YYDqt8jXlw6mBO4P22u6Tnxq8ntA/Z6lsAfT8kQs2npIrkSyvENftG5wrrLqxo705HJImwGnKlE/Vmu+C11ND38qNsISuANMsYIoAH8Hu/393Co/qEvBgL6aIYcP/Ei5oSNw8UDr7mIRDbxMVtMXRLvaH7qqAscKifuDon+sHR3DOachrjh3aPFbK8J2acm8NI4yixLM0jAC1aeXOnJgFTSQnkRLgOPT7gyH0JBkcKSmAcrn4P</div>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 1-5 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX1+26bhVw1WegHtWSVO1xRSDiMvDkAUysm+UiVP1pLNboBw2dYOTQ8TbM1yA+YP8easIV/JPeGBln42CmZnowIm88azY+vAnqrt2wt7/slqQtYFJIQY4jQvcFoVjLrL77Xof2BDAy1GFPavGbXfs8lyer0PTxDLvTn03ei/rYbDEGC0NzTA4Eb0WCR279nH4PuUpBQaEwg53tZXat4Y7odrsCuSsayErVSknAMpu3VJM3xTXv3nFaS7jXSl4M44VFlO5SJUELOsBYI2PKyNqf1onCKZR9l3sx8C6utf6VkG0++8xl4qc9YbKaX4CBd0dU3ADgc3c0Pyo6OYDKiejxsRaWK9nL9pFB4G3pfhOAx6CKItow8r6EypD6BvFi0wxy2fYLERcwN+cZbh1F8nh4ZDaXFVyRrQs0S0D6P0zGo74mtbJDFvLTHxfdKIYQd8ZsiuhVswr6vm/LmLzfozO2micEnLyngj2kdniJuOGJbPJxQnc+4jzkC4JALi9pnyGFUhi3WsfrPQoEEsXRNKDUpyh+SyGPjroyCdkov3PiC0SVW/m0igAkvvZPS5OaNZcs6LuTt+j1uf7rhsRIlROsV3Ay2HaNHk0DHdvCcz/hfbFDjwgBmsuiSQH/cTj2W79yrG8jYOg70j/NlC2jf/FtpxYC/Dy5Nk5yQbi/5A94VEZOno5v0/tOCVF</div>]]></content>
     
     <summary type="html">
     
