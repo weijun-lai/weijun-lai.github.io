@@ -89,18 +89,18 @@
 
 
 
-<meta name="description" content="在线小程序解析转换各类协议下载地址">
+<meta name="description" content="这是个在线Web小程序，用于解析转换各类下载地址。支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k 等编码自动识别互转。">
 <meta name="keywords" content="下载,解析,应用">
 <meta property="og:type" content="article">
 <meta property="og:title" content="下载地址解析">
 <meta property="og:url" content="http://laiweijun.com/2018/03/07/下载地址解析/index.html">
 <meta property="og:site_name" content="Weijun Lai&#39;s blog">
-<meta property="og:description" content="在线小程序解析转换各类协议下载地址">
+<meta property="og:description" content="这是个在线Web小程序，用于解析转换各类下载地址。支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k 等编码自动识别互转。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-07T07:01:18.477Z">
+<meta property="og:updated_time" content="2018-03-07T13:11:27.019Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="下载地址解析">
-<meta name="twitter:description" content="在线小程序解析转换各类协议下载地址">
+<meta name="twitter:description" content="这是个在线Web小程序，用于解析转换各类下载地址。支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k 等编码自动识别互转。">
 
 
 
@@ -110,7 +110,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -422,7 +422,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0
+                  362
                 </span>
               
 
@@ -438,7 +438,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  2
                 </span>
               
             </div>
@@ -446,7 +446,7 @@
 
           
               <div class="post-description">
-                  在线小程序解析转换各类协议下载地址
+                  这是个在线Web小程序，用于解析转换各类下载地址。<br/>支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k 等编码自动识别互转。
               </div>
           
 
@@ -463,8 +463,53 @@
       
 
       
-        <script src="/assets/js/APlayer.min.js"> </script><p><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script></p>
-<div id="webapp"><br>    <div class="input-container"><br>        <input type="text" class="form-control" id="urlText" placeholder=" 请输入下载地址 "><br>        <label for="urlText">  </label><br>        <div class="bottom-line"></div><br>    </div><br></div><br><div id="result" style="display:none"><br>  <input type="text" class="form-control" id="resultText" placeholder=" 结果 "><br></div>
+        <script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<h3 id="0x01-应用程序"><a href="#0x01-应用程序" class="headerlink" title="0x01 应用程序"></a>0x01 应用程序</h3></blockquote>
+<p><link href="/css/bootstrap_custom.css" rel="stylesheet" type="text/css"></p>
+<p><script src="/crypto-js.js"></script></p>
+<p><script src="/js/myapps/downloader.js"></script></p>
+<p><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script></p>
+<div id="webapp"><br>    <div class="input-container"><br>        <label> 请输入下载链接地址：迅雷，快车，旋风 </label><br>        <textarea class="form-control" id="urlText" rows="6" placeholder=" 请输入下载地址 "></textarea><br>        <textarea id="resultText" class="form-control" rows="6" placeholder=" 结果 "></textarea><br>        <button type="button" class="btn btn-primary" onclick="onMyClicked()">解析转换</button><br>    </div><br></div>
+
+<hr>
+<blockquote>
+<h3 id="0x02-技术解析："><a href="#0x02-技术解析：" class="headerlink" title="0x02 技术解析："></a>0x02 技术解析：</h3><p>  各类下载链接地址都有固定的编码格式，便于网络通信程序识别和处理。以下收集了些各类常见链接协议的固定格式。</p>
+</blockquote>
+<blockquote>
+<h4 id="0x021-固定格式-124"><a href="#0x021-固定格式-124" class="headerlink" title="0x021 固定格式 &#124;"></a>0x021 固定格式 &#124;</h4></blockquote>
+<blockquote>
+<h5 id="HTTP链接地址-http"><a href="#HTTP链接地址-http" class="headerlink" title="HTTP链接地址 http://"></a>HTTP链接地址 http://</h5></blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">http://&lt;明文URL&gt;</span><br><span class="line">http://laiweijun.com/file.txt</span><br></pre></td></tr></table></figure>
+<blockquote>
+<h5 id="迅雷链接地址-thunder"><a href="#迅雷链接地址-thunder" class="headerlink" title="迅雷链接地址 thunder://"></a>迅雷链接地址 thunder://</h5></blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">thunder://AA&lt;明文URL&gt;ZZ</span><br><span class="line">[处理]</span><br><span class="line">AA&lt;明文URL&gt;ZZ ==&gt; AAhttp://laiweijun.com/file.txtZZ</span><br><span class="line">==&gt; Base64编码 ==&gt; QUFodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0Wlo=</span><br><span class="line">[输出]</span><br><span class="line">thunder://QUFodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0Wlo=</span><br></pre></td></tr></table></figure>
+<blockquote>
+<h5 id="磁力链接格式-magnet"><a href="#磁力链接格式-magnet" class="headerlink" title="磁力链接格式 magnet:?"></a>磁力链接格式 magnet:?</h5></blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">magnet:?xl=&lt;字节大小&gt; &amp; dn=&lt;文件名(已编码URL)&gt; &amp; xt=urn:tree:tiger:&lt;TTH hash(Base32)&gt;</span><br><span class="line">magnet:?xt=urn:btih:D84ABC1F6605F03BC363E758805EC1A1550DA751</span><br></pre></td></tr></table></figure>
+<blockquote>
+<h6 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h6><ul>
+<li>dn（显示名称）- 文件名</li>
+<li>xl（绝对长度）- 文件字节数</li>
+<li>xt（eXact Topic）- 包含文件散列函数值的 URN</li>
+<li>as（可接受来源） - 在线文件的网络链接</li>
+<li>xs（绝对资源）- P2P链接</li>
+<li>kt（关键字）- 用于搜索的关键字</li>
+<li>mt（文件列表）- 链接到一个包含磁力连结的元文件 (MAGMA - MAGnet MAnifest)</li>
+<li>tr（Tracker 地址）- BT下载的Tracker URL</li>
+</ul>
+</blockquote>
+<blockquote>
+<h5 id="快车链接地址-flashget"><a href="#快车链接地址-flashget" class="headerlink" title="快车链接地址 flashget://"></a>快车链接地址 flashget://</h5></blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">flashget://[FLASHGET]&lt;明文URL&gt;[FLASHGET]</span><br><span class="line">==&gt; [FLASHGET]http://laiweijun.com/file.txt[FLASHGET]</span><br><span class="line">==&gt; Base64编码 ==&gt; JTVCRkxBU0hHRVQlNURodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0JTVCRkxBU0hHRVQlNUQ=&amp;anycode</span><br><span class="line">flashget://JTVCRkxBU0hHRVQlNURodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0JTVCRkxBU0hHRVQlNUQ=&amp;anycode</span><br></pre></td></tr></table></figure>
+<blockquote>
+<h5 id="旋风链接地址-qqdl"><a href="#旋风链接地址-qqdl" class="headerlink" title="旋风链接地址 qqdl://"></a>旋风链接地址 qqdl://</h5></blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">qqdl://&lt;已编码URL&gt;</span><br><span class="line">qqdl://aHR0cCUzQS8vbGFpd2VpanVuLmNvbS9maWxlLnR4dA==</span><br></pre></td></tr></table></figure>
+<blockquote>
+<h5 id="电驴链接地址-ed2k"><a href="#电驴链接地址-ed2k" class="headerlink" title="电驴链接地址 ed2k://"></a>电驴链接地址 ed2k://</h5></blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ed2k://|file|&lt;文件名称&gt;|&lt;文件大小&gt;|&lt;文件哈希值&gt;|/</span><br><span class="line">ed2k://|file|cn_windows_10_multi-edition_vl_version_1709_updated_dec_2017_x64_dvd_100406208.iso|5007116288|317BDC520FA2DD6005CBA8293EA06DF6|/</span><br></pre></td></tr></table></figure>
+<blockquote>
+<h4 id="0x022-编码"><a href="#0x022-编码" class="headerlink" title="0x022 编码"></a>0x022 编码</h4><p>Base64<br>加密 解密</p>
+</blockquote>
 
       
     </div>
@@ -611,8 +656,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -720,6 +774,23 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#0x01-应用程序"><span class="nav-number">1.</span> <span class="nav-text">0x01 应用程序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#0x02-技术解析："><span class="nav-number">2.</span> <span class="nav-text">0x02 技术解析：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#0x021-固定格式-124"><span class="nav-number">2.1.</span> <span class="nav-text">0x021 固定格式 |</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#HTTP链接地址-http"><span class="nav-number">2.1.1.</span> <span class="nav-text">HTTP链接地址 http://</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#迅雷链接地址-thunder"><span class="nav-number">2.1.2.</span> <span class="nav-text">迅雷链接地址 thunder://</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#磁力链接格式-magnet"><span class="nav-number">2.1.3.</span> <span class="nav-text">磁力链接格式 magnet:?</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#参数"><span class="nav-number">2.1.3.1.</span> <span class="nav-text">参数</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#快车链接地址-flashget"><span class="nav-number">2.1.4.</span> <span class="nav-text">快车链接地址 flashget://</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#旋风链接地址-qqdl"><span class="nav-number">2.1.5.</span> <span class="nav-text">旋风链接地址 qqdl://</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#电驴链接地址-ed2k"><span class="nav-number">2.1.6.</span> <span class="nav-text">电驴链接地址 ed2k://</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#0x022-编码"><span class="nav-number">2.2.</span> <span class="nav-text">0x022 编码</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -748,7 +819,7 @@
     
       <span class="post-meta-item-text">字数统计&#58;</span>
     
-    <span title="字数统计">430</span>
+    <span title="字数统计">797</span>
   <span class="post-meta-divider">|</span>
   <i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
     吃瓜群众：<span id="busuanzi_value_site_uv"></span>
