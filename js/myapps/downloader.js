@@ -69,16 +69,19 @@ function getType(content) {
   return codes;
 }
 
-function getMagnetToBTLink(content) {
-/*
-http://bt.box.n0808.com/${infohash.slice(0,2)}/${infohash.slice(38)}/${infohash}.torrent
-magnet:?xt=urn:btih:D84ABC1F6605F03BC363E758805EC1A1550DA751
-xt=urn:btih:D84ABC1F6605F03BC363E758805EC1A1550DA751
-*/
-  var infoHash = getMagnetInfoHash(content);
-
-  var link = 'http://bt.box.n0808.com/'+infoHash.slice(0,2)+'/'+infoHash.slice(38)+'/'+infoHash+'.torrent';
+function getXunLeiBTLink(infoHash){
+  if (infoHash.length<38) {
+    return '无';
+  }
+  var link = '迅雷种子库:\n'+ 'http://bt.box.n0808.com/'+infoHash.slice(0,2)+'/'+infoHash.slice(38)+'/'+infoHash+'.torrent\n';
+  link += '其他种子库:\n'+'http://torcache.net/torrent/'+infoHash+'.torrent\n';
+  link += '其他种子库:\n'+'http://zoink.it/torrent/'+infoHash+'.torrent\n';
   return link;
+}
+
+function getMagnetToBTLink(content) {
+  var infoHash = getMagnetInfoHash(content);
+  return getXunLeiBTLink(infoHash);
 }
 
 function getMagnetInfoHash(content){
@@ -90,11 +93,9 @@ function getMagnetInfoHash(content){
   for (var i = 0; i < dataAnd.length; i++) {
     dataEQ = dataAnd[i].split('=');
     console.log(dataEQ);
-
     for (var j = 0; j < dataEQ.length; j++) {
       dataQT = dataEQ[j].split(':');
       console.log(dataQT);
-
       if (dataQT.length==3) {
         if ( dataQT[1].toUpperCase()== 'btih'.toUpperCase()) {
           infoHash = dataQT[2];
@@ -104,6 +105,25 @@ function getMagnetInfoHash(content){
     }
   }
   return infoHash;
+}
+
+function geted2kToBTLink(content) {
+  var data = content.split('|');
+  var infoHash = "";
+  var fileSize = "";
+  var result = "";
+  console.log(data.length);
+  console.log(data);
+  if (data.length==6) {
+    fileSize = data[3];
+    infoHash = data[4];
+  }
+  console.log(infoHash);
+  result = getXunLeiBTLink(infoHash) + '\n';
+
+  result += 'magnet:?xt=urn:ed2k:'+fileSize+'|'+infoHash+'&xl='+fileSize+'\n';
+
+  return result;
 }
 
 function convertCode() {
@@ -141,7 +161,13 @@ function convertCode() {
         }
         if (lines[0].toUpperCase() == "magnet".toUpperCase()) {
           console.log(lines[1]);
-          line = '迅雷种子库:\n'+getMagnetToBTLink(lines[1]);
+          line = getMagnetToBTLink(lines[1]);
+          console.log(line);
+          plainText += line +'\n';
+        }
+        if (lines[0].toUpperCase() == "ed2k".toUpperCase()) {
+          console.log(lines[1]);
+          line = geted2kToBTLink(lines[1]);
           console.log(line);
           plainText += line +'\n';
         }
