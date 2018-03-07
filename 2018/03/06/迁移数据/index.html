@@ -737,6 +737,17 @@
         <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
           <div class="post-toc">
 
+            <% if(post.toc == true){ %>
+                <div id="toc-div" class="toc-article" <% if (post.encrypt == true) { %>style="display:none" <% } %>>
+                    <strong class="toc-title">Index</strong>
+                    <% if (post.encrypt == true) { %>
+                        <%- toc(post.origin, {list_number: true}) %>
+                    <% } else { %>
+                        <%- toc(post.content, {list_number: true}) %>
+                    <% } %>
+                </div>
+            <% } %>
+
             
               
             
