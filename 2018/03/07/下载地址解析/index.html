@@ -89,18 +89,18 @@
 
 
 
-<meta name="description" content="这是个在线Web小程序，用于解析转换各类下载地址。支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k 等编码自动识别互转。">
+<meta name="description" content="这是个在线Web小程序，用于解析转换各类下载地址。支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k, BT种子 等编码自动识别互转。">
 <meta name="keywords" content="下载,解析,应用">
 <meta property="og:type" content="article">
 <meta property="og:title" content="下载地址解析">
 <meta property="og:url" content="http://laiweijun.com/2018/03/07/下载地址解析/index.html">
 <meta property="og:site_name" content="Weijun Lai&#39;s blog">
-<meta property="og:description" content="这是个在线Web小程序，用于解析转换各类下载地址。支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k 等编码自动识别互转。">
+<meta property="og:description" content="这是个在线Web小程序，用于解析转换各类下载地址。支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k, BT种子 等编码自动识别互转。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-07T13:42:34.024Z">
+<meta property="og:updated_time" content="2018-03-07T15:18:05.054Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="下载地址解析">
-<meta name="twitter:description" content="这是个在线Web小程序，用于解析转换各类下载地址。支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k 等编码自动识别互转。">
+<meta name="twitter:description" content="这是个在线Web小程序，用于解析转换各类下载地址。支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k, BT种子 等编码自动识别互转。">
 
 
 
@@ -422,7 +422,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  361
+                  396
                 </span>
               
 
@@ -446,7 +446,7 @@
 
           
               <div class="post-description">
-                  这是个在线Web小程序，用于解析转换各类下载地址。<br/>支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k 等编码自动识别互转。
+                  这是个在线Web小程序，用于解析转换各类下载地址。<br/>支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k, BT种子 等编码自动识别互转。
               </div>
           
 
@@ -471,6 +471,7 @@
 <p><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script></p>
 <div id="webapp"><br>    <div class="input-container"><br>        <label> 请输入下载链接地址：迅雷，快车，旋风 </label><br>        <textarea class="form-control" id="urlText" rows="6" placeholder=" 请输入下载地址 "></textarea><br>        <textarea id="resultText" class="form-control" rows="6" placeholder=" 结果 "></textarea><br>        <button type="button" class="btn btn-primary" onclick="onMyClicked()">解析转换</button><br>    </div><br></div>
 
+<p><div></div></p>
 <hr>
 <blockquote>
 <h3 id="0x02-技术解析："><a href="#0x02-技术解析：" class="headerlink" title="0x02 技术解析："></a>0x02 技术解析：</h3><p>  各类下载链接地址都有固定的编码格式，便于网络通信程序识别和处理。以下收集了些各类常见链接协议的固定格式。</p>
@@ -485,7 +486,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">thunder://AA&lt;明文URL&gt;ZZ</span><br><span class="line">[处理]</span><br><span class="line">AA&lt;明文URL&gt;ZZ ==&gt; AAhttp://laiweijun.com/file.txtZZ</span><br><span class="line">==&gt; Base64编码 ==&gt; QUFodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0Wlo=</span><br><span class="line">[输出]</span><br><span class="line">thunder://QUFodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0Wlo=</span><br></pre></td></tr></table></figure>
 <blockquote>
 <h5 id="磁力链接格式-magnet"><a href="#磁力链接格式-magnet" class="headerlink" title="磁力链接格式 magnet:?"></a>磁力链接格式 magnet:?</h5></blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">magnet:?xl=&lt;字节大小&gt; &amp; dn=&lt;文件名(已编码URL)&gt; &amp; xt=urn:tree:tiger:&lt;TTH hash(Base32)&gt;</span><br><span class="line">magnet:?xt=urn:btih:D84ABC1F6605F03BC363E758805EC1A1550DA751</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">magnet:?xl=&lt;字节大小&gt; &amp; dn=&lt;文件名(已编码URL)&gt; &amp; xt=urn:tree:tiger:&lt;TTH hash(Base32)&gt;</span><br><span class="line">magnet:?xt=urn:btih:D84ABC1F6605F03BC363E758805EC1A1550DA751</span><br><span class="line">v1: magnet:?xt=urn:btih:&lt;info-hash&gt;&amp;dn=&lt;name&gt;&amp;tr=&lt;tracker-url&gt;&amp;x.pe=&lt;peer-address&gt;</span><br><span class="line">v2: magnet:?xt=urn:btmh:&lt;tagged-info-hash&gt;&amp;dn=&lt;name&gt;&amp;tr=&lt;tracker-url&gt;&amp;x.pe=&lt;peer-address&gt;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <h6 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h6><ul>
 <li>dn（显示名称）- 文件名</li>
@@ -819,7 +820,7 @@
     
       <span class="post-meta-item-text">字数统计&#58;</span>
     
-    <span title="字数统计">796</span>
+    <span title="字数统计">821</span>
   <span class="post-meta-divider">|</span>
   <i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
     吃瓜群众：<span id="busuanzi_value_site_uv"></span>
