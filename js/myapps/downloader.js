@@ -41,14 +41,62 @@ function encodeBase64(content) {
   return content;
 }
 
+function getType(content) {
+  var codes = content.split(":?");
+  if (codes.length==2) {
+    // todo 磁力链接格式 magnet:?
+    console.log(codes.length);
+    console.log(codes);
+    return codes;
+  }
+  codes = content.split("://");
+  // if (codes.length==2) {
+  //   console.log(codes.length);
+  //   console.log(codes);
+  // }
+  console.log(codes.length);
+  console.log(codes);
+  return codes;
+}
+
 function convertCode() {
   var code = $("#urlText").val();
   var codes = code.split("\n");
+  var lines = "";
+  var line = "";
   console.log(code.split("\n").length);
   var plainText = "";
   for (var i = 0; i < codes.length; i++) {
+    plainText += '----'+(i+1)+'----' +'\n';
+    lines = getType(codes[i]);
+    line = "";
     try{
-      plainText += decodeBase64(codes[i])+'\n';
+      if (lines.length==2) {
+        if (lines[0].toUpperCase() == "thunder".toUpperCase()) {
+          line = decodeBase64(lines[1]);
+          line = line.substring(2,line.length-2);
+          plainText += line +'\n';
+        }
+        if (lines[0].toUpperCase() == "http".toUpperCase() ||
+      lines[0].toUpperCase() == "https".toUpperCase()) {
+          plainText += 'base64: '+encodeBase64(codes[i])+'\n';
+          plainText += 'thunder://' + encodeBase64('AA'+codes[i]+'ZZ')+'\n';
+          plainText += 'flashget://' + encodeBase64('[FLASHGET]'+codes[i]+'[FLASHGET]')+'\n';
+          plainText += 'qqdl://' + encodeBase64(codes[i])+'\n';
+        }
+        if (lines[0].toUpperCase() == "flashget".toUpperCase()) {
+          line = decodeBase64(lines[1]);
+          line = line.replace(/\[FLASHGET\]/g, "");
+          plainText += line +'\n';
+        }
+        if (lines[0].toUpperCase() == "qqdl".toUpperCase()) {
+          line = decodeBase64(lines[1]);
+          plainText += line +'\n';
+        }
+      } else {
+        plainText += encodeBase64(codes[i])+'\n';
+      }
+      // plainText += decodeBase64(line)+'\n';
     } catch (e) {
       //console.log(e);
       plainText += encodeBase64(codes[i])+'\n';
