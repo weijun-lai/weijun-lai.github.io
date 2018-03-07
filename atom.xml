@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://laiweijun.com/"/>
-  <updated>2018-03-06T12:26:11.596Z</updated>
+  <updated>2018-03-07T03:40:25.716Z</updated>
   <id>http://laiweijun.com/</id>
   
   <author>
@@ -17,13 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2018两会学习</title>
+    <link href="http://laiweijun.com/2018/03/07/2018%E4%B8%A4%E4%BC%9A%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://laiweijun.com/2018/03/07/2018两会学习/</id>
+    <published>2018-03-07T03:27:05.000Z</published>
+    <updated>2018-03-07T03:40:25.716Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>今年两会发了很多个大红包，减轻了各种人群生产活动的负担，鼓励更多人参与劳动致富走向更好生活质量的中国梦。</p><p> √ 取消漫游流量<br> √ 提高个人所得税起点<br> √ 鼓励创业</p>]]></content>
+    
+    <summary type="html">
+    
+      2018年两会的学习思考
+    
+    </summary>
+    
+      <category term="学习" scheme="http://laiweijun.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="两会" scheme="http://laiweijun.com/tags/%E4%B8%A4%E4%BC%9A/"/>
+    
+      <category term="学习" scheme="http://laiweijun.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>🔒空间布局</title>
     <link href="http://laiweijun.com/2018/03/06/%E7%A9%BA%E9%97%B4%E5%B8%83%E5%B1%80/"/>
     <id>http://laiweijun.com/2018/03/06/空间布局/</id>
     <published>2018-03-06T12:02:23.000Z</published>
-    <updated>2018-03-06T12:26:11.596Z</updated>
+    <updated>2018-03-06T12:26:11.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 3-3 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX1+taomPrvKrtUaihQy02PQm5fwIFzUJnN9FFlKU63BTrP6YjLKklXaP54cqGOaW6EWPP//FayJcizv6TqSQ5iS/r2Dt8CqU1pOO/medrMK4FGMxBpRVRJ1v6DxJmfgWcg200F083KFKquIArm3TBIUM7XOfBHRpZHEVwb4+xct6JJNMsz3cNX9tuquBydt+VkMFheu4tH20tLhjYdH5Es4h2Og3+4uD36A=</div>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 3-3 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX19KO4Mts4Lza4gq83hqe+TkXmok4wMTHXUDCDItPgvmA/t5ndHI/T/FT5tanxiRnrzAcpKTCtt0PZVGxDwB20WRC06iniMGvSG0gl/MGbLzXszEEU5cSD4cPs6YVGDBMOuuaGuOGBlMsF2C70GPFRYrqElgJTB3rgRn8Jmm2HICTnqqmq4CxOwOpBYFDUX+j/VjIL5uy2naLtfE/rQXvOSGuF0QA0t0W8A=</div>]]></content>
     
     <summary type="html">
     
@@ -45,7 +69,7 @@
     <link href="http://laiweijun.com/2018/03/06/%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/"/>
     <id>http://laiweijun.com/2018/03/06/迁移数据/</id>
     <published>2018-03-06T05:29:46.000Z</published>
-    <updated>2018-03-06T12:04:50.000Z</updated>
+    <updated>2018-03-06T12:04:50.160Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="本文已经迁移直云端"><a href="#本文已经迁移直云端" class="headerlink" title="本文已经迁移直云端"></a>本文已经迁移直云端</h3><p>显示正常<br>可以多端协同编辑博客<br>现在这是mac电脑修改的内容<br>//to do<br>现在这是pc电脑修改的内容<br>//to do</p><h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>可以看到<br>新行<br>~~ test syc<br>新行<br>| Tables        | Are           | Cool  |<br>| ————- |:————-:| —–:|<br>| col 3 is      | right-aligned | $1600 |<br>| col 2 is      | centered      |   $12 |<br>| zebra stripes | are neat      |    $1 |</p><p>新行<br>[] good to know everything is ok.</p><h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>真是太好了<br>很好很好，已经可以多端协同编写文章了。</p>]]></content>
     
@@ -69,9 +93,9 @@
     <link href="http://laiweijun.com/2018/03/02/%E3%80%90%E5%8A%A0%E5%AF%86%E3%80%91%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E7%9C%9F%E5%A5%BD%EF%BC%81/"/>
     <id>http://laiweijun.com/2018/03/02/【加密】今天天气真好！/</id>
     <published>2018-03-02T06:52:24.000Z</published>
-    <updated>2018-03-06T11:23:37.494Z</updated>
+    <updated>2018-03-06T11:23:37.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 1-5 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX1889VV4oSFVuWGPHlAinC9WM9NcBMGTQ7AKWboZrMArNlPSZk/1vM3Tm0HPMVOBaSoXPtqVIa9agebLir+u254t0ldbg2JvOodvBncwRUa2MMPj0cPPjx3C23e4iRFGq0KRi9AgfBV8kDLYkz+SAz2jw8m/IkGEg1p5GjB7FezrdlUOjz1WykV07e1IKxoG01GR27vgmYr330+xtV3QLDK4efbqWFE7Rx6Z3Xfi7URxv3Hq15qUUBikY47Q5SDfvLy3191mpwnG9yk8fPrwx73E5Z9RVLtD4VfCzQOf/sB9O0f9MLxyG0aVl9N1s1cBGZ47liVeixbFmFFOJaIHvLWtqWPdJ9K2FBIYLcyDw3+W1TsZ6SCtLIL2Pbsvlh/KHibaGL6DUeeRHG7pmMN5ulE8gMZpBkL70Y7+b+fiEw/9V9d3AKrYPd7n+u0EmvrdNSxvRIx8n4ZH7se4s3InMHDIcmZE6rL9xx/WUQXMU4UgOy2jTktxxjCr+0S3CPif/MXFKx6m7dDJX7NToIxNqn3doJTqHkUjPGtFAch5pnwfz7qOiPTBfsy7ddcBGMePfkRYqJwSFSzhDsVKVYPf3lCrg5Zh1QvIho8ABShMzJOOZ7cNTsKPKXGwBIE3q++7Pp2SEA8haTTdlqttNJYZQnMtB8SIzOwtaQCR9qW+4p7yfmTrJzgk5xXU</div>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 1-5 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX1+o7QXMYzakNCZejGQNAJ9l1NnCEMxvDQ97gZOn3cB/DgZDVDYDdIgdmiFdoJBSW/8sNzJDQa0NC/5qltnUqwllypnILj07TkQkk8QXczMUioW7Pc7HpfwOYRZlW7+gPzuV1BQmHzvHULWxcC1/iFrfmhdqX82or/oMbORktcAK/ReZ9CyhIQAGLP51M4InitMYGRiqrBVjXd0KcekrOmROxikUNceubbT+EezRCdWhOTaiNBrNdgQLNdMDy6Ckcx4SGPjNhm/5a8nP5VPs3BSc7edR8B1SZLRI8PouOAu3UV8qaias+ZdnVGVK2I/tTjIT41+KOTq5h8f0AqCP+QYFKv+Mfngyg2oXZ81vslQu4zXU4m/nsZk7OhG6UaziGMvfSfIvOaFVsVcaz0uKYX4F8fkww6YgrXXjgsUECgaXiuGFfaDRUShA3NKJOiPHAwBY7Ycl4kbmCFe0wJwyqO5qUPdaCG4CmeKi7NlysQ0HPgF/DaGTjDp3VqKZD+e72yAkOzu5TAxMiUObPT31MdiufmPschKaTYShqhd4dbSN34KJQGv0/0WbL2zOFt+3Qmh/5eg697yhX+JEOtBqrrsE2/j6FEvI/hLjY3iSMJal5Tfj9r7QVAGXJswFacrHPMxH07P2n+wnSfb2suN4msUdsxCk6YEsiHd1dLuJkI8A+ynpBLn3gm3W</div>]]></content>
     
     <summary type="html">
     
@@ -93,7 +117,7 @@
     <link href="http://laiweijun.com/2018/03/01/%E4%B8%AD%E6%96%87/"/>
     <id>http://laiweijun.com/2018/03/01/中文/</id>
     <published>2018-03-01T15:17:25.000Z</published>
-    <updated>2018-03-06T05:25:05.208Z</updated>
+    <updated>2018-03-06T05:25:05.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>中文文字显示测试，看看中文是否可以正常显示。</p><h2 id="以下是测试内容"><a href="#以下是测试内容" class="headerlink" title="以下是测试内容"></a>以下是测试内容</h2><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>这是一个开始字段<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行</p><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>本文内容相当精彩<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行</p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>谢谢您的阅读<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行</p>]]></content>
     
@@ -123,7 +147,7 @@
     <link href="http://laiweijun.com/1900/03/02/%E6%9D%A5%E8%87%AA1999/"/>
     <id>http://laiweijun.com/1900/03/02/来自1999/</id>
     <published>1900-03-01T18:15:55.000Z</published>
-    <updated>2018-03-06T05:25:05.210Z</updated>
+    <updated>2018-03-06T05:25:05.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>假设这篇文章是1900年的老文章。<br>看看hexo是否会自动归类和正确显示时间信息</p><p>这里有历史旧闻故事</p>]]></content>
     
