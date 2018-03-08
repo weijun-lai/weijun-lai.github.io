@@ -195,7 +195,8 @@ table {
 }
 
 table th {
-    white-space: nowrap; /*表头内容强制在一行显示*/
+    /*white-space: wrap; 表头内容强制在一行显示*/
+    word-wrap: break-word;
 }
 
 td {
@@ -206,7 +207,7 @@ td {
 }
 
 table td:nth-child(1) {
-    white-space: nowrap;
+    /*white-space: nowrap;*/
 }
 
 

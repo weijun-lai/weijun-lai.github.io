@@ -70,12 +70,18 @@ function getType(content) {
 }
 
 function getXunLeiBTLink(infoHash){
-  if (infoHash.length<38) {
-    return '无';
+  // 	magnet:?xt=urn:btih:D84ABC1F6605F03BC363E758805EC1A1550DA751
+  var link ="";
+  if (infoHash.length==32) {
+    link ='无';
   }
-  var link = '迅雷种子库:\n'+ 'http://bt.box.n0808.com/'+infoHash.slice(0,2)+'/'+infoHash.slice(38)+'/'+infoHash+'.torrent\n';
-  link += '其他种子库:\n'+'http://torcache.net/torrent/'+infoHash+'.torrent\n';
-  link += '其他种子库:\n'+'http://zoink.it/torrent/'+infoHash+'.torrent\n';
+  if (infoHash.length==40) {
+    link = '迅雷种子库:\n'+ 'http://bt.box.n0808.com/'+infoHash.slice(0,2)+'/'+infoHash.slice(38)+'/'+infoHash+'.torrent\n';
+    link += '其他种子库:\n'+'http://torrage.com/torrent/'+infoHash+'.torrent\n';
+    link += '其他种子库:\n'+'https://torcache.net/torrent/'+infoHash+'.torrent\n';
+    link += '其他种子库:\n'+'https://zoink.it/torrent/'+infoHash+'.torrent\n';
+    link += '其他种子库:\n'+'http://magnetres.com/h_'+infoHash+'\n';
+  }
   return link;
 }
 

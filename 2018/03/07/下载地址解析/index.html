@@ -97,7 +97,7 @@
 <meta property="og:site_name" content="Weijun Lai&#39;s blog">
 <meta property="og:description" content="这是个在线Web小程序，用于解析转换各类下载地址。支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k, BT种子 等编码自动识别互转。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-07T17:32:53.891Z">
+<meta property="og:updated_time" content="2018-03-08T09:01:43.901Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="下载地址解析">
 <meta name="twitter:description" content="这是个在线Web小程序，用于解析转换各类下载地址。支持http，迅雷thunder，磁力magnet，快车flashget, 旋风qqdl，电驴ed2k, BT种子 等编码自动识别互转。">
@@ -422,7 +422,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  402
+                  973
                 </span>
               
 
@@ -438,7 +438,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  2
+                  4
                 </span>
               
             </div>
@@ -489,9 +489,10 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">magnet:?xl=&lt;字节大小&gt; &amp; dn=&lt;文件名(已编码URL)&gt; &amp; xt=urn:tree:tiger:&lt;TTH hash(Base32)&gt;</span><br><span class="line">magnet:?xt=urn:btih:D84ABC1F6605F03BC363E758805EC1A1550DA751</span><br><span class="line">v1: magnet:?xt=urn:btih:&lt;info-hash&gt;&amp;dn=&lt;name&gt;&amp;tr=&lt;tracker-url&gt;&amp;x.pe=&lt;peer-address&gt;</span><br><span class="line">v2: magnet:?xt=urn:btmh:&lt;tagged-info-hash&gt;&amp;dn=&lt;name&gt;&amp;tr=&lt;tracker-url&gt;&amp;x.pe=&lt;peer-address&gt;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <h6 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h6><ul>
-<li>dn（显示名称）- 文件名</li>
+<li>dn（显示名称）- display name的缩写，表示向用户显示的文件名。这是可选项。</li>
 <li>xl（绝对长度）- 文件字节数</li>
-<li>xt（eXact Topic）- 包含文件散列函数值的 URN</li>
+<li>xt（eXact Topic）- exact topic的缩写，包含文件散列函数值的 URN, 表示资源定位点</li>
+<li>BTIH（BitTorrent Info Hash）表示哈希方法名，这里还可以使用SHA1和MD5</li>
 <li>as（可接受来源） - 在线文件的网络链接</li>
 <li>xs（绝对资源）- P2P链接</li>
 <li>kt（关键字）- 用于搜索的关键字</li>
@@ -509,8 +510,252 @@
 <h5 id="电驴链接地址-ed2k"><a href="#电驴链接地址-ed2k" class="headerlink" title="电驴链接地址 ed2k://"></a>电驴链接地址 ed2k://</h5></blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ed2k://|file|&lt;文件名称&gt;|&lt;文件大小&gt;|&lt;文件哈希值&gt;|/</span><br><span class="line">ed2k://|file|cn_windows_10_multi-edition_vl_version_1709_updated_dec_2017_x64_dvd_100406208.iso|5007116288|317BDC520FA2DD6005CBA8293EA06DF6|/</span><br></pre></td></tr></table></figure>
 <blockquote>
-<h4 id="0x022-编码"><a href="#0x022-编码" class="headerlink" title="0x022 编码"></a>0x022 编码</h4><p>Base64<br>加密 解密</p>
+<h4 id="0x022-编码"><a href="#0x022-编码" class="headerlink" title="0x022 编码"></a>0x022 编码</h4><p>Base64 Base32 Base16 Base85 Base16</p>
 </blockquote>
+<h5 id="Base64"><a href="#Base64" class="headerlink" title="Base64"></a>Base64</h5><p>这是一个基于64进制表示的数字系统，只用64个字符可转换来代表二进制数值或其他进制字符。在计算机科学中这64个字符，一般选取ASCII码其中64个字符来表示64进制里的数码。Base64有不同的设计版本，对应不同字符表(编码表)，其中前62个字符对应的是：26个字母大小写，10个数字。第63和64位，这最后2个字符因不同的操作系统设计标准，历史不同版本设计协议，和电子通信环境需求，选用了不同符号表示。<a href="https://en.wikipedia.org/wiki/Base64" target="_blank" rel="noopener">详细请参考维基百科/wiki/Base64</a>，以下是标准Base64编码表。</p>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Char</th>
+<th>Value</th>
+<th>Char</th>
+<th>Value</th>
+<th>Char</th>
+<th>Value</th>
+<th>Char</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>A</td>
+<td>16</td>
+<td>Q</td>
+<td>32</td>
+<td>g</td>
+<td>48</td>
+<td>w</td>
+</tr>
+<tr>
+<td>1</td>
+<td>B</td>
+<td>17</td>
+<td>R</td>
+<td>33</td>
+<td>h</td>
+<td>49</td>
+<td>x</td>
+</tr>
+<tr>
+<td>2</td>
+<td>C</td>
+<td>18</td>
+<td>S</td>
+<td>34</td>
+<td>i</td>
+<td>50</td>
+<td>y</td>
+</tr>
+<tr>
+<td>3</td>
+<td>D</td>
+<td>19</td>
+<td>T</td>
+<td>35</td>
+<td>j</td>
+<td>51</td>
+<td>z</td>
+</tr>
+<tr>
+<td>4</td>
+<td>E</td>
+<td>20</td>
+<td>U</td>
+<td>36</td>
+<td>k</td>
+<td>52</td>
+<td>0</td>
+</tr>
+<tr>
+<td>5</td>
+<td>F</td>
+<td>21</td>
+<td>V</td>
+<td>37</td>
+<td>l</td>
+<td>53</td>
+<td>1</td>
+</tr>
+<tr>
+<td>6</td>
+<td>G</td>
+<td>22</td>
+<td>W</td>
+<td>38</td>
+<td>m</td>
+<td>54</td>
+<td>2</td>
+</tr>
+<tr>
+<td>7</td>
+<td>H</td>
+<td>23</td>
+<td>X</td>
+<td>39</td>
+<td>n</td>
+<td>55</td>
+<td>3</td>
+</tr>
+<tr>
+<td>8</td>
+<td>I</td>
+<td>24</td>
+<td>Y</td>
+<td>40</td>
+<td>o</td>
+<td>56</td>
+<td>4</td>
+</tr>
+<tr>
+<td>9</td>
+<td>J</td>
+<td>25</td>
+<td>Z</td>
+<td>41</td>
+<td>p</td>
+<td>57</td>
+<td>5</td>
+</tr>
+<tr>
+<td>10</td>
+<td>K</td>
+<td>26</td>
+<td>a</td>
+<td>42</td>
+<td>q</td>
+<td>58</td>
+<td>6</td>
+</tr>
+<tr>
+<td>11</td>
+<td>L</td>
+<td>27</td>
+<td>b</td>
+<td>43</td>
+<td>r</td>
+<td>59</td>
+<td>7</td>
+</tr>
+<tr>
+<td>12</td>
+<td>M</td>
+<td>28</td>
+<td>c</td>
+<td>44</td>
+<td>s</td>
+<td>60</td>
+<td>8</td>
+</tr>
+<tr>
+<td>13</td>
+<td>N</td>
+<td>29</td>
+<td>d</td>
+<td>45</td>
+<td>t</td>
+<td>61</td>
+<td>9</td>
+</tr>
+<tr>
+<td>14</td>
+<td>O</td>
+<td>30</td>
+<td>e</td>
+<td>46</td>
+<td>u</td>
+<td>62</td>
+<td>+</td>
+</tr>
+<tr>
+<td>15</td>
+<td>P</td>
+<td>31</td>
+<td>f</td>
+<td>47</td>
+<td>v</td>
+<td>63</td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h6 id="Base64算法原理"><a href="#Base64算法原理" class="headerlink" title="Base64算法原理"></a>Base64算法原理</h6><p>明文字符串,举个栗子<strong>abcd</strong>,里每个单字符对应ASCII编码表都有二进制的的8位字节表示，如：</p>
+<table>
+<thead>
+<tr>
+<th>原文字符串</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ASCII字符码</td>
+<td>a</td>
+<td>b</td>
+<td>c</td>
+<td>d</td>
+</tr>
+<tr>
+<td>ASCII二进制码</td>
+<td>01100001</td>
+<td>01100010</td>
+<td>01100011</td>
+<td>01100100</td>
+</tr>
+</tbody>
+</table>
+<p>手算数学步骤：</p>
+<table>
+<thead>
+<tr>
+<th>步骤1==&gt; 分段字符串，每段读取3个字节Byte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>[</strong> <strong>01100001</strong> 01100010 01100011<strong>]</strong> <strong>[</strong>01100100<strong>]</strong></td>
+</tr>
+<tr>
+<td><strong>步骤2==&gt; 将每段每个原来的8位3字节，分成6位4字节</strong></td>
+</tr>
+<tr>
+<td><strong>[</strong> <strong>011000</strong> 010110 001001 100011<strong>]</strong> <strong>[</strong>011001 00<strong>]</strong></td>
+</tr>
+<tr>
+<td><strong>步骤3==&gt; 给不足4个字节的填充0，输出字符使用 ‘=’ </strong></td>
+</tr>
+<tr>
+<td><strong>[</strong>011000 010110 001001 100011<strong>]</strong> <strong>[</strong>011001 000000 <strong>000000</strong> <strong>000000</strong> <strong>]</strong></td>
+</tr>
+<tr>
+<td><strong>步骤4==&gt; 转换成十进制</strong></td>
+</tr>
+<tr>
+<td>[ 24 22 9 35 ][ 25 0 = = ]</td>
+</tr>
+<tr>
+<td><strong>步骤5==&gt; 查Base64编码表</strong></td>
+</tr>
+<tr>
+<td>[ Y W J j ][ Z A = = ]</td>
+</tr>
+</tbody>
+</table>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line">输入：abcd</span><br><span class="line">处理：Base64</span><br><span class="line">输出：YWJjZA==</span><br><span class="line"></span><br><span class="line">[a b c] [d]</span><br><span class="line">[01100001 01100010 01100011] [01100100]</span><br><span class="line">a</span><br><span class="line">01100001</span><br><span class="line">011000-- &gt;&gt;2</span><br><span class="line">011000</span><br><span class="line">24</span><br><span class="line">Y</span><br><span class="line"></span><br><span class="line">a b</span><br><span class="line">01100001 01100010</span><br><span class="line">------01 &lt;&lt;6</span><br><span class="line">0110---- &gt;&gt;4</span><br><span class="line">010110</span><br><span class="line">22</span><br><span class="line">G</span><br><span class="line"></span><br><span class="line">b c</span><br><span class="line">01100010 01100011</span><br><span class="line">----0010 &lt;&lt;4</span><br><span class="line">01------ &gt;&gt;6</span><br><span class="line">001001</span><br><span class="line">9</span><br><span class="line">J</span><br><span class="line"></span><br><span class="line">c</span><br><span class="line">01100011</span><br><span class="line">--100011</span><br><span class="line">35</span><br><span class="line">j</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">[01100100]</span><br><span class="line">[01100100 00000000 00000000]</span><br><span class="line">d</span><br><span class="line">01100100</span><br><span class="line">011001-- &gt;&gt;2</span><br><span class="line">011001</span><br><span class="line">25</span><br><span class="line">Z</span><br><span class="line"></span><br><span class="line">d</span><br><span class="line">01100100 00000000</span><br><span class="line">------00 &lt;&lt;6</span><br><span class="line">0000---- &gt;&gt;4</span><br><span class="line">000000</span><br><span class="line">0</span><br><span class="line">A</span><br><span class="line"></span><br><span class="line">00000000 00000000</span><br><span class="line">=</span><br><span class="line">=</span><br></pre></td></tr></table></figure>
+<h5 id="Base32"><a href="#Base32" class="headerlink" title="Base32"></a>Base32</h5><p>这是一个基于32进制表示的数字系统，基于64个字符来代表10进制数值，<br><a href="https://en.wikipedia.org/wiki/Base32" target="_blank" rel="noopener">参考维基百科/wiki/Base32</a><br>加密 解密</p>
 
       
     </div>
@@ -797,7 +1042,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#0x01-应用程序"><span class="nav-number">1.</span> <span class="nav-text">0x01 应用程序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#0x02-技术解析："><span class="nav-number">2.</span> <span class="nav-text">0x02 技术解析：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#0x021-固定格式-124"><span class="nav-number">2.1.</span> <span class="nav-text">0x021 固定格式 |</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#HTTP链接地址-http"><span class="nav-number">2.1.1.</span> <span class="nav-text">HTTP链接地址 http://</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#迅雷链接地址-thunder"><span class="nav-number">2.1.2.</span> <span class="nav-text">迅雷链接地址 thunder://</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#磁力链接格式-magnet"><span class="nav-number">2.1.3.</span> <span class="nav-text">磁力链接格式 magnet:?</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#参数"><span class="nav-number">2.1.3.1.</span> <span class="nav-text">参数</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#快车链接地址-flashget"><span class="nav-number">2.1.4.</span> <span class="nav-text">快车链接地址 flashget://</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#旋风链接地址-qqdl"><span class="nav-number">2.1.5.</span> <span class="nav-text">旋风链接地址 qqdl://</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#电驴链接地址-ed2k"><span class="nav-number">2.1.6.</span> <span class="nav-text">电驴链接地址 ed2k://</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#0x022-编码"><span class="nav-number">2.2.</span> <span class="nav-text">0x022 编码</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#0x01-应用程序"><span class="nav-number">1.</span> <span class="nav-text">0x01 应用程序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#0x02-技术解析："><span class="nav-number">2.</span> <span class="nav-text">0x02 技术解析：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#0x021-固定格式-124"><span class="nav-number">2.1.</span> <span class="nav-text">0x021 固定格式 |</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#HTTP链接地址-http"><span class="nav-number">2.1.1.</span> <span class="nav-text">HTTP链接地址 http://</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#迅雷链接地址-thunder"><span class="nav-number">2.1.2.</span> <span class="nav-text">迅雷链接地址 thunder://</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#磁力链接格式-magnet"><span class="nav-number">2.1.3.</span> <span class="nav-text">磁力链接格式 magnet:?</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#参数"><span class="nav-number">2.1.3.1.</span> <span class="nav-text">参数</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#快车链接地址-flashget"><span class="nav-number">2.1.4.</span> <span class="nav-text">快车链接地址 flashget://</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#旋风链接地址-qqdl"><span class="nav-number">2.1.5.</span> <span class="nav-text">旋风链接地址 qqdl://</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#电驴链接地址-ed2k"><span class="nav-number">2.1.6.</span> <span class="nav-text">电驴链接地址 ed2k://</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#0x022-编码"><span class="nav-number">2.2.</span> <span class="nav-text">0x022 编码</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Base64"><span class="nav-number">2.2.1.</span> <span class="nav-text">Base64</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#Base64算法原理"><span class="nav-number">2.2.1.1.</span> <span class="nav-text">Base64算法原理</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Base32"><span class="nav-number">2.2.2.</span> <span class="nav-text">Base32</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -832,7 +1077,7 @@
     
       <span class="post-meta-item-text">字数统计&#58;</span>
     
-    <span title="字数统计">843</span>
+    <span title="字数统计">1.4k</span>
   <span class="post-meta-divider">|</span>
   <i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
     吃瓜群众：<span id="busuanzi_value_site_uv"></span>
