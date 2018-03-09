@@ -1617,7 +1617,6 @@ pre .javascript .function {
   margin-top: 40px;
 }
 .posts-expand .post-tags {
-  margin-top: 40px;
   text-align: center;
 }
 .posts-expand .post-tags a {
@@ -2003,7 +2002,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff2070;
+  background: #12ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2995,7 +2994,7 @@ hr {
   margin: 0;
 }
 .posts-expand .post-tags {
-  text-align: left;
+  text-align: center;
 }
 .posts-expand .post-tags a {
   padding: 1px 5px;
@@ -3067,9 +3066,6 @@ hr {
 }
 .page-post-detail .post-title:before {
   display: none;
-}
-.page-post-detail .post-meta {
-  margin-bottom: 60px;
 }
 .pagination {
   margin: 120px 0 0;
