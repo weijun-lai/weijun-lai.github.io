@@ -34,8 +34,6 @@
       <category term="计算机基础科学" scheme="http://laiweijun.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
     
     
-      <category term="Base32" scheme="http://laiweijun.com/tags/Base32/"/>
-    
       <category term="加密" scheme="http://laiweijun.com/tags/%E5%8A%A0%E5%AF%86/"/>
     
       <category term="解密" scheme="http://laiweijun.com/tags/%E8%A7%A3%E5%AF%86/"/>
@@ -43,6 +41,8 @@
       <category term="计算机基础科学" scheme="http://laiweijun.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
     
       <category term="原理" scheme="http://laiweijun.com/tags/%E5%8E%9F%E7%90%86/"/>
+    
+      <category term="Base32" scheme="http://laiweijun.com/tags/Base32/"/>
     
   </entry>
   
@@ -64,6 +64,8 @@
       <category term="计算机基础科学" scheme="http://laiweijun.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
     
     
+      <category term="Base64" scheme="http://laiweijun.com/tags/Base64/"/>
+    
       <category term="加密" scheme="http://laiweijun.com/tags/%E5%8A%A0%E5%AF%86/"/>
     
       <category term="解密" scheme="http://laiweijun.com/tags/%E8%A7%A3%E5%AF%86/"/>
@@ -71,8 +73,6 @@
       <category term="计算机基础科学" scheme="http://laiweijun.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
     
       <category term="原理" scheme="http://laiweijun.com/tags/%E5%8E%9F%E7%90%86/"/>
-    
-      <category term="Base64" scheme="http://laiweijun.com/tags/Base64/"/>
     
   </entry>
   
@@ -145,7 +145,7 @@
     <published>2018-03-06T12:02:23.000Z</published>
     <updated>2018-03-07T04:49:29.102Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 3-3 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX18+13X8xRtz4tK/jeOhaGGTl1CGmWwYslufpN9jbX5elvBjFjtFuTNJ9z2oDi6EE5SVv/jdV6F8X5fysHpc+IAylwtt6vmT0oRWNWiyn3mTpNn/Ihwe2XsepsMo4Qp+DClXePWXmNk/Sdnipw6LW6MuIdDkYjlIvAGjamqXj67ogjjams45R5sY/yOCsb9DclDGlpYUh0O2gpBlejdIfDDFiWPgHKZR7kroxE6hMvCUJMsd1Q4sWDCsV2XAu8cp2KawAi7ZdU3ZD8N+pVjjlsak2aCHf1IpHILImqo+IDpUnSGlMNnsle+vmAti96x7j/7ZnSoRL/ttBvTkyv6F2rWl+pO2yYjtMLuZJ4+6C6lELwizJY84EtNUuTG7yMrVmSevqQY62OocvlCKicRKqqzVLcBf3Bp4KIPGzXgEZRN2VK8livBj7au/v95ahQRqpT9WWkrkb5ld3t9OfNFyA+d5edZ/h3dmWssyBlp7HJC5hiIwUt4P8gZ1TEwn0PQ1on/yuVOewqI4xQHspm+VegbocSUqhAqA45AX1NH330RJ4in68xfnJEtC9P8ZXfvag4OjuSuS//ntoIAmCTgkNAylyCxTTi7tx584DYN73oooti74lBfepPwHPtG7uf3NMERwcPwyunJsYcaWjhwyWZQsY5Vh739K3yAmz61pz6n7rR++3yKOY5vBvahOpNHRH3DXSQIGcY58SsF/RDflGBN4kSMUORS7jxY4C4j36VTpUcsLWu0WL/eX3qQ0xz7o8FRoKHhiP1F3+aKdT0a3qv6tNZF2/XJKk+Wqde4h0QD13p+zRt90+GgcOI9os9yGhMVSfRFvbfAG8NRxfvEoSEDbZGR+CO5sAZOiATw6fketwlSG/zkRFV/Q+MhRzsktQQy0G6rfW7TpL8zpkE65HSS3zuyAsm4aYyOzrDl5aR85T2vqS3hB3lAVixRgJUSG0eAy007jj+VhLQSAgXk2eS99nVAwnDJ5eBKVNBe0kt2KhzATc70iBQJE10xuAIATUET4QQm2D3DwqdatwI5QrIA0QBTqKzqP85QfPakiewtPfLTjTpykgek42W6u/dNd4uBIlCkpCXm99v0XImncu9Sf4TzoeR+9mm0fVvPpYg0GFfaNA+nakbQVLXbzxhFe8Us+FD9G9dU+OqzfFRTSDytLn9iUKxNDavSQLL0UgpJG1cwNJNqWTxr9vhp+oIyu0lCgIXbXRwDBQwVklUxJq5CqHmLjSwVqjKrv6AHWp6VNWKGwgUbksWxT6LmYiHuwTA6clTCIVTnQiLdF2yne/e9ky0veLhvYxK2G2RvaZ+kKm/qbjY6EHslpVY0njmdmLW2S5U9Xg+dQEcIT68z9myKa6bn6lD1//BrhIn79lCWoXctRcr5h0KFN4c8PNsuXrD0zpQfPmdkFU1cuip2+qR5NdSr86iZb3ZL/2ws/zizc+7oRWLOxiHuSR00A+lgo077M+06EliALMJOw6YF1JP64TV2xzPXBZv4uCLIs0fhQzAMP9Pdmpu6CcQVFTdKBYwW4cKO4U5gkGsSSbuhNXDOD/PpTRuJHoIlvFPlTUVSWjLHs0quJRlN8+sqPcXa7OEjKx2ig7Mq1x7y+d3T+pNAFZdUVx2m/JorwF38QMVJ8OitTbXWaNOCy/AJbIyieL5uoU+n11oJE7p1w/RwQ40oofZMrEvRSoWIxU+hBV/RUopve+ZNUs13BZcTHsmNkBX7Agy6rvqJUo00QK+0C2u8V0Ccc69SB7xg=</div>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 3-3 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX1+1GLV+mwB9RgjBljAGL0ihlo5xNdQSypgKEogGN8rTfNGNj7tNaE6r84cbBn6lJzRU6630B0tSA+bQkdQ6JPloNHDI4AcdIdKmnv4VOd/moaz4wJIVxnzGxXwFekXjy0ht+A7Qtl3POMLRow/j2kvAWQ0iqZFiSCnKzENnULX5trZF0LJVfCNYvJAYOS3Q3qPR+1FxcqAIZTsXXGwQQFD7XypdDBrSNdR1SL8vDLTwDW2QMJTK8npwhaLzi2+oVUtqqrOhrOtnSq3S3tjJhBBYwkMuy0v2Bhw0J7SJsbou7o+4RcbklYWNhButG9b4hm/CXyBwO84pvjqrbkXlwZzhzGpLkUfzS72qQBr5udYEEcASECVoWqCK4FxK9VUraSKt5uWQ//TjEmRSo+EG+JMgMBMyVbCWV+d/a4X4Q6zYP3zYPSoMfY6ouqYu4gwoT69JPmvecBCP/T9gbyrnS0ZoEKFAznJwyfOYuhhG2f7RN5cDUAAkA1fX1uNWwVH6P/D7+4eQa0JAkJlF/BnlXMB7jFg2NmX279HQc8TtSgS5WjWwLpgxMrOzoKm+e1OMmAvsZ9wEf4jzS74/YO2wlEnFRI74qm6B4PpBrkMxBftHxNmcEvTBFV8njqtNe10xia/Trsw3gSg2PDo8pi6ZWKSI7yt07B8uHw7NIgfsQHg88T6qxnd8i5kj8Cx+A++z5PNpaFWL0TmT8Fc8hYsYMQ0s4nu7AJEqnat9M42xM+Kg7egOwj/ASrSl4uo6xE2Yp5d+qfbTrEZHdbG1ej7VVV0dPz8+vkOAH3ecZKc49iZ53BuU7SCbrfkEMQLjDfnxkMI0nZ8KtMIpkl+GdL2RugBDPGPcevO4M/Vy63b3e/3XZALHNLSQdXN9oTtKFpwLtw1EI7ewoflJ47OtYXUsPennsv0I+72TXHdW1ExmTWXpB4l+QRT0kWJOrE5EhRM9pgkeSQYx+x5TD/pQbj5S1fb0h7azxuCms8UfxTqdozWV12yr/XPmqLqYA8xw7L+d40KI3ij8UPlejg31meXjjdM4CzC1uD4Kt8Cq9I2X2zvyUzEcA+Cgkh1P6FLhtLNvkM4gylkRHrdvCEWsWZg3wiRv5RCR/rc8+z403FEaolz9btvbtqdYhHJH4lcVeWWXcDpM6f6XynNolr72m4zdB7E9/wTV3JjLpED/kx+WS3sH4MGRfFjmSGp0cNesZnW1+gRW6Bk+5aujQFeUuulLmmQAjbQUYL3VEdKAdPU2WF3nzXkj4RBpm+NkjW2NJLurxB/v/hivvHk1aKBOX75zIt/3Mpgb2+Afs7LoDyMx5ptEF5b9qrDtH2KuoexDh+aYRJUW2ySYQ4eDfBLlbd76uWhZVCg5MJyKKOFaPa1KUL6KNOBeQaRAxIewfDER1iaHFQOLRL6wf0OGvmnLPXK1qkuVgo6wq61ruN4QaHXx+2SnpgzkpiHvMKwc2CDY90ZjYdxkj7EpeotfLzPt6o6B7N/f8CuwJPAlVX7f7my0We393dS5pb+c/0YZtTIK/wgEs1b4Mv2RF+E7sQ2TskKz5sHkp7H7KT04ZA5sFsIB7EiwJsiT5JNOGK1T7tnyFLp11x1f/luqagT7e4JLsWR9YaZ2xSNUjLVVGe0La+V85PDDORCtdbqYujeScMs6wEAklbUv5DKCjJu1sN3nyMUXKkk7oVwGnpoLZOulxQFcKeWP6nD8FIlt/Q+SIzYoiA7mgF7XABrX8HVOLCTzfQUeRc3v5MnL8dhSd6o=</div>]]></content>
     
     <summary type="html">
     
@@ -193,7 +193,7 @@
     <published>2018-03-02T06:52:24.000Z</published>
     <updated>2018-03-06T11:23:37.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 1-5 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX1/U38MrvErIm51ykDihTvwASFe35dnSqrs9e1gMK3+gHuqNaevTuIW3skmQhzLZyJSEcILGJKc+15CGtRy7YrqAyTbV8uQsrKk8+c9RfmZaXdBtKtybYGMM/azJS4sivbTXNRCvBW6S/hWp7ZBOFvw2tf0qbvCyDEBKw6LKxPHMhg3jpHZP9xLKDXvQf0rUAyqN8eyE+lGDlvFnAFU7Pc4z4V065xdKSotSE14V+woRY4Wc1n9SqFDe8GpIA9upZK1fiD7Vez/IJqgX9k2VZA652936X/sAJqsUF4uVAWBEgdB4n1YEMX5gIH33bXECjfHY7HsuSp9lelzohSOO/LNgJxQ2yqJ4YmKD0WNNuAizGqK86tD9PRfmV2LJqgUkvSfcTBChdcbRKddOsBUrqaVWx2LTFWvEYqwJ7iwXNY23u+VtaA1AMelpJKh3VKK1sXGZ69VUXrBR7EN0q2hV1piPMlbS7nlHKgFJUjq2D+/LXL5YvU7EXL+e0XQWzqdi6lmhUC7AXGrrPQlYxpZy9QCwSrvXXar6krHuuFaz0HcmbdPmGbhnGCqERPeJB8MgPFGJjthRJI9aa/LaFPG0pn9yeLPLR0ZwwqFY9QWqQC+4fM2C4d0tCmToGS2kZ01ZZi/jz3YLEhApQ/3zK4kqfH4B2sUgAulw90YdlFRAMS8MGCZi3FvQkpwT</div>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" haha 1-5 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" style="display:none">U2FsdGVkX1+8KRzTTpAY+krodvQxMzaoLUbK0/RpHg2ErxiWpMGfThIvG1p1nz45KZqVc4AbMBW3HzwDZR0P94K2MpcGMLam5iznP/ZcaMUSepEMrkzGwmEuflqyKxH66Z3X/CoPeVIDf9WU+5WYGj5xwIP6BDz1wWmHjYgEeUTtWgisXyYtW8F/nqsfOVARkMu/dx0vbDboFNpiU0GKCdAHKsHv7mfzJl4JW2cj0ic4VlkOyBNKWELJn7CKKL1n+eWmEzHdZGUoNbRR8bZ9/+7nhUhJhjiDJbnev37ntsREXy8ALoH8hdyrcDLPy9hP0STriwjuIj+QvJIeCiLElAKZo05rzlypzFFmYEMlqCoQIgAZREgldtSAfglEKcjED234NovYZk8QUKkkleqqe/q2Is3ZBnlS7F+AHQldJbT9G07bA7SW1rFKDE1csijYGNhtw+tldCJuiRFaNHaLmr16WTuGKGB+cfUNkyVfdWTRDKvV5Or9dwslC2vXZQZHWx5n5+5FI+qzaLP6ffaxppUnMEbhTlua+SXTGT5Tm7rh9shlFK+bifdFRPQ57tOdAsMUq2Vehd2v6sxPMsVbj+8Mf1We0fD7l9f61hfgyDsVaT7lrePUMpulwJ7c50QGf5DtXed/L6rdZ47/b4fAmYxhckBRQ9ypQ/oEbfEzfxIM6FyfMs/XDLBs+ZMvoYj/</div>]]></content>
     
     <summary type="html">
     
