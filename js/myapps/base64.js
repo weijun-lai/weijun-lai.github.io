@@ -19,8 +19,8 @@ base64Table += char62+char63;
 
 /*
 ** base64 加密
-** @param code String   输入字符串明文
-** return encode String 输出字符串密文
+** @param {code} String   输入字符串明文
+** @return {encode} String 输出字符串密文
 */
 function base64_encode(code) {
 /*
@@ -117,8 +117,8 @@ function base64_encode(code) {
 }
 
 /* ascii编码表    映射ascii编码 到 base64编码表
-** @param char    输入单字符
-** return integer 输出整数
+** @param {char}    输入单字符
+** @return {integer} 输出整数
 */
 function asciiToBase64(code) {
 	var char = "";
@@ -148,8 +148,8 @@ function asciiToBase64(code) {
 
 /*
 ** base64 解密
-** @param code String   输入字符串密文
-** return encode String 输出字符串明文
+** @param {code} String   输入字符串密文
+** @return {encode} String 输出字符串明文
 */
 function base64_decode(code) {
   /*
