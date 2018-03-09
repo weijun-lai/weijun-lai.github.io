@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laiweijun.com/2018/03/08/Base64%E7%BC%96%E7%A0%81/</loc>
+    
+    <lastmod>2018-03-09T14:16:05.415Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://laiweijun.com/2018/03/07/2018%E4%B8%A4%E4%BC%9A%E5%AD%A6%E4%B9%A0/</loc>
     
     <lastmod>2018-03-09T12:26:42.869Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://laiweijun.com/about/index.html</loc>
     
     <lastmod>2018-03-09T09:52:36.969Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://laiweijun.com/2018/03/08/Base64%E7%BC%96%E7%A0%81/</loc>
-    
-    <lastmod>2018-03-09T09:22:35.076Z</lastmod>
     
   </url>
   
@@ -65,21 +65,14 @@
   </url>
   
   <url>
+    <loc>http://laiweijun.com/1900/03/02/%E6%9D%A5%E8%87%AA1999/</loc>
+    
+    <lastmod>2018-03-06T05:25:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://laiweijun.com/2018/03/01/%E4%B8%AD%E6%96%87/</loc>
-    
-    <lastmod>2018-03-06T05:25:05.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://laiweijun.com/tags/index.html</loc>
-    
-    <lastmod>2018-03-06T05:25:05.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://laiweijun.com/schedule/index.html</loc>
     
     <lastmod>2018-03-06T05:25:05.000Z</lastmod>
     
@@ -93,7 +86,14 @@
   </url>
   
   <url>
-    <loc>http://laiweijun.com/1900/03/02/%E6%9D%A5%E8%87%AA1999/</loc>
+    <loc>http://laiweijun.com/schedule/index.html</loc>
+    
+    <lastmod>2018-03-06T05:25:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://laiweijun.com/tags/index.html</loc>
     
     <lastmod>2018-03-06T05:25:05.000Z</lastmod>
     
