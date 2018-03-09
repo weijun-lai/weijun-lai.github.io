@@ -8,8 +8,8 @@
         <category>计算机基础科学</category>
       </categories>
       <tags>
-        <tag>加密</tag>
         <tag>Base32</tag>
+        <tag>加密</tag>
         <tag>解密</tag>
         <tag>计算机基础科学</tag>
         <tag>原理</tag>
@@ -33,7 +33,7 @@
   <entry>
     <title><![CDATA[下载地址解析]]></title>
     <url>%2F2018%2F03%2F07%2F%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90%2F</url>
-    <content type="text"><![CDATA[0x01 应用程序 By Weijun Lai, Version: 1.0 请输入下载链接地址：迅雷，快车，旋风 解析转换 0x02 技术解析： 各类下载链接地址都有固定的编码格式，便于网络通信程序识别和处理。以下收集了些各类常见链接协议的固定格式。 0x021 固定格式 &#124; HTTP链接地址 http:// 12&lt;明文URL&gt;http://laiweijun.com/file.txt 迅雷链接地址 thunder:// 123456thunder://AA&lt;明文URL&gt;ZZ[处理]AA&lt;明文URL&gt;ZZ ==&gt; AAhttp://laiweijun.com/file.txtZZ==&gt; Base64编码 ==&gt; QUFodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0Wlo=[输出]thunder://QUFodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0Wlo= 磁力链接格式 magnet:? 1234magnet:?xl=&lt;字节大小&gt; &amp; dn=&lt;文件名(已编码URL)&gt; &amp; xt=urn:tree:tiger:&lt;TTH hash(Base32)&gt;magnet:?xt=urn:btih:D84ABC1F6605F03BC363E758805EC1A1550DA751v1: magnet:?xt=urn:btih:&lt;info-hash&gt;&amp;dn=&lt;name&gt;&amp;tr=&lt;tracker-url&gt;&amp;x.pe=&lt;peer-address&gt;v2: magnet:?xt=urn:btmh:&lt;tagged-info-hash&gt;&amp;dn=&lt;name&gt;&amp;tr=&lt;tracker-url&gt;&amp;x.pe=&lt;peer-address&gt; 参数 dn（显示名称）- display name的缩写，表示向用户显示的文件名。这是可选项。 xl（绝对长度）- 文件字节数 xt（eXact Topic）- exact topic的缩写，包含文件散列函数值的 URN, 表示资源定位点 BTIH（BitTorrent Info Hash）表示哈希方法名，这里还可以使用SHA1和MD5 as（可接受来源） - 在线文件的网络链接 xs（绝对资源）- P2P链接 kt（关键字）- 用于搜索的关键字 mt（文件列表）- 链接到一个包含磁力连结的元文件 (MAGMA - MAGnet MAnifest) tr（Tracker 地址）- BT下载的Tracker URL 快车链接地址 flashget:// 1234flashget://[FLASHGET]&lt;明文URL&gt;[FLASHGET]==&gt; [FLASHGET]http://laiweijun.com/file.txt[FLASHGET]==&gt; Base64编码 ==&gt; JTVCRkxBU0hHRVQlNURodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0JTVCRkxBU0hHRVQlNUQ=&amp;anycodeflashget://JTVCRkxBU0hHRVQlNURodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0JTVCRkxBU0hHRVQlNUQ=&amp;anycode 旋风链接地址 qqdl:// 12qqdl://&lt;已编码URL&gt;qqdl://aHR0cCUzQS8vbGFpd2VpanVuLmNvbS9maWxlLnR4dA== 电驴链接地址 ed2k:// 12ed2k://|file|&lt;文件名称&gt;|&lt;文件大小&gt;|&lt;文件哈希值&gt;|/ed2k://|file|cn_windows_10_multi-edition_vl_version_1709_updated_dec_2017_x64_dvd_100406208.iso|5007116288|317BDC520FA2DD6005CBA8293EA06DF6|/ 0x022 编码Base64 Base32 Base16 Base85 Base16 Base64详细可查看Base64编码这篇文章 Base32详细可查看Base32编码这篇文章]]></content>
+    <content type="text"><![CDATA[0x01 应用程序 By Weijun Lai, Version: 1.0 请输入下载链接地址：迅雷 快车 旋风 磁力 解析转换 0x02 技术解析： 各类下载链接地址都有固定的编码格式，便于网络通信程序识别和处理。以下收集了些各类常见链接协议的固定格式。 0x021 固定格式 &#124; HTTP链接地址 http:// 12&lt;明文URL&gt;http://laiweijun.com/file.txt 迅雷链接地址 thunder:// 123456thunder://AA&lt;明文URL&gt;ZZ[处理]AA&lt;明文URL&gt;ZZ ==&gt; AAhttp://laiweijun.com/file.txtZZ==&gt; Base64编码 ==&gt; QUFodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0Wlo=[输出]thunder://QUFodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0Wlo= 磁力链接格式 magnet:? 1234magnet:?xl=&lt;字节大小&gt; &amp; dn=&lt;文件名(已编码URL)&gt; &amp; xt=urn:tree:tiger:&lt;TTH hash(Base32)&gt;magnet:?xt=urn:btih:D84ABC1F6605F03BC363E758805EC1A1550DA751v1: magnet:?xt=urn:btih:&lt;info-hash&gt;&amp;dn=&lt;name&gt;&amp;tr=&lt;tracker-url&gt;&amp;x.pe=&lt;peer-address&gt;v2: magnet:?xt=urn:btmh:&lt;tagged-info-hash&gt;&amp;dn=&lt;name&gt;&amp;tr=&lt;tracker-url&gt;&amp;x.pe=&lt;peer-address&gt; 参数 dn（显示名称）- display name的缩写，表示向用户显示的文件名。这是可选项。 xl（绝对长度）- 文件字节数 xt（eXact Topic）- exact topic的缩写，包含文件散列函数值的 URN, 表示资源定位点 BTIH（BitTorrent Info Hash）表示哈希方法名，这里还可以使用SHA1和MD5 as（可接受来源） - 在线文件的网络链接 xs（绝对资源）- P2P链接 kt（关键字）- 用于搜索的关键字 mt（文件列表）- 链接到一个包含磁力连结的元文件 (MAGMA - MAGnet MAnifest) tr（Tracker 地址）- BT下载的Tracker URL 快车链接地址 flashget:// 1234flashget://[FLASHGET]&lt;明文URL&gt;[FLASHGET]==&gt; [FLASHGET]http://laiweijun.com/file.txt[FLASHGET]==&gt; Base64编码 ==&gt; JTVCRkxBU0hHRVQlNURodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0JTVCRkxBU0hHRVQlNUQ=&amp;anycodeflashget://JTVCRkxBU0hHRVQlNURodHRwJTNBLy9sYWl3ZWlqdW4uY29tL2ZpbGUudHh0JTVCRkxBU0hHRVQlNUQ=&amp;anycode 旋风链接地址 qqdl:// 12qqdl://&lt;已编码URL&gt;qqdl://aHR0cCUzQS8vbGFpd2VpanVuLmNvbS9maWxlLnR4dA== 电驴链接地址 ed2k:// 12ed2k://|file|&lt;文件名称&gt;|&lt;文件大小&gt;|&lt;文件哈希值&gt;|/ed2k://|file|cn_windows_10_multi-edition_vl_version_1709_updated_dec_2017_x64_dvd_100406208.iso|5007116288|317BDC520FA2DD6005CBA8293EA06DF6|/ 0x022 编码Base64 Base32 Base16 Base85 Base16 Base64详细可查看Base64编码这篇文章 Base32详细可查看Base32编码这篇文章]]></content>
       <categories>
         <category>WebApp</category>
       </categories>
@@ -64,7 +64,7 @@
   <entry>
     <title><![CDATA[🔒空间布局]]></title>
     <url>%2F2018%2F03%2F06%2F%E7%A9%BA%E9%97%B4%E5%B8%83%E5%B1%80%2F</url>
-    <content type="text"><![CDATA[请输入密码 U2FsdGVkX19qyyX7O35RyDDLX4xbkNBSIKuTF6o3iFXbSRQymeCA4WkDn7GUjtU47TjOm7gB+NBhs1F9LZiz/Gml4x8x9Y/LYzIh715o+ZWN0wt26hCJLDVOe3oN2nh4TEl9MeJmSrZLzxLSxx7MoFKNoz4oC7cvIDZc2f5bbknFBFSICcwfZtlDer8V/JV3LueUuB2CPvmiGebCu/Vrd5aGl6mv0ka29Vnyfflb2NJckzRK3FLrMaqPio2cihPoMrIw/gncnCyOSeFo2hxMklFQNXOxRiEU+MNQoSox+DOp+0ogRrY4fG/PYMNCOn0+j6luRf78BGao79FTv+UObwbJEIr9HorIskH5bWO9/RdqvoxwJJ4/2y4u9gDQtpGtot0fTUvnytPwi1u6harFcpQRc/WCqj68456zh6sHt0Pr4DIeunKVrLHMti6Wo9iYJ4lqaWc4uxVhiDluGjtXqiUcSh4EIK00XIE3q+wiOJtVF85JHATOCa6KnPr+0JJIbN3m2EOgorAimA75Gu70YkuLk1NOC1K3Lh1S2eRMkMIrE3iW852Z9qcEqBL5iSzOvTToR0DfNun65Et6RLyGi3lmw/nqrPJRb+Mc7TqFJKPHe0ISoGeLu315TADMbFIpUhSEDtz/0wnwIQHpVoAPMAwOyWcN0ue8Hbmk0+NEv8x5nZnSaChz8jh/3icsdr5MCr+0BzuBeYr4XwmrpqKPEU8go9bqXvutO8Ptvr5fvVGdrUjj8JRVmYYA4EEAfGeewaqLWN6TdjcDO+qrf8yJjBGmCkrlBRPI6oGCBj4eBQ/FgEXAgQcXWZRuhRHmFQrGFcWNX71bhZHmYffmsKezSznCXgIhFyba8kiqtdZuM0goa7+es5LyXQZxyIMrdBXRdGH00Ez5hWKQTlCOR3xzi9T/6CbkmkOezgFHYXfOLmeHWuupoPUVav0ztQEDUr0K5AD2rW0xm/81b998uCai7aBb86FSlfYqYIM9c4whvcQyLjZJYv1T4ZXHgYrsGPRONcn/VT6YHXflcYzdKmE8C648coIHOLCO2crhMlpQ9xaTP847nOISmZrgeIBpd3QGwr/a7ZXQPCMOnpcFpr+esXEtN8NEJJK+hFQLBjuTHritS5K4ARgizU37ANwb8QUpK4TXaKP6jbRc9e6I0Ve6h29CrJybiuiqQA0xONnBZrhefUvzfcwwUkSls3bbtmUMUP+ewGdD8ZafLReiuwdIH6kYwvvlcjTT+jcOIX/4VQ0fkQ2XTKCJp/hZhk0BMdy10EZKcBQl3uITThkcdckpwoi7dRtDxzDprbc5HUR79s7WhhhwbW/YjmhQkCw2zNghcSeWtcbxgbswqWTAldhK537mEs32CzsfjNSE+aGtauS2h2p/CFBDSVdJjRn+ayLfWsiXabua22LAmX5LMaK2zAmp3znjTRLtHaDzdFNQZyt8KaaNmTh4V0XGTImWBFrSiAmFK8T0tSUjjVPwfjfjh16hbLZL46OEjwvIdjPTxAVESaOKrBNWst0ChPQVRAw0qcCNtK8I/amb9u0jlJuPdQwsO2zs5Bz2yciAWoxsHbTpm3gxEKukr3xBz5ejRdeFUu8YGKShOGOgqEyWvMSazQ82BANNYhP+qacU2wkUAR4IgT7XVcEyHZBcBlPBg9w4GtTNFn5bhYvac+ic5aXczLzyZ81OZ4SrbXsKQUqt+0MpVox7vZ2eEz7XRoLGi6Djz2CxQb4XzQOeVqrjsqo9fukxNudfRMbxRQt3U1JdJ3w=]]></content>
+    <content type="text"><![CDATA[请输入密码 U2FsdGVkX1+uHSjmn9islIiLLYf/NkOx4/sjreHKNRVHnF6a86TwGJQhYPz1XnTyyfnkC399YnoO/y3n/NILiwac90pU+INvT4ay65MFjRz5xsKSP0Ms5OxnGN4DJjMuSvRzqWJC0RijQLDSZoLyzC4Fl3TO/aJENf6iS73o99xIS0rA++p68hMOT5ewNJ9APFhbLT76GsdAE0sn/5gTmduR2nbXkald+totZH+HXILbu4fJufMfo5N5ylDvywZwBdugJYZQGV3be2AenmFDjKt0B5wFlLZn/XzGtI8IT6FQEmBvztMc/brjMTmBTz0hB3zO58cllHPtgynaxdYnagYtF8yeUZnJKfLDFuRgx7UOHqDGgTg1tI7brPXCNljzf+KjzK2GJoDAR81AtSqSXs3fY9ikGk5Ghv4EXJRVFraMPC24FmoMdm0bhEV2SeTdPhX/0JwLab9LAxNxwE+WRya69uDl4FU24alAeyToKsa/Qny1eCmebSC6OHTgY3ZTSgOcU4XmxH5fvsX9NR5vjcIM5bC1uRsrty1oBc/ua3mMH9Esl4fly6qaV+1mHA8OnlBPqt9H0p+S/RXVmj3s2iWvCFCHhckOneoyiaaRXMZ6ep/jBpvLyGtnuGJjcZ+689au+9pP2EVXpefhsaot/dp7yRTLObUFFXEz0XJwCnXqQn03E26NzRPSvx9Vs/mp8ME6siqmq7NNuE4aZNvEQzuSVl8leSiMs/Xv6traD0eREOzB00/xgx7QgpLTzLJO1dkwSt1M7yip99634hB3k9wk4wNDK+gpsI808JjDlltXPm++mQFSpVw4ZXMemD2l+u27SXey/DokUFK/7rqgRxOLzDsjApFUAzQ1MkDeppp8Q7zcQXmcRfF7/kExyyp6oN1Leq+2WTVOYLlIq+G9QGKTHlLXoMs1/wKN2PSIIpoHeHeFrwF4ifnm2EmxrbaEsGGRuMAF7WAePOlKIE51WsB/J6PhvcG70ywTm1Dwz/SMWbtVBJB9UjkphB3V71yXwQXyFDdJf7BjAAE808/AlgJ38CivdwMh9TK2L/L14XcOuobB921TTMg/eqhVhcKpgqiw7/zvmagwyOAksHrQRB1wJFnxKhRC9iD747bBJaW1ZHvWB3Te0yMvx2y+/QcSPF2XAJo8zfH5fMI+oXqEoPbrklvVHQbBLUGPicD1l9b0jOy7teLM7GpQrLKSJRhYiIfOOG+teQe59w8mThczlKKtNdppJ0cIddbrTDHhtvhAzEGP3dFkR8Zp83yJHDob6H8EFjFFWyeMObW20QBBufxwuG8TSQfOFJYcaXVpPrdGWj6NIQF+yOaEJGlK5P5CxgsW1hyXoM+AFNCGzvZ3eMkUhfqPNYIXvqD7l8GkMGKRPqYMEDIv0qlmQ01pKfuWnZvZr8d+tbWwc318akFM7fN0Ljvp6gtmDpqZyJ0ak73zBfQZBKAP9ZiZaI/0hf3gmOIloCpgBqgaSPfKGUFltjHSr6VPdprsJjo6xhZKFLeWaWrLP+Y2TONZYSBIbzugYPfPQ3/N8x00+tkLOzh5bwJnFG8U5T3IYbnlIE5dccQZ8pPDrNKPustkQdEcd3sSH3q1iLtz5VffSm9pT7z49Idl7QaXciWxgph29QZknSK6m4hbxVCW9SLlloGo7W4NkWlbBXNuTzXHWVzdj3/1ErWYIA7eobyiLBA/iOOwhbyRSyAbM4LXV/SpNx775na5CTiFFTMAnc64WP/MPzA5r23rG9qjG0zfJ5KDuMAA2ns=]]></content>
       <categories>
         <category>布局</category>
       </categories>
@@ -88,13 +88,13 @@
   <entry>
     <title><![CDATA[🔒今天天气真好！]]></title>
     <url>%2F2018%2F03%2F02%2F%E3%80%90%E5%8A%A0%E5%AF%86%E3%80%91%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E7%9C%9F%E5%A5%BD%EF%BC%81%2F</url>
-    <content type="text"><![CDATA[请输入密码 U2FsdGVkX19uGgPSNN8ZV/6t0HeQlZgynfb9pD2b0Pzws8XXDEM9CEuWL/53VLQ8dIvIQkxnwhvUQY9uh2ycyQChS8t5VQaSrdloS5klq0ozJZZw/lPT7vAIy2NSVEG8X6jp7b0I3jbwzxMJUjtb1MRNGXa93Jze6bYE0b+Dz83TCQABecBXGgqbFlF+m6K2IFmY+n/9q6R5J+8bRFfPmBt/Z7sYR1JC5IRb+qK35jVYv7tO+QOBZQJbRg884S16QF1SQ1Wl27rQwygKKWykZc6IwcKjA7N0FFsMcQPOKQwoBzrVTrox2AiwyEOj4L7K7fZ5h3PluwL+ItfpUu6pOf3EVxV5WSWzcV5EcU9MusxZ8IjJGfUJox3/lB19mwhBaD8Qj+rrR05uT/ITxqRmu6nmJW2oGlIPoNCI37OOlEWtFdxXzpz96V1dT+s4krpBABjA3bgHEhEwx5ncCEQUZV6alZeK11roUX/XFaETZjzAlkER8Cir0E0eAJ7sQymdHuM0pRIqAdiqUeOMDVZ4cUJxGt1ByWZyrTz0dc3GvqYFVphsTO2z+Oe7g+X64OPv4UCs22X7GCH2Wna+hoJd5X5lz9hDh2/v86UVXrOTBbKPr9rZR5953+kBqbiD0iIaJ8DGNKNjgbxGSj1awl4IkkEVmYWxvv2auq1ayceBwoDkolkFTESIUb914hcvhCvD]]></content>
+    <content type="text"><![CDATA[请输入密码 U2FsdGVkX1+w+EjymmLLMLlGXaCu0Zlw4rew/n2P2E4ecWReICa//FUWUMO6E8KRonAaqJzUynGEM2wsKZzLpa4SOn4+Vk1a2gIL9KnlopcbWMKyD/8KD+VTHBusq3p5M3geSDa7YB71w6ZfeJtEZ6GL/lbPRcsy4KHbAojNCJu8B12+jibVJ99LpAFBzt59ujf6IE1e/KVquUL4tVRfaqVYuvJ9KlZMD839wd3Q+WYszqvyEP6lA/Uj6cbLib0DakQZMNt7pGhVl7vmrodmf2gEi8YhZSnLFocNNFBNqmZE1N2HoVCclDo6EWZ54IIoQXgXnIRttRden5G6qY5vPFjOhE8iFuhtSWt75FHlYZgeSizcQCPEbVENc8h3+wVN4dGjfxgQ4/mDBpyX+8AHuW44NEvWUG8/gxoTGotM/r/Drusp9P00dCtLtPQJVeeyaMQH4k5teMvSCHekQL5yw6FTVfueq8KIj9Q3vp8VjrTsbjkYzBG2mWNvfcd2/SDvjG08TqJc27SGXtGG513LdxZZeZkOH+/5kbYXDAEsj77fTNLGYYaAwFZXC436o3ZVhN/HL2hfAUCva5oT5sVFl8YB9fpAiwYv7q8/3JzhwyTQotoBw322LGNWL9K/cGCiu3+VickXy1mqSabUibdLQ+7zKGqlIIxvvpsBz3Z8tz2r9qCS1x28CVvtS+S53oxg]]></content>
       <categories>
         <category>Hexo练习</category>
       </categories>
       <tags>
-        <tag>故事</tag>
         <tag>加密</tag>
+        <tag>故事</tag>
       </tags>
   </entry>
   <entry>
@@ -118,9 +118,9 @@
         <category>Hexo练习</category>
       </categories>
       <tags>
-        <tag>故事</tag>
         <tag>历史</tag>
         <tag>旧闻</tag>
+        <tag>故事</tag>
       </tags>
   </entry>
 </search>
