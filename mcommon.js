@@ -37,10 +37,16 @@ function decryptAES() {
 function showOK() {
   var labelmsg = document.getElementById("labelmsg");
   var labelpass = document.getElementById("pass");
+
+
+  $('#header,#comments,#footer,.post-meta,.post-footer').removeClass('opacity0InOut');
+  $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity1InOut');
+
   labelmsg.style.color = "green";
   labelmsg.style.textAlign="center";
+  labelmsg.style.margin="auto";
   labelmsg.innerHTML = '<img src="/images/balloon.svg" style="border:0px;padding:0px;height:24px;width:24px ;display:inline-block;" />';
-  labelmsg.innerHTML += "密码正确! 正在解密档案..<br/>";
+  labelmsg.innerHTML += "密码正确! 正在解密档案<br/>";
   labelmsg.innerHTML += '<img src="/images/loading.svg" style="border:0px;padding:0px;height:64px;width:64px ;display:inline-block;" />';
 
   labelpass.value = "*****************";
