@@ -57,7 +57,7 @@ $(document).ready(function() {
     tips = $('#tips').val();
     passTips = path_root+path_password+tips;
     passTips = unescape(passTips);
-    passTips = passTips.replace(" ",""); 
+    passTips = passTips.replace(" ","");
     passTips = passTips.replace(/ /g,"");
 
     console.log("--passTips:"+passTips);
@@ -75,6 +75,10 @@ $(document).ready(function() {
   try{
     var encodes = localurl.split('?')[1];
     encodes = encodes.replace(/&/g, "%20");
+    encodes = unescape(encodes);
+    encodes = encodes.replace(" ",""); 
+    encodes = encodes.replace(/ /g,"");
+
     encodes = decodeByBase64(encodes);
     var passDecodeBase64 = "";
     var passEBase64 = "";
