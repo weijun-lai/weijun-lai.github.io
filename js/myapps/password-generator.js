@@ -53,10 +53,12 @@ $(document).ready(function() {
   }
 
   if ($('#tips').length==1) {
-    // tips = unescape($('#tips').val());
+    tips = unescape($('#tips').val());
     tips = $('#tips').val();
     passTips = path_root+path_password+tips;
-    passTips = passTips.replace(/\s/g,"%20");
+    passTips = unescape(passTips);
+    passTips = passTips.replace(" ",""); 
+    passTips = passTips.replace(/ /g,"");
 
     console.log("--passTips:"+passTips);
     // generatQR('#qrcode','image',passTips);
