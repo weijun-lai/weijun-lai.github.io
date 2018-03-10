@@ -52,12 +52,16 @@ $(document).ready(function() {
     return;
   }
 
-  passTips = path_root+path_password+$('#tips').val();
-  console.log("--passTips:"+passTips);
-  // generatQR('#qrcode','image',passTips);
-  loadJS("/js/src/jquery-qrcode-0.14.0/jquery-qrcode-0.14.0.min.js",function(){
-    generatQR('#qrcode','image',passTips);
-  });
+  if ($('#tips').length==1) {
+    tips = unescape($('#tips').val());
+    passTips = path_root+path_password+tips;
+
+    console.log("--passTips:"+passTips);
+    // generatQR('#qrcode','image',passTips);
+    loadJS("/js/src/jquery-qrcode-0.14.0/jquery-qrcode-0.14.0.min.js",function(){
+      generatQR('#qrcode','image',passTips);
+    });
+  }
 
   $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');
 
@@ -66,14 +70,19 @@ $(document).ready(function() {
 
   try{
     var encodes = localurl.split('?')[1];
-    var codes = decodeByBase64(encodes);
-    console.log(codes);
+    encodes = decodeByBase64(encodes);
+    var passDecodeBase64 = "";
+    var passEBase64 = "";
+    codes = encodes;
+    console.log("encodes:"+encodes);
     // split code and pass-salt from codes
     // ?[base64-passowrd]?[base64-salt]
-    code = codes.split('?')[1];
-    passEBase64 = codes.split('?')[2];
+    var code = encodes.split('?')[0];
+    console.log("split code:"+code);
+    var passEBase64 = encodes.split('?')[1];
+    console.log("split passEBase64:"+passEBase64);
   }catch(e){
-
+    console.log("errors:"+e);
   }
   if (!code || code.length<1 ) {
     code = "空密码";
