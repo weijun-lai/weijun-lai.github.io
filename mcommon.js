@@ -1,3 +1,23 @@
+var path_root = "http://laiweijun.com";
+var path_password = "/password/?";
+var passTips = path_root+path_password;
+//JTNGVTJGc2RHVmtYMS9VcXZYSk53amxDaVNyVy9mdG9uakgyd3prOXdrczlMTSUzRCUzRk1USXpORFUlM0Q=
+function generatQR(qrid,type,message) {
+  $(qrid).qrcode({
+    render: type,
+    size: 300,
+    // background: "#fff",//背景颜色
+    // fill: "#00BCD4", //前景颜色
+    text: message,
+    mode: 2,
+    label: '获得密码',
+    fontname: 'sans',
+    fontcolor: '#000'
+    // image: null
+  });
+}
+
+
 function decryptAES() {
     var pass = String(document.getElementById("pass").value);
     var labelmsg = document.getElementById("labelmsg");
@@ -64,7 +84,7 @@ function showErrors() {
                         "❌ 密码是你个头👋",
                         "❌ 你这是在乱输入么😊",
                         "❌ 你用的是什么输入法😝",
-                        "💢 密码提示："+tips,
+                        "💢 密码提示：点击赏，有钱能使码推磨",
                         "㊙️ 今天天气真好，密码就在天上，你却看不到😂",
                         "🎵 刚才发生了一件搞笑事情，原来你不知道密码，哈哈哈😄",
                         "☎️ 请联系我要密码吧 ☎️"
@@ -95,12 +115,17 @@ function decodeBase64(content) {
     return content;
 }
 
+$('#qrcode').ready(function(){
+  passTips = path_root+path_password+$('#tips').val();
+  console.log("passTips:"+passTips);
+  // generatQR('#qrcode','image',passTips);
+});
 
 // add enter to decrypt
 addLoadEvent(function() {
     // console.log('register');
     document.getElementById("pass").onkeypress = function(keyPressEvent) {
-        // console.log(keyPressEvent.keyCode === 13);
+        console.log(keyPressEvent.keyCode === 13);
         if (keyPressEvent.keyCode === 13) {
             decryptAES();
         }

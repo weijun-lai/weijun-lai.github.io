@@ -2054,7 +2054,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffc11d;
+  background: #fa54ee;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3163,6 +3163,13 @@ hr {
   -moz-transition: opacity 3.5s ease-in-out;
   transition: opacity 3.5s ease-in-out;
   pointer-events: auto;
+}
+#qrcode img {
+  padding-bottom: 32px;
+  width: 170px;
+  max-width: 100%;
+  display: inline-block;
+  margin: 0.8em 2em 0 2em;
 }
 .webapp {
   border: 2px dashed rgba(39,75,127,0.271);
