@@ -1,11 +1,33 @@
 var code = "";
 var passEBase64 ="";
 var decode="";
+var path = "http://laiweijun.com";
+var path_password = "/password/?";
+var localurl = window.location.href;
+
+//JTNGVTJGc2RHVmtYMS9VcXZYSk53amxDaVNyVy9mdG9uakgyd3prOXdrczlMTSUzRCUzRk1USXpORFUlM0Q=
+function generatQR(id,type,message) {
+  $(id).qrcode({
+    render: type,
+    width: 180,
+    height: 180,
+    background: "#ffffff",//背景颜色
+    foreground: "#000000", //前景颜色
+    text: message,
+    radius: 4,
+    label: 'laiweijun.com',
+  });
+}
+
+generatQR('#qrcode','div',localurl);
+
+
 $(document).ready(function() {
   $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');
-  var localurl = window.location.href;
+
   // encode both ?[base64-passowrd]?[base64-salt] by base64
   // decode both from base64
+
   try{
     var encodes = localurl.split('?')[1];
     var codes = decodeBase64(encodes);
