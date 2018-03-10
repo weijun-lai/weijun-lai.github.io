@@ -1,6 +1,7 @@
 var code = "";
 var passEBase64 ="";
 var decode="";
+var encodes ="";
 var localurl = (window.location.href).replace(/\s/g,"%20");;
 var path_root = "http://laiweijun.com";
 var path_password = "/password/?";
@@ -73,10 +74,15 @@ $(document).ready(function() {
   // decode both from base64
 
   try{
-    var encodes = localurl.split('?')[1];
+    localurl = localurl.replace(/&/g, "%20");
+    localurl = unescape(localurl);
+    localurl = localurl.replace(" ","");
+    localurl = localurl.replace(/ /g,"");
+
+    encodes = localurl.split('?')[1];
     encodes = encodes.replace(/&/g, "%20");
     encodes = unescape(encodes);
-    encodes = encodes.replace(" ",""); 
+    encodes = encodes.replace(" ","");
     encodes = encodes.replace(/ /g,"");
 
     encodes = decodeByBase64(encodes);
