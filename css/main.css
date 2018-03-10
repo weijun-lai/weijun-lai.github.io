@@ -2054,7 +2054,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #41fbf7;
+  background: #dd73ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3163,4 +3163,41 @@ hr {
   -moz-transition: opacity 3.5s ease-in-out;
   transition: opacity 3.5s ease-in-out;
   pointer-events: auto;
+}
+.webapp {
+  border: 2px dashed rgba(39,75,127,0.271);
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 80px;
+  background: #dbeaff;
+}
+.webapp .form-control {
+  border: 1px solid #274b7f;
+  border-radius: 4px;
+  padding: 2%;
+  width: 95%;
+}
+.webapp .small {
+  border: 1px solid #274b7f;
+  border-radius: 4px;
+  padding: 0px 5px;
+  margin: 7px 10px;
+  width: 25%;
+  display: inline;
+}
+.webapp .copyright-info {
+  width: 100%;
+  text-align: right;
+  font-size: 0.3em;
+}
+.center {
+  margin: auto;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: -webkit-xxx-large;
+}
+::selection {
+  background: #6090d8;
+  color: #fff;
 }

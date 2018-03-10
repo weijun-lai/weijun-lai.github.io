@@ -1532,29 +1532,3 @@ input[type="button"].btn-block {
 .affix {
   position: fixed;
 }
-
-#webapp {
-  border: 2px dashed #274b7f45;
-	border-radius: 4px;
-	padding: 20px;
-  margin-bottom: 80px;
-  background: #dbeaff;
-}
-
-#webapp .form-control{
-  border: 1px solid #274b7f;
-	border-radius: 4px;
-	padding: 2%;
-  width:95%;
-}
-
-::selection {
-  background: #6090d8;
-  color: #fff;
-}
-
-#webapp .copyright-info{
-  width: 100%;
-  text-align: right;
-  font-size: 0.3em;
-}
