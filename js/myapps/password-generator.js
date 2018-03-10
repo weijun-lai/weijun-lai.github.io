@@ -70,6 +70,7 @@ $(document).ready(function() {
 
   try{
     var encodes = localurl.split('?')[1];
+    encodes = encodes.replace(/&/g, "%20");
     encodes = decodeByBase64(encodes);
     var passDecodeBase64 = "";
     var passEBase64 = "";
