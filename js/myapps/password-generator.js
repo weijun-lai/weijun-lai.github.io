@@ -1,7 +1,7 @@
 var code = "";
 var passEBase64 ="";
 var decode="";
-var localurl = window.location.href;
+var localurl = (window.location.href).replace(/\s/g,"%20");;
 var path_root = "http://laiweijun.com";
 var path_password = "/password/?";
 var passTips = path_root+path_password;
@@ -55,6 +55,7 @@ $(document).ready(function() {
   if ($('#tips').length==1) {
     tips = unescape($('#tips').val());
     passTips = path_root+path_password+tips;
+    passTips = passTips.replace(/\s/g,"%20");
 
     console.log("--passTips:"+passTips);
     // generatQR('#qrcode','image',passTips);
