@@ -2054,7 +2054,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #099c39;
+  background: #165df5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3177,15 +3177,16 @@ hr {
   font-size: xx-small;
   color: #a9a9a9;
   border: 1px solid #c2cfcf;
+  border-radius: 4px;
   padding: 5px;
-  max-height: 180px;
+  max-height: 140px;
   overflow: auto;
 }
 .webapp {
   border: 2px dashed rgba(39,75,127,0.271);
   border-radius: 4px;
   padding: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   background: #dbeaff;
 }
 .webapp .form-control {
@@ -3195,12 +3196,34 @@ hr {
   width: 95%;
 }
 .webapp .small {
-  border: 1px solid #274b7f;
+  border: 1px solid #2e6da4;
   border-radius: 4px;
   padding: 0px 5px;
   margin: 7px 10px;
   width: 25%;
   display: inline;
+}
+.webapp .normal {
+  border: 0px solid #2e6da4;
+  border-radius: 4px;
+  padding: 0px 5px;
+  width: 50%;
+  margin: 10px 0px;
+  display: inline-flex;
+}
+.webapp .input-group {
+  display: inline-flex;
+  background: #214463;
+  color: #fff;
+}
+.webapp .input-group-addon {
+  padding-top: 3px;
+}
+.webapp .space {
+  margin: 6px 6px;
+}
+.webapp .big {
+  width: 100%;
 }
 .webapp .copyright-info {
   width: 100%;
@@ -3217,4 +3240,7 @@ hr {
 ::selection {
   background: #6090d8;
   color: #fff;
+}
+.noborder {
+  border: 0px;
 }

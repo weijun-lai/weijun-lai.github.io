@@ -4,12 +4,13 @@ var decode="";
 var encodes ="";
 var passDecodeBase64 = "";
 var passEBase64 = "";
+var qrLabel = "获得密码";
 var localurl = (window.location.href).replace(/\s/g,"%20");;
 var path_root = "http://laiweijun.com";
 var path_password = "/password/?";
 var passTips = path_root+path_password;
 //JTNGVTJGc2RHVmtYMS9VcXZYSk53amxDaVNyVy9mdG9uakgyd3prOXdrczlMTSUzRCUzRk1USXpORFUlM0Q=
-function generatQR(qrid,type,message) {
+function generatQR(qrid,type,message,label) {
   $(qrid).qrcode({
     render: type,
     size: 300,
@@ -18,13 +19,13 @@ function generatQR(qrid,type,message) {
     text: message,
     ecLevel: 'M',
     mode: 2,
-    label: '获得密码',
+    label: label,
     fontname: 'sans',
     fontcolor: '#000'
     // image: null
   });
 }
-// generatQR('#qrcode','image',passTips);
+// generatQR('#qrcode','image',passTips,qrLabel);
 
 // function loadJS(url){
 //   var Script = document.createElement('script');
@@ -79,7 +80,7 @@ $(document).ready(function() {
     console.log("--passTips:"+passTips);
     // generatQR('#qrcode','image',passTips);
     loadJS("/js/src/jquery-qrcode-0.14.0/jquery-qrcode-0.14.0.min.js",function(){
-      generatQR('#qrcode','image',passTips);
+      generatQR('#qrcode','image',passTips,qrLabel);
     });
   }
 
@@ -118,7 +119,8 @@ $(document).ready(function() {
   }
   if (!passEBase64 || passEBase64.length<1) {
     passEBase64 = "";
-    passDecodeBase64 = "请输入盐";
+    passDecodeBase64 = "";
+    decode = "请输入盐";
   } else {
     passDecodeBase64 = decodeByBase64(passEBase64);
     decode = decryptByAES(code,passEBase64);
@@ -137,6 +139,41 @@ $(document).ready(function() {
   $('#resultText').val('加密密文：'+code+'\n加密钥匙：'+passEBase64+'\n解密钥匙：'+passDecodeBase64+'\n原文：'+decode);
   $('#result').html(decode);
 });
+
+function generatorEncodedPassword(password,tips){
+
+  console.log("--tips:"+tips);
+  tips = encodeByBase64(tips);
+  console.log("--tips Base64:"+tips);
+  console.log("--password:"+password);
+  password = encryptByAES(password,tips);
+  console.log("--password Base64 AES:"+password);
+  console.log("--addslatCheckbox:"+$('#addslatCheckbox').prop("checked"));
+
+  if (tips.length>1 && $('#addslatCheckbox').prop("checked")){
+    password = password + '?' + tips;
+  }
+  password = encodeByBase64(password);
+
+  console.log("--password tips Base64:"+password);
+  return password;
+}
+
+function onClickedEncode() {
+  // generatorText slatGenText
+  var pass = String($('#generatorText').val()).replace(/ /g,"");
+  var slat = String($('#slatGenText').val()).replace(/ /g,"");
+  var generatorResult = generatorEncodedPassword(pass,slat);//unescape($('#generatorResult').val());
+  generatorResult = path_root+path_password+generatorResult;
+  // generatorResult = unescape(generatorResult);
+  // generatorResult = generatorResult.replace(" ","");
+  // generatorResult = generatorResult.replace(/ /g,"");
+  console.log("--generatorResult:"+generatorResult);
+  $('#generatorResult').html(generatorResult);
+  loadJS("/js/src/jquery-qrcode-0.14.0/jquery-qrcode-0.14.0.min.js",function(){
+    generatQR('#qrcode','image',generatorResult,qrLabel);
+  });
+}
 
 function onClickedDecode() {
   // $('#resultText').val(window.location.href);
