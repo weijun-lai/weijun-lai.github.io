@@ -168,6 +168,8 @@ function onClickedEncode() {
   // generatorResult = unescape(generatorResult);
   // generatorResult = generatorResult.replace(" ","");
   // generatorResult = generatorResult.replace(/ /g,"");
+  // labelGenText
+  qrLabel = String($('#labelGenText').val());
   console.log("--generatorResult:"+generatorResult);
   $('#generatorResult').html(generatorResult);
   loadJS("/js/src/jquery-qrcode-0.14.0/jquery-qrcode-0.14.0.min.js",function(){
