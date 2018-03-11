@@ -187,7 +187,9 @@ function onClickedDecode() {
   passEBase64 = encodeByBase64(passDecodeBase64);
   decode = decryptByAES(code,passEBase64);
   if (decode!="" && decode!="密码错误") {
-    $('#webapp').addClass('opacity0InOut');
+    setTimeout(function(){
+      $('#webapp').addClass('opacity0InOut');
+    },10000);
   }
   $('#resultText').val('加密密文：'+code+'\n加密钥匙：'+passEBase64+'\n解密钥匙：'+passDecodeBase64+'\n原文：'+decode);
   $('#result').html(decode);
