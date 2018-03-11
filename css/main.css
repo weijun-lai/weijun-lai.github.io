@@ -2054,7 +2054,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5bf6f1;
+  background: #ff17d6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3152,9 +3152,9 @@ hr {
 }
 .opacity0InOut {
   opacity: 0;
-  -webkit-transition: opacity 3.5s ease-in-out;
-  -moz-transition: opacity 3.5s ease-in-out;
-  transition: opacity 3.5s ease-in-out;
+  -webkit-transition: opacity 5s ease-in-out;
+  -moz-transition: opacity 5s ease-in-out;
+  transition: opacity 5s ease-in-out;
   pointer-events: none;
 }
 .opacity1InOut {

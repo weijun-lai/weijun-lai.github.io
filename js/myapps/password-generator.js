@@ -125,9 +125,9 @@ $(document).ready(function() {
     passDecodeBase64 = decodeByBase64(passEBase64);
     decode = decryptByAES(code,passEBase64);
 
-    // if (decode!="" && decode!="密码错误") {
-    //   $('#webapp').addClass('opacity0InOut');
-    // }
+    if (decode!="" && decode!="密码错误") {
+      $('#webapp').addClass('opacity0InOut');
+    }
     // $('#result').removeClass('opacity0InOut');
     // $('#result').addClass('opacity1InOut');
   }
