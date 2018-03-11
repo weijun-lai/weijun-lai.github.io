@@ -16,6 +16,7 @@ function generatQR(qrid,type,message) {
     background: "#fff",//背景颜色
     fill: "#000A3D", //前景颜色
     text: message,
+    ecLevel: 'M',
     mode: 2,
     label: '获得密码',
     fontname: 'sans',
@@ -120,7 +121,7 @@ $(document).ready(function() {
   $('#result').removeClass('opacity0InOut');
   $('#result').addClass('opacity1InOut');
 
-  // $('#slatText').val(passDecodeBase64);
+  $('#slatText').val(passDecodeBase64);
   $('#resultText').val('加密密文：'+code+'\n加密钥匙：'+passEBase64+'\n解密钥匙：'+passDecodeBase64+'\n原文：'+decode);
   $('#result').html(decode);
 });
