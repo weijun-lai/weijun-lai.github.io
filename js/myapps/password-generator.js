@@ -63,6 +63,7 @@ $(document).ready(function() {
   // labelpassmsg = document.getElementById("labelpassmsg");
   $('#webapp').removeClass('opacity0InOut');
   $('#webapp').addClass('opacity1InOut');
+
   if ($('#slatText').length==1){
     labelpassmsg.style.display = "none";
   }
@@ -127,9 +128,11 @@ $(document).ready(function() {
     passDecodeBase64 = decodeByBase64(passEBase64);
     decode = decryptByAES(code,passEBase64);
 
-    // if (decode!="" && decode!="密码错误") {
-    //   $('#webapp').addClass('opacity0InOut');
-    // }
+    if (decode!="" && decode!="密码错误") {
+      setTimeout(function(){
+        $('#webapp').addClass('opacity0InOut');
+      },5000);
+    }
     // $('#result').removeClass('opacity0InOut');
     // $('#result').addClass('opacity1InOut');
   }
@@ -189,9 +192,9 @@ function onClickedDecode() {
   passEBase64 = encodeByBase64(passDecodeBase64);
   decode = decryptByAES(code,passEBase64);
   if (decode!="" && decode!="密码错误") {
-    setTimeout(function(){
+    //setTimeout(function(){
       $('#webapp').addClass('opacity0InOut');
-    },5000);
+    //},5000);
   }
   $('#resultText').val('加密密文：'+code+'\n加密钥匙：'+passEBase64+'\n解密钥匙：'+passDecodeBase64+'\n原文：'+decode);
   $('#result').html(decode);
