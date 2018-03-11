@@ -109,11 +109,11 @@ $(document).ready(function() {
     passDecodeBase64 = decodeByBase64(passEBase64);
     decode = decryptByAES(code,passDecodeBase64);
 
-    if (decode!="" && decode!="密码错误") {
-      $('#webapp').addClass('opacity0InOut');
-    }
-    $('#result').removeClass('opacity0InOut');
-    $('#result').addClass('opacity1InOut');
+    // if (decode!="" && decode!="密码错误") {
+    //   $('#webapp').addClass('opacity0InOut');
+    // }
+    // $('#result').removeClass('opacity0InOut');
+    // $('#result').addClass('opacity1InOut');
   }
 
   // $('#slatText').val(passDecodeBase64);
