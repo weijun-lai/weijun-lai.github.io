@@ -6,8 +6,8 @@ function generatQR(qrid,type,message) {
   $(qrid).qrcode({
     render: type,
     size: 300,
-    // background: "#fff",//背景颜色
-    // fill: "#00BCD4", //前景颜色
+    background: "#fff",//背景颜色
+    fill: "#00BCD4", //前景颜色
     text: message,
     mode: 2,
     label: '获得密码',
