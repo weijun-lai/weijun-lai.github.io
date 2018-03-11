@@ -2,6 +2,8 @@ var code = "";
 var passEBase64 ="";
 var decode="";
 var encodes ="";
+var passDecodeBase64 = "";
+var passEBase64 = "";
 var localurl = (window.location.href).replace(/\s/g,"%20");;
 var path_root = "http://laiweijun.com";
 var path_password = "/password/?";
@@ -86,15 +88,14 @@ $(document).ready(function() {
     // encodes = encodes.replace(/ /g,"");
 
     encodes = decodeByBase64(encodes);
-    var passDecodeBase64 = "";
-    var passEBase64 = "";
+
     codes = encodes;
     console.log("encodes:"+encodes);
     // split code and pass-salt from codes
     // ?[base64-passowrd]?[base64-salt]
-    var code = encodes.split('?')[0];
+    code = encodes.split('?')[0];
     console.log("split code:"+code);
-    var passEBase64 = encodes.split('?')[1];
+    passEBase64 = encodes.split('?')[1];
     console.log("split passEBase64:"+passEBase64);
   }catch(e){
     console.log("errors:"+e);
@@ -127,6 +128,9 @@ $(document).ready(function() {
 function onClickedDecode() {
   // $('#resultText').val(window.location.href);
   var passDecodeBase64 = $('#slatText').val();
+  passDecodeBase64 = unescape(passDecodeBase64);
+  passDecodeBase64 = passDecodeBase64.replace(" ","");
+  passDecodeBase64 = passDecodeBase64.replace(/ /g,"");
   passEBase64 = encodeByBase64(passDecodeBase64);
   decode = decryptByAES(code,passDecodeBase64);
   if (decode!="" && decode!="密码错误") {
