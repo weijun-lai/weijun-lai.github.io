@@ -2054,7 +2054,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff17d6;
+  background: #c742be;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3170,6 +3170,7 @@ hr {
   max-width: 100%;
   display: inline-block;
   margin: 0.8em 2em 0 2em;
+  border: 0px;
 }
 .plaintext {
   display: block;
@@ -3212,7 +3213,7 @@ hr {
   display: inline-flex;
 }
 .webapp .input-group {
-  display: table-header-group;
+  display: table;
   background: #214463;
   color: #fff;
 }
