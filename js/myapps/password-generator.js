@@ -108,7 +108,7 @@ $(document).ready(function() {
     passDecodeBase64 = "请输入盐";
   } else {
     passDecodeBase64 = decodeByBase64(passEBase64);
-    decode = decryptByAES(code,passDecodeBase64);
+    decode = decryptByAES(code,passEBase64);
 
     // if (decode!="" && decode!="密码错误") {
     //   $('#webapp').addClass('opacity0InOut');
