@@ -1,22 +1,3 @@
-var path_root = "http://laiweijun.com";
-var path_password = "/password/?";
-var passTips = path_root+path_password;
-//JTNGVTJGc2RHVmtYMS9VcXZYSk53amxDaVNyVy9mdG9uakgyd3prOXdrczlMTSUzRCUzRk1USXpORFUlM0Q=
-function generatQR(qrid,type,message) {
-  $(qrid).qrcode({
-    render: type,
-    size: 300,
-    background: "#fff",//背景颜色
-    fill: "#00BCD4", //前景颜色
-    text: message,
-    mode: 2,
-    label: '获得密码',
-    fontname: 'sans',
-    fontcolor: '#000'
-    // image: null
-  });
-}
-
 
 function decryptAES() {
     var pass = String(document.getElementById("pass").value);
@@ -115,11 +96,7 @@ function decodeBase64(content) {
     return content;
 }
 
-$('#qrcode').ready(function(){
-  passTips = path_root+path_password+$('#tips').val();
-  console.log("passTips:"+passTips);
-  // generatQR('#qrcode','image',passTips);
-});
+
 
 // add enter to decrypt
 addLoadEvent(function() {

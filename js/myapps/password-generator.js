@@ -7,20 +7,20 @@ var path_root = "http://laiweijun.com";
 var path_password = "/password/?";
 var passTips = path_root+path_password;
 //JTNGVTJGc2RHVmtYMS9VcXZYSk53amxDaVNyVy9mdG9uakgyd3prOXdrczlMTSUzRCUzRk1USXpORFUlM0Q=
-// function generatQR(qrid,type,message) {
-//   $(qrid).qrcode({
-//     render: type,
-//     size: 300,
-//     // background: "#fff",//背景颜色
-//     // fill: "#00BCD4", //前景颜色
-//     text: message,
-//     mode: 2,
-//     label: '获得密码',
-//     fontname: 'sans',
-//     fontcolor: '#000'
-//     // image: null
-//   });
-// }
+function generatQR(qrid,type,message) {
+  $(qrid).qrcode({
+    render: type,
+    size: 300,
+    background: "#fff",//背景颜色
+    fill: "#00BCD4", //前景颜色
+    text: message,
+    mode: 2,
+    label: '获得密码',
+    fontname: 'sans',
+    fontcolor: '#000'
+    // image: null
+  });
+}
 // generatQR('#qrcode','image',passTips);
 
 // function loadJS(url){
