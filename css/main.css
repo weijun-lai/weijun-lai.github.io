@@ -2054,7 +2054,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b1af4d;
+  background: #17e4d9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3170,6 +3170,17 @@ hr {
   max-width: 100%;
   display: inline-block;
   margin: 0.8em 2em 0 2em;
+}
+#encrypt-txt .plaintext {
+  display: inline;
+  word-wrap: break-word;
+  font-size: xx-small;
+  color: #a9a9a9;
+  border: 1px solid #c2cfcf;
+  padding: 5px;
+}
+#encrypt-txt .hide {
+  display: none;
 }
 .webapp {
   border: 2px dashed rgba(39,75,127,0.271);
