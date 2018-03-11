@@ -26,6 +26,7 @@ function decryptAES() {
             if (document.getElementById("toc-div")) {
                 document.getElementById("toc-div").style.display     = "inline";
             }
+            $('#encrypt-blog').removeClass('plaintext');
           },5000);
         }
     } catch (e) {
@@ -42,7 +43,7 @@ function showOK() {
 
   $('#header,#comments,#footer,.post-meta,.post-footer').removeClass('opacity0InOut');
   $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity1InOut');
-  $('#encrypt-blog').removeClass('plaintext');
+
 
   labelmsg.style.color = "green";
   labelmsg.style.textAlign="center";

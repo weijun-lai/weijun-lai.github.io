@@ -33,14 +33,14 @@ function generatQR(qrid,type,message) {
 //   document.body.appendChild(Script);
 //   return Script;
 // }
-var labelmsg = document.getElementById("labelmsg");
+var labelpassmsg = document.getElementById("labelpassmsg");
 if ($('#slatText').length==1){
-  labelmsg.style.color = "green";
-  labelmsg.style.textAlign="center";
-  labelmsg.style.margin="auto";
-  labelmsg.innerHTML = '<img src="/images/balloon.svg" style="border:0px;padding:0px;height:24px;width:24px ;display:inline-block;" />';
-  labelmsg.innerHTML += "正在解密档案<br/>";
-  labelmsg.innerHTML += '<img src="/images/loading.svg" style="border:0px;padding:0px;height:64px;width:64px ;display:inline-block;" />';
+  labelpassmsg.style.color = "green";
+  labelpassmsg.style.textAlign="center";
+  labelpassmsg.style.margin="auto";
+  labelpassmsg.innerHTML = '<img src="/images/balloon.svg" style="border:0px;padding:0px;height:24px;width:24px ;display:inline-block;" />';
+  labelpassmsg.innerHTML += "正在解密档案<br/>";
+  labelpassmsg.innerHTML += '<img src="/images/loading.svg" style="border:0px;padding:0px;height:64px;width:64px ;display:inline-block;" />';
 }
 
 function loadJS(url, success) {
@@ -59,8 +59,10 @@ function loadJS(url, success) {
 }
 
 $(document).ready(function() {
-  // labelmsg = document.getElementById("labelmsg");
-  labelmsg.style.display = "none";
+  // labelpassmsg = document.getElementById("labelpassmsg");
+  if ($('#slatText').length==1){
+    labelpassmsg.style.display = "none";
+  }
   //slatText
   if ($('#slatText').length==0 && $('#tips').length==0){
     return;
