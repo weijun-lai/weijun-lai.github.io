@@ -129,9 +129,10 @@ $(document).ready(function() {
 function onClickedDecode() {
   // $('#resultText').val(window.location.href);
   var passDecodeBase64 = $('#slatText').val();
-  passDecodeBase64 = unescape(passDecodeBase64);
-  passDecodeBase64 = passDecodeBase64.replace(" ","");
-  passDecodeBase64 = passDecodeBase64.replace(/ /g,"");
+  // passDecodeBase64 = passDecodeBase64.replace(" ","");
+  // passDecodeBase64 = passDecodeBase64.replace(/ /g,"");
+  // passDecodeBase64 = escape(passDecodeBase64);
+  // password = CryptoJS.enc.Utf8.parse(password);
   passEBase64 = encodeByBase64(passDecodeBase64);
   decode = decryptByAES(code,passEBase64);
   if (decode!="" && decode!="密码错误") {
