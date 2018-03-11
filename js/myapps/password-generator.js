@@ -12,7 +12,7 @@ var passTips = path_root+path_password;
 
 var errors = new Array(
                       "❌ 盐密不蒸雀🐦",
-                      "❌ 盐密不争气",
+                      "❌ 盐密不争气😂",
                       "❌ 盐密扎心了老铁❤️",
                       "❌ 盐密是你个头👋",
                       "❌ 你这是在乱输入么😊",
@@ -20,7 +20,7 @@ var errors = new Array(
                       //"💢 密码提示：点击赏，有钱能使码推磨",
                       //"㊙️ 今天天气真好，密码就在天上，你却看不到😂",
                       //"🎵 刚才发生了一件搞笑事情，原来你不知道密码，哈哈哈😄",
-                      "☎️ 请联系我要盐密吧 ☎️"
+                      "㊙️ 请联系我要盐密吧 ☎️"
                     );
 
 //JTNGVTJGc2RHVmtYMS9VcXZYSk53amxDaVNyVy9mdG9uakgyd3prOXdrczlMTSUzRCUzRk1USXpORFUlM0Q=
