@@ -9,6 +9,20 @@ var localurl = (window.location.href).replace(/\s/g,"%20");;
 var path_root = "http://laiweijun.com";
 var path_password = "/password/?";
 var passTips = path_root+path_password;
+
+var errors = new Array(
+                      "❌ 密码不蒸雀🐦",
+                      "❌ 密码不争气",
+                      "❌ 密码扎心了老铁❤️",
+                      "❌ 密码是你个头👋",
+                      "❌ 你这是在乱输入么😊",
+                      "❌ 你用的是什么输入法😝",
+                      "💢 密码提示：点击赏，有钱能使码推磨",
+                      "㊙️ 今天天气真好，密码就在天上，你却看不到😂",
+                      "🎵 刚才发生了一件搞笑事情，原来你不知道密码，哈哈哈😄",
+                      "☎️ 请联系我要密码吧 ☎️"
+                    );
+
 //JTNGVTJGc2RHVmtYMS9VcXZYSk53amxDaVNyVy9mdG9uakgyd3prOXdrczlMTSUzRCUzRk1USXpORFUlM0Q=
 function generatQR(qrid,type,message,label) {
   $(qrid).qrcode({
@@ -133,6 +147,9 @@ $(document).ready(function() {
         $('#webapp').removeClass('opacity1InOut');
         $('#webapp').addClass('opacity0InOut');
       },10000);
+    } else {
+      var i = Math.floor(Math.random()*errors.length);
+      decode = errors[i];
     }
     // $('#result').removeClass('opacity0InOut');
     // $('#result').addClass('opacity1InOut');
@@ -197,6 +214,9 @@ function onClickedDecode() {
     $('#webapp').removeClass('opacity1InOut');
     $('#webapp').addClass('opacity0InOut');
     //},5000);
+  } else {
+    var i = Math.floor(Math.random()*errors.length);
+    decode = errors[i];
   }
   $('#resultText').val('加密密文：'+code+'\n加密钥匙：'+passEBase64+'\n解密钥匙：'+passDecodeBase64+'\n原文：'+decode);
   $('#result').html(decode);
