@@ -2054,7 +2054,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #349cff;
+  background: #099c39;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3178,6 +3178,8 @@ hr {
   color: #a9a9a9;
   border: 1px solid #c2cfcf;
   padding: 5px;
+  max-height: 180px;
+  overflow: auto;
 }
 .webapp {
   border: 2px dashed rgba(39,75,127,0.271);
