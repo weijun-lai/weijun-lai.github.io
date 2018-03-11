@@ -74,16 +74,16 @@ $(document).ready(function() {
   // decode both from base64
 
   try{
-    localurl = localurl.replace(/&/g, "%20");
-    localurl = unescape(localurl);
-    localurl = localurl.replace(" ","");
-    localurl = localurl.replace(/ /g,"");
+    // localurl = localurl.replace(/&/g, "%20");
+    // localurl = unescape(localurl);
+    // localurl = localurl.replace(" ","");
+    // localurl = localurl.replace(/ /g,"");
 
     encodes = localurl.split('?')[1];
-    encodes = encodes.replace(/&/g, "%20");
-    encodes = unescape(encodes);
-    encodes = encodes.replace(" ","");
-    encodes = encodes.replace(/ /g,"");
+    // encodes = encodes.replace(/&/g, "%20");
+    // encodes = unescape(encodes);
+    // encodes = encodes.replace(" ","");
+    // encodes = encodes.replace(/ /g,"");
 
     encodes = decodeByBase64(encodes);
     var passDecodeBase64 = "";
