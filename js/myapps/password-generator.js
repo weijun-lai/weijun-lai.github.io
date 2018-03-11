@@ -130,8 +130,9 @@ $(document).ready(function() {
 
     if (decode!="" && decode!="密码错误") {
       setTimeout(function(){
+        $('#webapp').removeClass('opacity1InOut');
         $('#webapp').addClass('opacity0InOut');
-      },5000);
+      },10000);
     }
     // $('#result').removeClass('opacity0InOut');
     // $('#result').addClass('opacity1InOut');
@@ -193,7 +194,8 @@ function onClickedDecode() {
   decode = decryptByAES(code,passEBase64);
   if (decode!="" && decode!="密码错误") {
     //setTimeout(function(){
-      $('#webapp').addClass('opacity0InOut');
+    $('#webapp').removeClass('opacity1InOut');
+    $('#webapp').addClass('opacity0InOut');
     //},5000);
   }
   $('#resultText').val('加密密文：'+code+'\n加密钥匙：'+passEBase64+'\n解密钥匙：'+passDecodeBase64+'\n原文：'+decode);
