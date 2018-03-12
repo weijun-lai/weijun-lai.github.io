@@ -54,7 +54,7 @@ if ($('#slatText').length==1){
   labelpassmsg.style.textAlign="center";
   labelpassmsg.style.margin="auto";
   labelpassmsg.innerHTML = '<img src="/images/balloon.svg" style="border:0px;padding:0px;height:24px;width:24px ;display:inline-block;" />';
-  labelpassmsg.innerHTML += "正在解密档案<br/>";
+  labelpassmsg.innerHTML += "正在载入解密器<br/>";
   labelpassmsg.innerHTML += '<img src="/images/loading.svg" style="border:0px;padding:0px;height:64px;width:64px ;display:inline-block;" />';
 }
 
@@ -175,6 +175,8 @@ function animationText(text) {
   var string = "";
   var mark = "*";
   var speed = 500;
+  var color ="";
+  var bgColor = "";
   var i = 0,j=0,count=0;
   var map="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=?<>{}-!@~#$%^&*():.,";
   var t = setInterval(function(){
@@ -201,10 +203,12 @@ function animationText(text) {
         speed = 1;
         i = Math.floor(Math.random()*map.length);
         // string[0]=text[i];
+        color=getRandomColor();
+        bgColor="black";
         if (count>0) {
-          mark = string.substring(0,count) +'<span style="color:green;background:black;padding:2px;">'+map[i]+'</span>' + string.substring(count,string.length-count);
+          mark = string.substring(0,count) +'<span style="color:'+color+';background:'+bgColor+';padding:4px;">'+map[i]+'</span>' + string.substring(count,string.length-count);
         } else {
-          mark =  '<span style="color:green;background:black;padding:2px;">'+map[i]+'</span>' + string.substring(count,string.length-count-1);
+          mark =  '<span style="color:'+color+';background:'+bgColor+';padding:4px;">'+map[i]+'</span>' + string.substring(count,string.length-count-1);
         }
         document.getElementById("result").innerHTML = mark;
         // $('#result').html(string+map[i]);
@@ -214,6 +218,17 @@ function animationText(text) {
     }
   },speed);
 }
+
+
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
 
 function generatorEncodedPassword(password,tips){
 
