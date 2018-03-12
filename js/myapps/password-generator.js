@@ -146,6 +146,7 @@ $(document).ready(function() {
       setTimeout(function(){
         $('#webapp').removeClass('opacity1InOut');
         $('#webapp').addClass('opacity0InOut');
+        $('#resultMarquee').removeClass('marquee');
       },10000);
     } else {
       var i = Math.floor(Math.random()*errors.length);
@@ -218,6 +219,7 @@ function onClickedDecode() {
     //setTimeout(function(){
     $('#webapp').removeClass('opacity1InOut');
     $('#webapp').addClass('opacity0InOut');
+    $('#resultMarquee').removeClass('marquee');
     //},5000);
   } else {
     var i = Math.floor(Math.random()*errors.length);
