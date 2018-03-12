@@ -202,9 +202,9 @@ function animationText(text) {
         i = Math.floor(Math.random()*map.length);
         // string[0]=text[i];
         if (count>0) {
-          mark = string.substring(0,count) + map[i] + string.substring(count,string.length-count);
+          mark = string.substring(0,count) +'<span style="color:green;background:black;padding:2px;">'+map[i]+'</span>' + string.substring(count,string.length-count);
         } else {
-          mark =  map[i] + string.substring(count,string.length-count-1);
+          mark =  '<span style="color:green;background:black;padding:2px;">'+map[i]+'</span>' + string.substring(count,string.length-count-1);
         }
         document.getElementById("result").innerHTML = mark;
         // $('#result').html(string+map[i]);
