@@ -143,10 +143,10 @@ $(document).ready(function() {
     decode = decryptByAES(code,passEBase64);
 
     if (decode!="" && decode!="密码错误") {
+      $('#resultMarquee').removeClass('marquee');
       setTimeout(function(){
         $('#webapp').removeClass('opacity1InOut');
         $('#webapp').addClass('opacity0InOut');
-        $('#resultMarquee').removeClass('marquee');
       },10000);
     } else {
       var i = Math.floor(Math.random()*errors.length);
