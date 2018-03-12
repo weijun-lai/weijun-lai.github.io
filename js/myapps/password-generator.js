@@ -176,7 +176,7 @@ function animationText(text) {
   var mark = "*";
   var speed = 500;
   var i = 0,j=0,count=0;
-  var map="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+  var map="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=?<>{}-!@~#$%^&*():.,";
   var t = setInterval(function(){
     if (string.length<text.length) {
       string += mark;
@@ -187,15 +187,16 @@ function animationText(text) {
           clearInterval(t);
           console.log('clearInterval animationText done!');
           $('#result').html(text);
-        }
-        if (count>0) {
-          string = string.substring(0,count) + text[count] + string.substring(count,string.length);
         } else {
-          string =  text[count] + string.substring(count,string.length);
+          if (count>0) {
+            string = string.substring(0,count) + text[count] + string.substring(count,string.length);
+          } else {
+            string =  text[count] + string.substring(count,string.length);
+          }
+          count++;
+          j=0;
         }
 
-        count++;
-        j=0;
       } else {
         speed = 1;
         i = Math.floor(Math.random()*map.length);
