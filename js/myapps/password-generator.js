@@ -137,7 +137,7 @@ $(document).ready(function() {
   if (!passEBase64 || passEBase64.length<1) {
     passEBase64 = "";
     passDecodeBase64 = "";
-    decode = "请输入密钥";
+    decode = "请输入解密钥匙";
   } else {
     passDecodeBase64 = decodeByBase64(passEBase64);
     decode = decryptByAES(code,passEBase64);
