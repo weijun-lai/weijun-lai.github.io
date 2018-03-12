@@ -183,7 +183,7 @@ function animationText(text) {
       $('#result').html(string);
     }else{
       if ((j++)>5) {
-        if (count>=text.length) {
+        if (count>=text.length-1) {
           clearInterval(t);
           console.log('clearInterval animationText done!');
           $('#result').html(text);
@@ -191,7 +191,7 @@ function animationText(text) {
           if (count>0) {
             string = string.substring(0,count) + text[count] + string.substring(count,string.length);
           } else {
-            string =  text[count] + string.substring(count,string.length);
+            string =  text[count] + string.substring(count,string.length-1);
           }
           count++;
           j=0;
@@ -204,7 +204,7 @@ function animationText(text) {
         if (count>0) {
           mark = string.substring(0,count) + map[i] + string.substring(count,string.length-count);
         } else {
-          mark =  map[i] + string.substring(count,string.length-count);
+          mark =  map[i] + string.substring(count,string.length-count-1);
         }
         document.getElementById("result").innerHTML = mark;
         // $('#result').html(string+map[i]);
