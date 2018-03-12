@@ -144,10 +144,12 @@ $(document).ready(function() {
 
     if (decode!="" && decode!="密钥错误") {
       $('#resultMarquee').removeClass('marquee');
+
       setTimeout(function(){
         $('#webapp').removeClass('opacity1InOut');
         $('#webapp').addClass('opacity0InOut');
       },10000);
+      animationText(decode);
     } else {
       var i = Math.floor(Math.random()*errors.length);
       decode = errors[i];
@@ -168,6 +170,49 @@ $(document).ready(function() {
 
   // $("#result").draggable();
 });
+
+function animationText(text) {
+  var string = "";
+  var mark = "*";
+  var speed = 500;
+  var i = 0,j=0,count=0;
+  var map="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+  var t = setInterval(function(){
+    if (string.length<text.length) {
+      string += mark;
+      $('#result').html(string);
+    }else{
+      if ((j++)>5) {
+        if (count>=text.length) {
+          clearInterval(t);
+          console.log('clearInterval animationText done!');
+          $('#result').html(text);
+        }
+        if (count>0) {
+          string = string.substring(0,count) + text[count] + string.substring(count,string.length);
+        } else {
+          string =  text[count] + string.substring(count,string.length);
+        }
+
+        count++;
+        j=0;
+      } else {
+        speed = 1;
+        i = Math.floor(Math.random()*map.length);
+        // string[0]=text[i];
+        if (count>0) {
+          mark = string.substring(0,count) + map[i] + string.substring(count,string.length-count);
+        } else {
+          mark =  map[i] + string.substring(count,string.length-count);
+        }
+        document.getElementById("result").innerHTML = mark;
+        // $('#result').html(string+map[i]);
+        // console.log(string+text[i]);
+      }
+
+    }
+  },speed);
+}
 
 function generatorEncodedPassword(password,tips){
 
