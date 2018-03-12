@@ -137,12 +137,12 @@ $(document).ready(function() {
   if (!passEBase64 || passEBase64.length<1) {
     passEBase64 = "";
     passDecodeBase64 = "";
-    decode = "请输入盐";
+    decode = "请输入密钥";
   } else {
     passDecodeBase64 = decodeByBase64(passEBase64);
     decode = decryptByAES(code,passEBase64);
 
-    if (decode!="" && decode!="密码错误") {
+    if (decode!="" && decode!="密钥错误") {
       $('#resultMarquee').removeClass('marquee');
       setTimeout(function(){
         $('#webapp').removeClass('opacity1InOut');
@@ -215,7 +215,7 @@ function onClickedDecode() {
   // password = CryptoJS.enc.Utf8.parse(password);
   passEBase64 = encodeByBase64(passDecodeBase64);
   decode = decryptByAES(code,passEBase64);
-  if (decode!="" && decode!="密码错误") {
+  if (decode!="" && decode!="密钥错误") {
     //setTimeout(function(){
     $('#webapp').removeClass('opacity1InOut');
     $('#webapp').addClass('opacity0InOut');
@@ -254,11 +254,11 @@ function decryptByAES(code,password) {
       content = CryptoJS.enc.Utf8.stringify(content);
       content = unescape(content);
       if (content == '') {
-          // alert("密码错误");
-          content="密码错误";
+          // alert("密钥错误");
+          content="密钥错误";
       }
     }catch (e) {
-      content="密码错误";
+      content="密钥错误";
     }
     return content;
 }
