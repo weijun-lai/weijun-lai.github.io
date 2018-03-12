@@ -153,10 +153,13 @@ $(document).ready(function() {
     }
     // $('#result').removeClass('opacity0InOut');
     // $('#result').addClass('opacity1InOut');
+    //
   }
 
-  $('#result').removeClass('opacity0InOut');
-  $('#result').addClass('opacity1InOut');
+  $('#result,#resultMarquee').removeClass('opacity0InOut');
+  $('#result,#resultMarquee').addClass('opacity1InOut');
+
+
 
   $('#slatText').val(passDecodeBase64);
   $('#resultText').val('加密密文：'+code+'\n加密钥匙：'+passEBase64+'\n解密钥匙：'+passDecodeBase64+'\n原文：'+decode);
