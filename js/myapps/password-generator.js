@@ -282,6 +282,7 @@ function onClickedDecode() {
     $('#webapp').addClass('opacity0InOut');
     $('#resultMarquee').removeClass('marquee');
     //},5000);
+    animationText(decode);
   } else {
     var i = Math.floor(Math.random()*errors.length);
     decode = errors[i];
