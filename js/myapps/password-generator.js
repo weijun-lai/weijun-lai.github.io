@@ -182,7 +182,7 @@ function animationText(text) {
       string += mark;
       $('#result').html(string);
     }else{
-      if ((j++)>5) {
+      if ((j++)>3) {
         if (count>=text.length-1) {
           clearInterval(t);
           console.log('clearInterval animationText done!');
