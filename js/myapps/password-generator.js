@@ -299,9 +299,10 @@ function onClickedDecode() {
   } else {
     var i = Math.floor(Math.random()*errors.length);
     decode = errors[i];
+    $('#result').html(decode);
   }
   $('#resultText').val('加密密文：'+code+'\n加密钥匙：'+passEBase64+'\n解密钥匙：'+passDecodeBase64+'\n原文：'+decode);
-  $('#result').html(decode);
+  // $('#result').html(decode);
   $('#result').removeClass('opacity0InOut');
   $('#result').addClass('opacity1InOut');
 
