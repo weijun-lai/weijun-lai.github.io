@@ -162,7 +162,7 @@ $(document).ready(function() {
         $('#webapp').removeClass('opacity1InOut');
         $('#webapp').addClass('opacity0InOut');
       },10000);
-      animationText('result',decode,50,20);
+      animationText('result',decode,20,10,false);
     } else {
       var i = Math.floor(Math.random()*errors.length);
       decode = errors[i];
@@ -230,16 +230,15 @@ function animationText(divID,text,delay=50,delaywords=10,showmark=true,wait=3000
 
         } else {
           i = Math.floor(Math.random()*map.length);
-
+          lastmarks =  string.substring(count,string.length-count);
           if (showmark) {
-            lastmarks =  string.substring(count,string.length-count);
             bgColor="inherit";
             deg = 0;//Math.floor(Math.random()*360);
             color="inherit";
           } else {
             deg = 0;//Math.floor(Math.random()*360);
-            bgColor="inherit";
-            color="inherit";
+            bgColor="black";
+            color=getRandomColor();
           }
           cryptByte='<label style="color:'+color+';background:'+bgColor+';padding:4px;transform: rotate('+deg+'deg);">‍'+map[i]+'</label>';
 
