@@ -23,7 +23,7 @@
     <published>2018-03-08T10:02:20.000Z</published>
     <updated>2018-03-11T02:42:32.069Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTlyQ2FnSlJLWmF2dzArbzczY1NTNVVYWXRvRUM1MUlKQlEvTFFSOUNSNStVZUxZSWF2LzJ2KyUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext">U2FsdGVkX1+ZDZFDNLUJF5JrDsJCb0pnsV9i80mN9noArlhipsQd8gWXrh9lA+F6aIoOMk1rzJqkQuNQPiTdboFOiOVLO5dw1clTtIpxtx4qSMSAg1kvLx3rBH8hf4MgwItjxZNt7pdlWKEp1M0o4yicyHk0exctSKQp9Te7uzldA/cMHIHgwPtjeRsBTPT6jT6+HxbRqcHptaWQxLfsK2xkegbnoqqb1jiDR3lzNgwn+W0xt987u0eLoCbDrvVwL332sjlk1iOT8KFIKdySFmQi40og7c//xD7DLdaq8GSo4y2AxZuZS26oAuC5ewszGGEx8opfI6e0tE0KK9qaGI+pN+LUAjTQMgmyI91c7zJX5eOjj3wPLnNr+qHSYo46fk2yvxnQBc1kQwb9JNl/Ubi4jdafpqFyFqYz8KFNT1Fd1Zi6EyQQI1g9DVRelGA8gfeCptKYDlIpYM7CcFofesDVgQNl3pTNHVaYZ3/MI7VoIcK0wOh4UxdJDH4AgkSDH802lR6ekdaSyyZUqlhm10snxEX82QREXhAcHv6lTjQ=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTh0U0MrNE9sVGRFV3hPSTZYQTFXYlNXTUR4WGpYekh3Q3dvWGd5ajNqT0ozckZKVnNUUTY2VSUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext">U2FsdGVkX1/QlTZtU/kSgR96nXhhDHJdZiu87TnUEqGIzPkgdgVusl/w/MfJm1wQ/IP/NgexpgLKanshHT/lB90d1RA62GnqVlxL7br86a07adFdyOqqcOhFtpFNiZeLEOFyjldRtiLznNujjKfNfhT4zHG23HakuPKHkETSc6z9Q8UNc7BeBDEmQQogEZqN+S+plcSBN+9hhGOS1+6indYOapZNvLKEI0iB67gGYwUEvEgkbnV/tDQAv29w8iulBJ/3oFQQKEEp4d1MxYQTZ2lTqy2wEc8Uy+sko4+6zfQH632QWJh6IaAxAg3nQCuwCuFfjYCXHGlqr5+p1BSGU8YTWIZDNBlxfmTR+hj7ZasIG+T+rhnXo++YaMgYfQPoLDs8Jsf/O5tCRE/H9GC4QgcAA/ZoG6NtkgGkH2ljPtb5oPEVF3A8YEzx75JxhwK2U0JY8QNQxP6Oc35zaexh2xW71JO6dIWqbYwEFBHX8XNd6B3s2PRPYF9XezsQ+bOTQBUvIPySF5Y8p96KY5UsaEyI5KAnynlrgmZPrlCiOJc=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>]]></content>
     
     <summary type="html">
     
@@ -34,8 +34,6 @@
       <category term="计算机基础科学" scheme="http://laiweijun.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
     
     
-      <category term="Base32" scheme="http://laiweijun.com/tags/Base32/"/>
-    
       <category term="加密" scheme="http://laiweijun.com/tags/%E5%8A%A0%E5%AF%86/"/>
     
       <category term="解密" scheme="http://laiweijun.com/tags/%E8%A7%A3%E5%AF%86/"/>
@@ -43,6 +41,8 @@
       <category term="计算机基础科学" scheme="http://laiweijun.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
     
       <category term="原理" scheme="http://laiweijun.com/tags/%E5%8E%9F%E7%90%86/"/>
+    
+      <category term="Base32" scheme="http://laiweijun.com/tags/Base32/"/>
     
   </entry>
   
@@ -64,6 +64,8 @@
       <category term="计算机基础科学" scheme="http://laiweijun.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
     
     
+      <category term="Base64" scheme="http://laiweijun.com/tags/Base64/"/>
+    
       <category term="加密" scheme="http://laiweijun.com/tags/%E5%8A%A0%E5%AF%86/"/>
     
       <category term="解密" scheme="http://laiweijun.com/tags/%E8%A7%A3%E5%AF%86/"/>
@@ -71,8 +73,6 @@
       <category term="计算机基础科学" scheme="http://laiweijun.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
     
       <category term="原理" scheme="http://laiweijun.com/tags/%E5%8E%9F%E7%90%86/"/>
-    
-      <category term="Base64" scheme="http://laiweijun.com/tags/Base64/"/>
     
   </entry>
   
@@ -145,7 +145,7 @@
     <published>2018-03-06T12:02:23.000Z</published>
     <updated>2018-03-11T02:11:02.194Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTh6dzV0Wk5aTE04ZDdkVXJiVUJuQmFpYjJVMWxKZytpcyUzRCUzRmFHRm9ZVE10TXclM0QlM0Q= "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext">U2FsdGVkX1+WG5U8YGl++ANXxRdtWjNgzMGLcVjW/zV1R54S1eJT1UC3wdd6dgxX8C7uC13ugV+lQrHMTVrCgbZbzbSAljI+uW1k7UvmrW1tmrsJgfowkpoE4EQs9mJIn/uwCIPtx0v9RSOPRnqMfUq3a+ikBYzB2prwUuvPNPhfwN+YGqPUOHfny7Z6R4ta3N6lFUFZHeQOUBGHKIAEa/7ua2VxP2B7D6CxuUAKQu3PEr6whnjOtFivbiVACMsBeogB5nvOv+yeodDSBFdWxX1PgdFyrpEWPWdKFCuU366woHUGbkRxvmU75Qy8fYwDtpPOOfXwZfsHOiK2mRhSYB2YH5Ty4wxLGxmfk7U4h1CoNtMDi7TbmJyZ6cnximccLoPAKBrYvn10V71NSz+sFb0QeI59nHewoKv8AowOsRIqTL2JiZxSP4g8S7qxSp1wNfq4B1XUAokWpcMLlCpC0DmkmylYoNYk7Vi50qCxzd1mXJn312dNMBt/fQV3MGlmE81WNRcP+QmeFABbI1AtXWNFlb/nJRgMDdpymK1ishnw6aKLdN4WWRZR7RpFgCTLdoNa0mLmbapBEiOK785GSfra+KCeHivaTU2OyiRAVF9xD0cvS/uYdV40kufQTyKi5cz1pWV+KLUuCg1f0B9oRUf9GZV6s948V9bkEhY2X5BCB9i2ucdhjJ9uJbJvue+bKYgFsq0MghiOY16tBUmTbJrtGOgb1Yq0DuKPPCcB81OTG2QG483jWdpgQxBoX3hWAveGomGjEHyEaEP58qnW548eaX8WcHRoNj7jIqSpE2ClCma73zSueNXD/v/tiwuB8+0qd8t16reppRHm2Y4v5DctSoeQgIa8V6Gcl1COvXg8hW/wYkpHXDdMFFOtyYdjuTksLW2TTRmRBAZZGFLPX+vII4h9+PuJU8yJrhmaJj2q7lslWxlaFUEGaZFnljLKQoDOsuJUVpxz+XHlSzlJ1KCllr5rpQxxztvCRCSs1ePoaT9SEgShgS2LaKnMr/7IKEPl8hvUQP892gCXMCFQutJ1LP6MYvZWqx5mtoXpsPOzYaTp4IBfvdTjYbGO2Af+FpWxqJmTN9j6OSgvNGbo2nueH/aQmQqbw/xXk0zwz0/cJtFU1TRbUxbjyi8V8ofs9BUyKm4KY9ulrG/DwxFJbMvs4C/KVbV3+svS+w2c8cHxvGPknuAj8gHuEQIpICdh+flw1wPyg1jgzr++YAzneyinLfcaUteG1YOUsIFqUlAOQk0gHwov7jyaC2IRf/zQG29v93bCOCSaAP88vU2hob3yUX7REruosqULtoOvjg0qNWaf6ofhbugk+7GmmrCvQ+XINp8YFey5SKqWiACrkHdDdVzwTmugD/j6M9suIOBPhiTIvvXKpuRjcCFfDL3P/Q/2eOOs5UlialBONa6GCWjiwt8rfXM6VwbZ73XC36Dj+mEPE007gtPfNjplIWYCWmg6PS0sCHPPWw9PMJf0TP+teiqQaJVD+tBTm1G3co843kKr6LKLVJLcASSBSEkyj119wcrfxBNEQz+U6Xyf7eCqUPyCnJtBcn2fiG4I/riEjMuZIjKw89UddhYky1CjqV4v0WX2BJt5TGVm8fyaVzv80Wzwe4VFAjODB026U4qOvyoUM2b40u4y9UNG2tobLAe6H0tVvsoZ9RSB4Q8x8LKAGdzK4qiojREC/0XvYaw+3Ex8hEpFdoULDyYKmUSe3bMPhAjBK3xWOLX03K2XzBfIeRLL5X/iTPKF9CC6OJo=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTgxdHQ2aW0yTDFJYTRVSnFONWRJRFNHUHhhV0ZLOWpvQSUzRCUzRmFHRm9ZVE10TXclM0QlM0Q= "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext">U2FsdGVkX19rqq7/nf9/hWLafe/RLGKr7VeP8OHh0ze3pPXyHgoH2eutsaM8Sa2JwZpabZvS9v1jBF3TwC/C3Dhkf6Rmj0FHx18jeeVpNQkSOhQj6MqSa1tqpSJCNARBM5TjJHjZRTzVwXDJdnr+hMfhAp+gnfXGcNv7PGaAMlUwJRKQ0ZrsoscN9VxZodNFfVjVwV5VQEt7lleXvs+aN5ZaeyxT3xTVN6VVlwMXAEGwafySW0LWw97UBwj1pMSb+0s6l07NS9CCz8zvUGBx8PV+HBauGUuqRdC9jwbb6kgrsMx0BFXSvmYy2fBm0N1m4LIHnWTvqRIbgKQD8EoUc875PDW9mJfWMmg3grpKqBOsud4Cm4xdbVYatI3LA+QVMt8UW0InIMBPR3PajgfzQoXRHjV6gx7+8dlJ/9MIkLkTuvDsgx06RW66L5R+U+uayTtdIew3lsQQTPZmB+RxGg1HFhQjqc0i0Q5wfMkTBo491d6P6J6HWt2PD9Ow/RH5uIwgr94edBxNXahHCuErBiXUoJmuUm0gGxwL2EEs9M54P4FOeUzMzNOPZ3lw7SB75etZMwKVWiJi/pMyC+ELc/mygdvMFLe4aVN34CSHweWAM9Pm1sEehzOPo6/Gbna1i8d+2I+1MkraeVc0cKt0k1+zDSQtXo3M1L8CYdueteJ1wGq7r1Y14Fq/SjotcYOfHGPhA+tgCDGXaZXw/lsfy4AilYlt8M0hyKKtic1Zh/eOPYYAchekXD+oflilxIuFxCDp4zNS2yNMImbeJLcB2Vt1vuikqb0qyyFhRRlN9fHLKfLcJ3z9yFhklfC4ervwbsLpqaNlg7+PB+pv3DQSn3lLonPBvIHzcwHCxvJfRKk8wPkTSnWfOOtFiPAu18oH5lYg+Bhn5+eLxhwLyyFVPqS3zxg2dIFdr2hgN80uGdW7Vy6Mf6jDBKsbp8til98XTO1c9mAPP5EyP+WOcy8NGG8MuMRPAgOuZjJMqzCGFJENFHNir+n/vIqc7VwxhWJFaGHszwIMqKbCyxIn2HA3u7oFlYH891+2zdrKjRoR5J5Rxw4Ip0qsfxT6ffGJNKzKEr3XkZyWLrwilDPSQ6/B3e1GpgKSuqgeTYrhvwCTNCe+rkC/2z/hmrNhHKKH5HJonOo2sNAUT/FLQy4h797DWJDSjFwFTNJj774dwi6N2X/ex49nd47tipcEQgVCuYVLVMlnAxzNSg2wMl+ofDanYtKBnNmQj5TxoDc+dfO3hFVaB0gE/awW6SlMypXYKOMfPg01OWINFaG6akNcb5VgHUeAtGMRs82dCwE3TwadCARnDx8EOIHw3PXkqZRpekuuVgWZjlmFfbEvgwgo+ddqVARzr4VOKSbV5Ko0G41CnJYKFOKCQJ508Z1mv/EU820fG/xannhZDmuQOPMsAlbEN4+Ejwqr0Bfs54PXs0XDkhd504tS3xSrtA3J0YL+LfX4WG5N7zLb8YkCez+/B6j1b8UibZVl2L3WQp4PNa55942YbIm0OcHaZexPmTZrgRiMSzb+nAzEWaozmxjTdper6d/GWJpVWqTLKiRC4beT9JU1Grrh1LjTG9UeVc4tEPFA8jg7I9q89cYxSz2zzrGdnT7BUhZEHxlE1fdHLLK+1VXlimQ7ZXITw90V1dv02YoXlIz8pzvG9wwpr84KtQjDw702EKZZqX6k0OiZ4aCxM7qLPoFWMWOC855ia2wAgRhSUUJD5mvIfsUX220hofghuRZ1GtVGmkX63KIkDwKeU+U=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>]]></content>
     
     <summary type="html">
     
@@ -193,7 +193,7 @@
     <published>2018-03-02T06:52:24.000Z</published>
     <updated>2018-03-11T02:43:06.444Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTgyWUFROU9qaWwxUytUQ28xY2NtU1Zhc2lqTjEvYmxvZyUzRCUzRmIyczFPRFklM0Q= "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext">U2FsdGVkX19IncFyzCPEd+e7gB5Et2wdPv0WX95HSz0dUthW/7JhUXDdvcnWenF3P5ZBqwoYbWLA8PZzicDVWDx6OdUuKv3Looa4euwUDLDAtI0ZUcx9snAss9D7u+EUfF6LOzlWyMIgdwjQaCeFHA1tIe73lCD8mw6ynpMQqDge4i6w4vL2xfxb17UgYDsCeWSac08pjvrLeYBURxtBREgQhBAyg51FRp+88OqmEFWrkEoUYobO/ZxGZbyKwo5FEoW/iHRzOtKSVYjA+tffIHNjiXfFXrei4ZyFdPqZrxk//fNJu4Ux0p1aqdmHxFsvGvGZ4pGTTd7uJeq8MjTUglB9RRbslYS5jcJ89HUqmEHwAa1SVRzyCo34ShPVpQkS7LX4QPw+yWtUIOv9/KZglSpPUvsWGe3gYkcAhTXYDo08srzQrBlREAoU8T/lRM85jpdyF12d7OXNfIJwzpYP5iOZ0fMF+ujzUYXkY8WgHnn3BgMx4oEGKH+NiQqj7/c50M3WLUtexZt5mq1NztlsQceW97H0UjuS053GKBPDdkmGPkvXofo1/HB0OrMJy7s6SNdwjzasEczy0kAtuXQNm+i6QWOasVwxQPMyzcDFo4Ml03daN+jP6saP987wJcFAhHQVNClmbFan8w5gpIISAbXxSOqe9gFFlNF2gc3sSvPUUYcZBLwvHmcJ6dWrxuu+</div>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTg0NXJ4dFFlcjF2R1dMOEhmTkszWGFiaGpXV1ZrUlhMZyUzRCUzRmIyczFPRFklM0Q= "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext">U2FsdGVkX19gg3X0RittEnTUSm9y9EyZMJO3+5o75RFrxtRDc0IRUUucoaDGOC5jRjSk9OrgdzlNd8FU4K/8gCiOoi/cn52sU5QC180X66PZC19tnZsUGW8hcNyNwa8vWeYe5WyWTreaM+OscBtcpS8WuDDS5LnmdVR9E0V/C0ulgusP74PQpg8tpGlUmSrbiEig2MBm13R+TpBDyqBhaTkCyRoEPhxiV8AOPlqRewGHmbFDEHI9w1PpJ5+mzCv0zvCu96W7LxteWhWOu2DG6Ja4E6O5Jm7qQysAfMcllve8FaTDHDg2A24re6Ykw9YNNiXTX92Y0zyCwjd0DZIF/MHgxcsQzVvRPGG8PyzJKxR6L7N+FReGUtrEIAsUdGOF/nl6xRrOEbCuhKkMTCbb9+bcoEG8g9ch3p/LnEdOtclIck2/Pem7pYco8XfNnwYmniPjzoAQfmrmxhgJaTQtpLN4mAl99Ax3oC50oZpF88AlKVdeqyOazqeYZ0X7bZ46CGma0dj28m6ZzWJ6EGSVAP4O+JyS0ZM8CZsRzWyU0DV+cOobSCdFOclkuHGCdE8TrRErvowhzMB1s5AxDq/Nz/uP3+5kBFhfFXWqUEfgRQOyw7nVuzlQlVfsP0fP0KCrEcwjxWE6OKybyeZ9dMamgma1/lQSYlhQpsHljGeRmqpQBZAyLZdhoxBEpgb3iMDO</div>]]></content>
     
     <summary type="html">
     
@@ -263,11 +263,11 @@
       <category term="Hexo练习" scheme="http://laiweijun.com/categories/Hexo%E7%BB%83%E4%B9%A0/"/>
     
     
-      <category term="故事" scheme="http://laiweijun.com/tags/%E6%95%85%E4%BA%8B/"/>
-    
       <category term="历史" scheme="http://laiweijun.com/tags/%E5%8E%86%E5%8F%B2/"/>
     
       <category term="旧闻" scheme="http://laiweijun.com/tags/%E6%97%A7%E9%97%BB/"/>
+    
+      <category term="故事" scheme="http://laiweijun.com/tags/%E6%95%85%E4%BA%8B/"/>
     
   </entry>
   

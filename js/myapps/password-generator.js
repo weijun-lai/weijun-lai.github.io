@@ -281,6 +281,7 @@ function onClickedEncode() {
 }
 
 function onClickedDecode() {
+  $('#result').html(mark);
   // $('#resultText').val(window.location.href);
   var passDecodeBase64 = $('#slatText').val();
   // passDecodeBase64 = passDecodeBase64.replace(" ","");
