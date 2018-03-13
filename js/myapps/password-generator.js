@@ -9,8 +9,9 @@ var localurl = (window.location.href).replace(/\s/g,"%20");;
 var path_root = "http://laiweijun.com";
 var path_password = "/password/?";
 var passTips = path_root+path_password;
-var emoji = ["😎","😀","🌞","😁","😍","🙃","🙈","👩","🕵","💤","💣","💥","💎","🌷","🌼","🌻","🌹","💐","🌸","🌳","☘","🌿","🌵","🍭","🍼","🔍"];
+var emoji = ["😎","😀","🌞","😁","🙃","🙈","👩","🕵","💤","💣","💥","💎","🌷","🌼","🌻","🌹","💐","🌸","🌳","☘","🌿","🌵","🍭","🍼","🔍"];
 var mark = emoji[Math.floor(Math.random()*emoji.length)] ;
+var checkMark = emoji[Math.floor(Math.random()*emoji.length)];
 var map="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=?<>{}-!@~#$%^&*():.,¥®©§∑∏π∫Ω≠Ψζξ";
 var errors = new Array(
                       "❌ 密钥不蒸雀🐦",
@@ -189,10 +190,11 @@ function animationText(divID,text,delay=50,delaywords=10,showmark=true,wait=3000
   var string = "";
 
   var speed = delay;
-  var color ="";
-  var bgColor = "";
+  var color ="black";
+  var bgColor = "darkgreen";
   var cryptByte = "";
   var lastmarks = "";
+
   var i = 0,j=0,count=0,deg=0;
 
   setTimeout(function(){
@@ -226,6 +228,7 @@ function animationText(divID,text,delay=50,delaywords=10,showmark=true,wait=3000
             }
             count++;
             j=0;
+            checkMark = emoji[Math.floor(Math.random()*emoji.length)];
           }
 
         } else {
@@ -237,10 +240,13 @@ function animationText(divID,text,delay=50,delaywords=10,showmark=true,wait=3000
             color="inherit";
           } else {
             deg = 0;//Math.floor(Math.random()*360);
-            bgColor="black";
-            color=getRandomColor();
+            if(j%10==0){
+              bgColor=="black"?bgColor="darkgreen":bgColor="black";
+              color=="black"?color="darkgreen":color="black";
+            }
+            // color=getRandomColor();
           }
-          cryptByte='<label style="color:'+color+';background:'+bgColor+';padding:4px;transform: rotate('+deg+'deg);">‍'+map[i]+'</label>';
+          cryptByte='<label style="border-radius: 100px;border: 0px;color:'+color+';background:'+bgColor+';padding:4px;transform: rotate('+deg+'deg);">‍'+checkMark+':\>'+map[i]+'</label>';
 
           if (count>0) {
             mark = string.substring(0,count) +cryptByte + lastmarks;
