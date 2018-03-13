@@ -141,6 +141,7 @@ $(document).ready(function() {
     passEBase64 = "";
     passDecodeBase64 = "";
     decode = "请输入解密钥匙";
+    $('#result').html(decode);
   } else {
     passDecodeBase64 = decodeByBase64(passEBase64);
     decode = decryptByAES(code,passEBase64);
