@@ -192,8 +192,8 @@ function animationText(text) {
       }else{
         if ((j++)>10) {
           if (count>=text.length-1) {
-            $('#result').css("transition","transform 3s");
-            $('#result').css("transform","translateX(20%)");
+            // $('#result').css("transition","transform 3s");
+            // $('#result').css("transform","translateX(20%)");
             clearInterval(t);
             console.log('clearInterval animationText done!');
             $('#result').html(text);
