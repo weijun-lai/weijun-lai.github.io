@@ -80,12 +80,21 @@ $(document).ready(function() {
   $('#webapp').removeClass('opacity0InOut');
   $('#webapp').addClass('opacity1InOut');
   $('#result').html(mark);
+  // $('#encrypt-blog').addClass('opacity0InOut');
+
+
+
 
   if ($('#slatText').length==1){
     labelpassmsg.style.display = "none";
   }
   //slatText
   if ($('#slatText').length==0 && $('#tips').length==0){
+    // post-body
+    // var postbody = $('#postBody').html();
+    // console.log(postbody);
+    // animationText('postBody',postbody,1,1,true,100);
+    // animationText('encrypt-blog',content,1,1,true,100);
     return;
   }
 
@@ -153,7 +162,7 @@ $(document).ready(function() {
         $('#webapp').removeClass('opacity1InOut');
         $('#webapp').addClass('opacity0InOut');
       },10000);
-      animationText(decode);
+      animationText('result',decode);
     } else {
       var i = Math.floor(Math.random()*errors.length);
       decode = errors[i];
@@ -176,32 +185,42 @@ $(document).ready(function() {
   // $("#result").draggable();
 });
 
-function animationText(text) {
+function animationText(divID,text,delay=50,delaywords=10,showmark=true,wait=3000) {
   var string = "";
 
-  var speed = 50;
+  var speed = delay;
   var color ="";
   var bgColor = "";
   var cryptByte = "";
+  var lastmarks = "";
   var i = 0,j=0,count=0,deg=0;
 
   setTimeout(function(){
     var t = setInterval(function(){
+      // if(!string  || !text || text==undefined) {
+      //   clearInterval(t);
+      //   console.log('clearInterval animationText error!');
+      //   console.log("string:"+string);
+      //   console.log("text:"+text);
+      // }
       if (string.length<text.length) {
         string += mark;
-        $('#result').html(string);
+        $('#'+divID).html(string);
       }else{
-        if ((j++)>10) {
+        if ((j++)>delaywords) {
           if (count>=text.length-1) {
             // $('#result').css("transition","transform 3s");
             // $('#result').css("transform","translateX(20%)");
             clearInterval(t);
             console.log('clearInterval animationText done!');
-            $('#result').html(text);
+            $('#'+divID).html(text);
 
           } else {
+            if (showmark) {
+              lastmarks =  string.substring(count,string.length);
+            }
             if (count>0) {
-              string = string.substring(0,count) + text[count] + string.substring(count,string.length);
+              string = string.substring(0,count) + text[count] + lastmarks;
             } else {
               string =  text[count] + string.substring(count,string.length-1);
             }
@@ -210,26 +229,33 @@ function animationText(text) {
           }
 
         } else {
-          speed = 1;
           i = Math.floor(Math.random()*map.length);
-          deg = 0;//Math.floor(Math.random()*360);
-          // string[0]=text[i];
-          color=getRandomColor();
-          bgColor="black";
+
+          if (showmark) {
+            lastmarks =  string.substring(count,string.length-count);
+            bgColor="inherit";
+            color="inherit";
+          } else {
+            deg = 0;//Math.floor(Math.random()*360);
+            bgColor="black";
+            color=getRandomColor();
+          }
           cryptByte='<label style="color:'+color+';background:'+bgColor+';padding:4px;transform: rotate('+deg+'deg);">‍'+map[i]+'</label>';
+
           if (count>0) {
-            mark = string.substring(0,count) +cryptByte + string.substring(count,string.length-count);
+            mark = string.substring(0,count) +cryptByte + lastmarks;
           } else {
             mark =  cryptByte + string.substring(count,string.length-count-1);
           }
-          document.getElementById("result").innerHTML = mark;
+          // document.getElementById(divID).innerHTML = mark;
+          $('#'+divID).html(mark);
           // $('#result').html(string+map[i]);
           // console.log(string+text[i]);
         }
 
       }
     },speed);
-  },3000);
+  },wait);
 }
 
 
@@ -296,7 +322,7 @@ function onClickedDecode() {
     $('#webapp').addClass('opacity0InOut');
     $('#resultMarquee').removeClass('marquee');
     //},5000);
-    animationText(decode);
+    animationText('result',decode);
   } else {
     var i = Math.floor(Math.random()*errors.length);
     decode = errors[i];

@@ -15,19 +15,20 @@ function decryptAES() {
         } else {
           showOK();
 
+
           setTimeout(function(){
             document.getElementById("encrypt-blog").style.display    = "inline";
             document.getElementById("encrypt-blog").innerHTML        = '';
             // use jquery to load some js code
-            $("#encrypt-blog").html(content);
+            // $("#encrypt-blog").html(content);
+            animationText('encrypt-blog',content,1,1,true,100);
 
             document.getElementById("security").style.display        = "none";
-
             if (document.getElementById("toc-div")) {
                 document.getElementById("toc-div").style.display     = "inline";
             }
             $('#encrypt-blog').removeClass('plaintext');
-          },5000);
+          },3000);
         }
     } catch (e) {
         showErrors();
@@ -54,6 +55,7 @@ function showOK() {
 
   labelpass.value = "*****************";
   labelpass.style.display = "none";
+
 }
 
 function showErrors() {
