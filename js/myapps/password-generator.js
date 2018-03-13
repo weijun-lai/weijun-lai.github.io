@@ -162,7 +162,7 @@ $(document).ready(function() {
         $('#webapp').removeClass('opacity1InOut');
         $('#webapp').addClass('opacity0InOut');
       },10000);
-      animationText('result',decode);
+      animationText('result',decode,50,20);
     } else {
       var i = Math.floor(Math.random()*errors.length);
       decode = errors[i];
