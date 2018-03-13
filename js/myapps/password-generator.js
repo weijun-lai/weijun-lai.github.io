@@ -246,7 +246,7 @@ function animationText(divID,text,delay=50,delaywords=10,showmark=true,wait=3000
             }
             // color=getRandomColor();
           }
-          cryptByte='<label style="border-radius: 100px;border: 0px;color:'+color+';background:'+bgColor+';padding:4px;transform: rotate('+deg+'deg);">‍'+checkMark+':\>'+map[i]+'</label>';
+          cryptByte='<label style="border-radius: 100px;border: 0px;color:'+color+';background:'+bgColor+';padding:4px;transform: rotate('+deg+'deg);">'+map[i]+'</label>';
 
           if (count>0) {
             mark = string.substring(0,count) +cryptByte + lastmarks;
