@@ -233,8 +233,9 @@ function animationText(divID,text,delay=50,delaywords=10,showmark=true,wait=3000
 
           if (showmark) {
             lastmarks =  string.substring(count,string.length-count);
-            bgColor="black";
-            color= getRandomColor();
+            bgColor="inherit";
+            deg = 0;//Math.floor(Math.random()*360);
+            color="inherit";
           } else {
             deg = 0;//Math.floor(Math.random()*360);
             bgColor="inherit";
