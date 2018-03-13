@@ -9,7 +9,7 @@ var localurl = (window.location.href).replace(/\s/g,"%20");;
 var path_root = "http://laiweijun.com";
 var path_password = "/password/?";
 var passTips = path_root+path_password;
-var emoji = ["😎","😀","🌞","😁","🤣","😍","🙃","😵","🙈","👩","👨‍💻‍","⚕️","🕵","👁","💤","💣","💥","💎","🌷","🌼","🌻","🌹","💐","🌸","🌳","☘","🌿","🌵","🍭","🍼","🔍"];
+var emoji = ["😎","😀","🌞","😁","😍","🙃","🙈","👩","🕵","💤","💣","💥","💎","🌷","🌼","🌻","🌹","💐","🌸","🌳","☘","🌿","🌵","🍭","🍼","🔍"];
 var mark = emoji[Math.floor(Math.random()*emoji.length)] ;
 var map="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=?<>{}-!@~#$%^&*():.,¥®©§∑∏π∫Ω≠Ψζξ";
 var errors = new Array(
