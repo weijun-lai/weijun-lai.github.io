@@ -2054,7 +2054,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a2ffb3;
+  background: #7aabff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3237,6 +3237,25 @@ hr {
   color: #000;
   font-weight: bold;
   font-size: -webkit-xxx-large;
+  -webkit-animation: text-align 3s linear infinite;
+  -moz-animation: text-align 3s linear infinite;
+  -ms-animation: text-align 3s linear infinite;
+  -o-animation: text-align 3s linear infinite;
+  animation: text-align 3s linear infinite;
+  transition: text-align 3s linear infinite;
+}
+.left {
+  margin: auto;
+  text-align: left;
+  color: #000;
+  font-weight: bold;
+  font-size: -webkit-xxx-large;
+  -webkit-animation: all 3s linear infinite;
+  -moz-animation: all 3s linear infinite;
+  -ms-animation: all 3s linear infinite;
+  -o-animation: all 3s linear infinite;
+  animation: all 3s linear infinite;
+  transition: all 3s linear infinite;
 }
 @-webkit-keyframes marquee {
   0% {

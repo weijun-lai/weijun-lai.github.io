@@ -9,7 +9,9 @@ var localurl = (window.location.href).replace(/\s/g,"%20");;
 var path_root = "http://laiweijun.com";
 var path_password = "/password/?";
 var passTips = path_root+path_password;
-
+var emoji = ["😎","😀","🌞","😁","🤣","😍","🙃","😵","🙈","👩","👨‍💻‍","⚕️","🕵","👁","💤","💣","💥","💎","🌷","🌼","🌻","🌹","💐","🌸","🌳","☘","🌿","🌵","🍭","🍼","🔍"];
+var mark = emoji[Math.floor(Math.random()*emoji.length)] ;
+var map="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=?<>{}-!@~#$%^&*():.,¥®©§∑∏π∫Ω≠Ψζξ";
 var errors = new Array(
                       "❌ 密钥不蒸雀🐦",
                       "❌ 密钥不争气😂",
@@ -77,6 +79,7 @@ $(document).ready(function() {
   // labelpassmsg = document.getElementById("labelpassmsg");
   $('#webapp').removeClass('opacity0InOut');
   $('#webapp').addClass('opacity1InOut');
+  $('#result').html(mark);
 
   if ($('#slatText').length==1){
     labelpassmsg.style.display = "none";
@@ -174,23 +177,27 @@ $(document).ready(function() {
 
 function animationText(text) {
   var string = "";
-  var mark = "*";
-  var speed = 30;
+
+  var speed = 50;
   var color ="";
   var bgColor = "";
-  var i = 0,j=0,count=0;
-  var map="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=?<>{}-!@~#$%^&*():.,";
+  var cryptByte = "";
+  var i = 0,j=0,count=0,deg=0;
+
   setTimeout(function(){
     var t = setInterval(function(){
       if (string.length<text.length) {
         string += mark;
         $('#result').html(string);
       }else{
-        if ((j++)>20) {
+        if ((j++)>10) {
           if (count>=text.length-1) {
+            $('#result').css("transition","transform 3s");
+            $('#result').css("transform","translateX(20%)");
             clearInterval(t);
             console.log('clearInterval animationText done!');
             $('#result').html(text);
+
           } else {
             if (count>0) {
               string = string.substring(0,count) + text[count] + string.substring(count,string.length);
@@ -204,13 +211,15 @@ function animationText(text) {
         } else {
           speed = 1;
           i = Math.floor(Math.random()*map.length);
+          deg = 0;//Math.floor(Math.random()*360);
           // string[0]=text[i];
           color=getRandomColor();
           bgColor="black";
+          cryptByte='<label style="color:'+color+';background:'+bgColor+';padding:4px;transform: rotate('+deg+'deg);">‍'+map[i]+'</label>';
           if (count>0) {
-            mark = string.substring(0,count) +'<span style="color:'+color+';background:'+bgColor+';padding:4px;">'+map[i]+'</span>' + string.substring(count,string.length-count);
+            mark = string.substring(0,count) +cryptByte + string.substring(count,string.length-count);
           } else {
-            mark =  '<span style="color:'+color+';background:'+bgColor+';padding:4px;">'+map[i]+'</span>' + string.substring(count,string.length-count-1);
+            mark =  cryptByte + string.substring(count,string.length-count-1);
           }
           document.getElementById("result").innerHTML = mark;
           // $('#result').html(string+map[i]);
