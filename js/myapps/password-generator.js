@@ -153,6 +153,7 @@ $(document).ready(function() {
     } else {
       var i = Math.floor(Math.random()*errors.length);
       decode = errors[i];
+      $('#result').html(decode);
     }
     // $('#result').removeClass('opacity0InOut');
     // $('#result').addClass('opacity1InOut');
@@ -166,7 +167,7 @@ $(document).ready(function() {
 
   $('#slatText').val(passDecodeBase64);
   $('#resultText').val('加密密文：'+code+'\n加密钥匙：'+passEBase64+'\n解密钥匙：'+passDecodeBase64+'\n原文：'+decode);
-  $('#result').html(decode);
+
 
   // $("#result").draggable();
 });
@@ -174,49 +175,51 @@ $(document).ready(function() {
 function animationText(text) {
   var string = "";
   var mark = "*";
-  var speed = 500;
+  var speed = 30;
   var color ="";
   var bgColor = "";
   var i = 0,j=0,count=0;
   var map="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=?<>{}-!@~#$%^&*():.,";
-  var t = setInterval(function(){
-    if (string.length<text.length) {
-      string += mark;
-      $('#result').html(string);
-    }else{
-      if ((j++)>3) {
-        if (count>=text.length-1) {
-          clearInterval(t);
-          console.log('clearInterval animationText done!');
-          $('#result').html(text);
-        } else {
-          if (count>0) {
-            string = string.substring(0,count) + text[count] + string.substring(count,string.length);
+  setTimeout(function(){
+    var t = setInterval(function(){
+      if (string.length<text.length) {
+        string += mark;
+        $('#result').html(string);
+      }else{
+        if ((j++)>20) {
+          if (count>=text.length-1) {
+            clearInterval(t);
+            console.log('clearInterval animationText done!');
+            $('#result').html(text);
           } else {
-            string =  text[count] + string.substring(count,string.length-1);
+            if (count>0) {
+              string = string.substring(0,count) + text[count] + string.substring(count,string.length);
+            } else {
+              string =  text[count] + string.substring(count,string.length-1);
+            }
+            count++;
+            j=0;
           }
-          count++;
-          j=0;
-        }
 
-      } else {
-        speed = 1;
-        i = Math.floor(Math.random()*map.length);
-        // string[0]=text[i];
-        color=getRandomColor();
-        bgColor="black";
-        if (count>0) {
-          mark = string.substring(0,count) +'<span style="color:'+color+';background:'+bgColor+';padding:4px;">'+map[i]+'</span>' + string.substring(count,string.length-count);
         } else {
-          mark =  '<span style="color:'+color+';background:'+bgColor+';padding:4px;">'+map[i]+'</span>' + string.substring(count,string.length-count-1);
+          speed = 1;
+          i = Math.floor(Math.random()*map.length);
+          // string[0]=text[i];
+          color=getRandomColor();
+          bgColor="black";
+          if (count>0) {
+            mark = string.substring(0,count) +'<span style="color:'+color+';background:'+bgColor+';padding:4px;">'+map[i]+'</span>' + string.substring(count,string.length-count);
+          } else {
+            mark =  '<span style="color:'+color+';background:'+bgColor+';padding:4px;">'+map[i]+'</span>' + string.substring(count,string.length-count-1);
+          }
+          document.getElementById("result").innerHTML = mark;
+          // $('#result').html(string+map[i]);
+          // console.log(string+text[i]);
         }
-        document.getElementById("result").innerHTML = mark;
-        // $('#result').html(string+map[i]);
-        // console.log(string+text[i]);
-      }
 
-    }
-  },speed);
+      }
+    },speed);
+  },3000);
 }
 
 
