@@ -216,9 +216,9 @@ function animationText(divID,text,delay=50,delaywords=10,showmark=true,wait=3000
             $('#'+divID).html(text);
 
           } else {
-            if (showmark) {
+            // if (showmark) {
               lastmarks =  string.substring(count,string.length);
-            }
+            // }
             if (count>0) {
               string = string.substring(0,count) + text[count] + lastmarks;
             } else {
