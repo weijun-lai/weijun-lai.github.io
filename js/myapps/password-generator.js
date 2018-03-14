@@ -143,6 +143,7 @@ $(document).ready(function() {
     console.log("split passEBase64:"+passEBase64);
   }catch(e){
     console.log("errors:"+e);
+    return;
   }
   if (!code || code.length<1 ) {
     code = "空密码";
@@ -213,10 +214,9 @@ function animationText(divID,text,delay=50,delaywords=10,showmark=true,wait=3000
           if (count>=text.length-1) {
             // $('#result').css("transition","transform 3s");
             // $('#result').css("transform","translateX(20%)");
+            $('#'+divID).html(text);
             clearInterval(t);
             console.log('clearInterval animationText done!');
-            $('#'+divID).html(text);
-
           } else {
             // if (showmark) {
               lastmarks =  string.substring(count,string.length);
