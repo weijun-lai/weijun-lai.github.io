@@ -164,7 +164,7 @@ $(document).ready(function() {
         $('#webapp').removeClass('opacity1InOut');
         $('#webapp').addClass('opacity0InOut');
       },10000);
-      animationText('result',decode,60,10,false);
+      animationText('result',decode,60,10,false,3000);
     } else {
       var i = Math.floor(Math.random()*errors.length);
       decode = errors[i];
@@ -187,7 +187,8 @@ $(document).ready(function() {
   // $("#result").draggable();
 });
 
-function animationText(divID,text,delay=50,delaywords=10,showmark=true,wait=3000) {
+// function animationText(divID,text,delay=50,delaywords=10,showmark=true,wait=3000) {
+function animationText(divID,text,delay,delaywords,showmark,wait) {
   var string = "";
 
   var speed = delay;
@@ -328,7 +329,7 @@ function onClickedDecode() {
     $('#webapp').addClass('opacity0InOut');
     $('#resultMarquee').removeClass('marquee');
     //},5000);
-    animationText('result',decode);
+    animationText('result',decode,50,10,true,3000);
   } else {
     var i = Math.floor(Math.random()*errors.length);
     decode = errors[i];
