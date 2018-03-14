@@ -74,7 +74,7 @@
 
 
 
-  <meta name="keywords" content="Base32,加密,解密,计算机基础科学,原理," />
+  <meta name="keywords" content="加密,解密,计算机基础科学,原理,Base32," />
 
 
 
@@ -88,14 +88,14 @@
 
 
 <meta name="description" content="本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨">
-<meta name="keywords" content="Base32,加密,解密,计算机基础科学,原理">
+<meta name="keywords" content="加密,解密,计算机基础科学,原理,Base32">
 <meta property="og:type" content="article">
 <meta property="og:title" content="🔒Base32编码">
 <meta property="og:url" content="http://laiweijun.com/2018/03/08/Base32编码/index.html">
 <meta property="og:site_name" content="Weijun Lai">
 <meta property="og:description" content="本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-11T02:42:32.069Z">
+<meta property="og:updated_time" content="2018-03-11T02:42:32.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="🔒Base32编码">
 <meta name="twitter:description" content="本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨">
@@ -354,7 +354,7 @@
       
 
       
-        <script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTlRNjc3WU5NRStKeVR0RW15aXJ6ekpaK1J0M0EwM3BxK1hRNDJFL1diNDZoMkJBUGdTRjdlciUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX19b9CXmOO2nlCyCf2WJLBIkf/I4WAjjcm05DXEHRr6thUBFoCEf99GCAxb7atDKng5Vp41MAmOUTb3a9MLorz2+3UOlAIxLQwRAsIQI/DcIUbUKl9Vzs0jXEwo0diDXkjJxt2cjpX1VhwmTt8ifxChqSmbUuyW+BfR8QpDTBnq98ZFbbQlfKXJv/xvUtjsPZ1xBC0/5XAi/1rvzHHPwJ4DOpK4D9fS2IsUPvvqgdL4UI0ma1XdxmMD3UXpW/ULJWrynEI6/wOvDgMuzBCyNXKtU0nCiP+JTjLUZcy+iaW1d/iOqx+PMIrhxi21PO0GyuaQOgbnkjPwQPtIg8UjafYzT2Pl+ZzpMSKn7o+txXpOadTbLkPsfL70QZ5pYhpGE5PCMjGbeKGElPUgBCQqeQHTUX50QzHp8n7WWrHPfYoHQJl0vt1GWPDjUPfiqSxgBbuHaV5sajr5/Y8NNvVkevi2nErbnIOpmPzCG+wGj/RdD3Wm5IwA6oVnfoMw4PmXcO2tsVQCwhvHi0R/+l3064dqCrYmus4/StkI=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>
+        <script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMSt3ZmlkSFJaM3M4Ni9USUljS2hGUEJpdmdiQUlVenFFWFh0TjFib09XWUpJcmhnclFXV2hPWSUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX1++JoflabQtM8VKx+nAfu7NrMZxZxavJBXEq5IXoM+rWOs6LLHZBTjEJsk4It/RtR/9t4Z4DsL8PBTUqzHeC/+/e4D2+dOeTYJpbwH2U38algnjHXN+w97wS47oVqZsz7LDUKiImjmHF8y0wjTP17/09ctdfzkkC1BhA38462EvjEwM95bYlk08ad08sLX5LY/CvybFiVLDi/7tx+SzZ68FMHO8bbtbjpwm4iM8/q5J8/y0PQLHXuZ7qmsLR9JJAR8YWf9X/jW8JqSsQC802eIEbzLVqN9vJs4lBU7VWI5cV8YjE/HC46w9ODZ3Q9IN3uOZptLsF/4fTHARz8nmCaMu3sLsrFwJ3td3CfWti7+ZQb0QWKPzw6G1K1QqmJklZUWjWMVya5jrJSOrU7rJ+sL+uxDAF5UTlL+m9+QrSBtZlOrJpcb/LRloo2yWreoYb7hLXN3vUJ0L+XyKcqc6qgWGl6NB3AE1jIm5quT4k1JKSZG/pIXCI+p+xm+580aP+9BtXIN8bT1dndFKSqbRklq5oDwwbxICeOs=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>
       
     </div>
     
@@ -479,7 +479,7 @@
             </span>
             
             <span title="字数统计">
-              26
+              35
             </span>
           
 
@@ -509,8 +509,6 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Base32/" rel="tag"># Base32</a>
-          
             <a href="/tags/加密/" rel="tag"># 加密</a>
           
             <a href="/tags/解密/" rel="tag"># 解密</a>
@@ -518,6 +516,8 @@
             <a href="/tags/计算机基础科学/" rel="tag"># 计算机基础科学</a>
           
             <a href="/tags/原理/" rel="tag"># 原理</a>
+          
+            <a href="/tags/Base32/" rel="tag"># Base32</a>
           
         </div>
       
@@ -539,6 +539,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/03/14/奇谋远略/" rel="prev" title="🔒奇谋远略">
+                🔒奇谋远略 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -615,7 +619,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
