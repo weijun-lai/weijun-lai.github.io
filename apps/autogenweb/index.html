@@ -201,10 +201,10 @@
   var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
   var is_ie = navigator.userAgent.toLowerCase().indexOf('msie') > -1;
 
-  if (!is_chrome || is_ie) {
-    var message = "Sorry, some features of this project only run in Chrome browser.";
+  // if (!is_chrome || is_ie) {
+    var message = "Sorry, SVG features may be not supported by the lastest Chrome browser.";
     addAlert('danger',message,220000)
-  }
+  // }
 
   </script>
 
