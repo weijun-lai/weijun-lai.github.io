@@ -1,0 +1,25 @@
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password$$$!@#456';
+GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'%';FLUSH PRIVILEGES;
+
+CREATE USER 'newuser'@'127.0.0.1' IDENTIFIED BY 'password$$$';GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'127.0.0.1';FLUSH PRIVILEGES;
+
+CREATE USER 'root'@'60.242.241.5' IDENTIFIED BY 'password$$$';GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'60.242.241.5';FLUSH PRIVILEGES;
+
+CREATE USER 'newuser'@'172.31.4.220' IDENTIFIED BY 'password$$$';GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'172.31.4.220';FLUSH PRIVILEGES;
+
+CREATE USER 'root'@'172.31.4.220' IDENTIFIED BY 'password$$$';GRANT ALL PRIVILEGES ON * . * TO 'root'@'172.31.4.220';FLUSH PRIVILEGES;
+
+CREATE USER 'newuser'@'ec2-172-31-4-220.ap-southeast1.compute.amazonaws.com' IDENTIFIED BY 'password$$$!@#456';GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'ec2-172-31-4-220.ap-southeast1.compute.amazonaws.com';FLUSH PRIVILEGES;
+
+
+GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'ip-172-31-4-220.ap-southeast-2.compute.internal';
+SQLSTATE[HY000] [1130] Host 'ip-172-31-4-220.ap-southeast-2.compute.internal' is not allowed to connect to this MySQL server
+
+GRANT ALL PRIVILEGES on * . * to 'newuser'@'ec2-172-31-4-220.ap-southeast1.compute.amazonaws.com';
+
+grant all on . to 'newuser'@'%' identified by 'passpass'; flush privileges;
+
+
+[Graph]MovieSystem
+
+

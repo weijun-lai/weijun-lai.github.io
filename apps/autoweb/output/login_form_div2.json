@@ -1,0 +1,1 @@
+{"id":{"elementType":"input","info":"login_form_div"},"type":{"elementType":"input","info":"login_form"},"title":{"elementType":"input","info":"login"},"style":{"elementType":"select","info":"normal"},"data":[null,null,null,null,null,{"name":"username","elementType":"input","dataType":"string","info":""},{"name":"password","elementType":"input","dataType":"password","info":""}]}

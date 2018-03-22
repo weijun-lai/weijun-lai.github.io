@@ -1,0 +1,249 @@
+
+
+.normal-paper {
+   position: fixed;
+   background-color: #fff;
+   /*width: 100%;*/
+   top:0px;
+   left: 0px;
+   /*border: 2px dotted black;*/
+}
+
+.tool-instances {
+   position: fixed;
+   background-color: rgba(166, 163, 255, 0.90);
+   width: 100%;
+   height: 100px;
+   bottom:0px;
+   left: 30%;
+   overflow: auto;
+   min-height: 100px;
+}
+.small-paper {
+   position: fixed;
+   background-color: #ccc;
+   opacity: 0.5;
+   bottom: 0px;
+   /*width: 25%;*/
+}
+.small-paper-box {
+   position: absolute;
+   background-color: red;
+   opacity: 0.5;
+   top: 0px;
+   pointer-events: auto;
+}
+
+
+#hide-screens {
+   position: fixed;
+   top: 15px;
+   right:10px;
+   z-index: 99999px;
+   pointer-events: auto;
+}
+
+#alerts_msg {
+   pointer-events: none;
+   /*overflow: auto;*/
+}
+
+
+.model-design-div {
+   max-height: 500px;
+   overflow: auto;
+}
+
+
+.box-highlight {
+   background-color: rgba(166, 163, 255, 0.0);
+   opacity: 1;
+   border: 2px dotted red;
+}
+.tool {
+   position: fixed;
+   background-color: #49075e;
+   /*opacity: 0.95;*/
+   top:0px;
+   right: 0px;
+   width: 300px;
+   /*height: 500px;*/
+}
+
+.btn{
+   /*margin-top: 5px;*/
+   /*margin-bottom: 5px;*/
+   margin: 1px;
+   /*background-color: white;
+   color: white;*/
+}
+
+.halfWidth {
+   width: 50%;
+   margin:0px;
+   /*position: relative;*/
+}
+
+.smallWidth {
+   width: 25%;
+   margin:0px;
+   /*position: relative;*/
+}
+
+.cellselectd {
+   /*fill:red;*/
+   stroke:#ff0000;
+   /*stroke-width:5;*/
+   /*fill-opacity:0.1;
+   stroke-opacity:0.9;*/
+}
+
+
+.cellunselectd {
+   /*fill:red;*/
+   stroke:#ffffff;
+   /*stroke-width:5;*/
+   /*fill-opacity:0.1;
+   stroke-opacity:0.9;*/
+}
+
+hr {
+  /*-moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;*/
+  border-width: 0px 0;
+ /* margin: 10px 0;
+  opacity: 0.15;*/
+}
+
+#paper-tools-instances {
+   /*position: fixed;*/
+   /*border: 1px solid gray;*/
+   /*display: inline-block;*/
+   /*background: transparent;*/
+   /*overflow: hidden;*/
+   /*overflow: auto;*/
+}
+
+#paper {
+   position: fixed;
+   /*border: 1px solid gray;*/
+   display: inline-block;
+   background: transparent;
+   overflow: hidden;
+   /*overflow: auto;*/
+   /*top:0px;
+   left: 0px;
+*/}
+#paper svg {
+   background: transparent;
+}
+#paper svg .link {
+   z-index: 2;
+}
+
+
+
+.html-element {
+   /*position: absolute;*/
+   background: #49075e;
+   color: white;
+   width: 100%;
+   /* Make sure events are propagated to the JointJS element so, e.g. dragging works.*/
+   pointer-events: none;
+   -webkit-user-select: none;
+   /*border-radius: 4px;*/
+   /*border: 2px solid #2980B9;*/
+   /*box-shadow: inset 0 0 5px black, 2px 2px 1px gray;*/
+   padding: 10px;
+   margin-top: 0px;
+   box-sizing: border-box;
+   z-index: 2;
+}
+
+.html-element a,
+.html-element span,
+.html-element select,
+.html-element input,
+.html-element button {
+   /* Enable interacting with inputs only. */
+   pointer-events: auto;
+}
+.html-element button.delete {
+   color: white;
+   border: none;
+   background-color: #C0392B;
+   border-radius: 5px;
+   width: 15px;
+   height: 15px;
+   line-height: 15px;
+   text-align: middle;
+   position: absolute;
+   top: 2px;
+   right: 2px;
+   padding: 0;
+   margin: 0;
+   font-weight: bold;
+   cursor: pointer;
+}
+.html-element button.delete:hover {
+   /*width: 20px;
+   height: 20px;*/
+   /*line-height: 20px;*/
+   background-color: #000;
+}
+.html-element select {
+   position: relative;
+   /*right: 2px;
+   bottom: 28px;*/
+}
+.html-element input {
+   position: relative;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   /*border: none;*/
+   /*width: 120px;*/
+   color: #333;
+   padding: 5px;
+   /*height: 16px;*/
+}
+.html-element label {
+   color: #fff;
+   /*text-shadow: 1px 0 0 lightgray;*/
+   font-weight: bold;
+}
+.html-element span {
+   /*position: relative;*/
+   top: 2px;
+   right: 9px;
+   /*color: white;*/
+   font-size: 11px;
+}
+
+
+.zero-radius {
+   border-radius: 0px;
+}
+
+
+
+.property-input-label {
+   position: relative;
+   width: 50%;
+   pointer-events: none;
+   background: #c7c7c7;
+   color:black;
+   font-size: 12px;
+   border: 1px solid #ccc;
+   text-align: center;
+}
+
+.small-font {
+   font-size: 12px;
+}
+
