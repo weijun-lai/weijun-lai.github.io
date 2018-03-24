@@ -202,9 +202,10 @@
   var is_ie = navigator.userAgent.toLowerCase().indexOf('msie') > -1;
 
   // if (!is_chrome || is_ie) {
-    var message = "Sorry, SVG features may be not supported by the lastest Chrome browser.";
+  if (is_chrome || is_ie) {
+    var message = "Sorry, the lastest Chrome browser doestn't support SVG features.";
     addAlert('danger',message,220000)
-  // }
+  }
 
   </script>
 
