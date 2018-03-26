@@ -27,8 +27,12 @@ function showHomeContent() {
   hideBlogList();
   var imglinks = '<img class="site-author-image" src="/images/avatar.jpg">';
   var blogLinks = '<button type="button" class="btn btn-primary" onclick="showBlogList();" >Blog</button>';
+  var greedText = "Welcome to laiweijun.com";
+  var text = imglinks+"<br/><h3 id='greed'>Welcome to laiweijun.com</h3><br/><br/>"+blogLinks;
   $('#homeContent').css({"text-align":"center"});
-  $('#homeContent').html(imglinks+"<br/>Welcome to laiweijun.com <br/><br/>"+blogLinks);
+  $('#homeContent').html(text);
+
+  animationText('greed',greedText,10,10,false,1000);
 
 }
 
