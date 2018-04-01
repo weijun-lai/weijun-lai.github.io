@@ -86,8 +86,6 @@
         <title>🔒Base32编码</title>
         <pubTime>2018-03-08T10:02:20.000Z</pubTime>
         
-        <tag>Base32</tag>
-         
         <tag>加密</tag>
          
         <tag>解密</tag>
@@ -95,6 +93,8 @@
         <tag>计算机基础科学</tag>
          
         <tag>原理</tag>
+         
+        <tag>Base32</tag>
          
          
            
@@ -152,6 +152,8 @@
         <title>Base64编码</title>
         <pubTime>2018-03-08T09:40:18.000Z</pubTime>
         
+        <tag>Base64</tag>
+         
         <tag>加密</tag>
          
         <tag>解密</tag>
@@ -159,8 +161,6 @@
         <tag>计算机基础科学</tag>
          
         <tag>原理</tag>
-         
-        <tag>Base64</tag>
          
          
            
