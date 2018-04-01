@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://laiweijun.com/"/>
-  <updated>2018-03-22T04:14:28.102Z</updated>
+  <updated>2018-04-01T13:10:43.216Z</updated>
   <id>http://laiweijun.com/</id>
   
   <author>
@@ -17,13 +17,65 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Java SE 8 Programmer I 1 Z0-808</title>
+    <link href="http://laiweijun.com/2018/04/01/Java-SE-8-Programmer-I-1-Z0-808/"/>
+    <id>http://laiweijun.com/2018/04/01/Java-SE-8-Programmer-I-1-Z0-808/</id>
+    <published>2018-04-01T11:45:26.000Z</published>
+    <updated>2018-04-01T13:10:43.216Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="Review-Exam-Topics"><a href="#Review-Exam-Topics" class="headerlink" title="Review Exam Topics"></a>Review Exam Topics</h3><p>Assume the following:<br>Missing package and import statements: If sample code do not include package or import statements, and the question does not explicitly refer to these missing statements, then assume that all sample code is in the same package, or import statements exist to support them.<br>No file or directory path names for classes: If a question does not state the file names or directory locations of classes, then assume one of the following, whichever will enable the code to compile and run:<br>All classes are in one file<br>Each class is contained in a separate file, and all files are in one directory<br>Unintended line breaks: Sample code might have unintended line breaks. If you see a line of code that looks like it has wrapped, and this creates a situation where the wrapping is significant (for example, a quoted String literal has wrapped), assume that the wrapping is an extension of the same line, and the line does not contain a hard carriage return that would cause a compilation failure.<br>Code fragments: A code fragment is a small section of source code that is presented without its context. Assume that all necessary supporting code exists and that the supporting environment fully supports the correct compilation and execution of the code shown and its omitted environment.<br>Descriptive comments: Take descriptive comments, such as “setter and getters go here,” at face value. Assume that correct code exists, compiles, and runs successfully to create the described effect.<br>TOPICS</p><p>Java Basics<br>Define the scope of variables<br>Define the structure of a Java class<br>Create executable Java applications with a main method; run a Java program from the command line; produce console output<br>Import other Java packages to make them accessible in your code<br>Compare and contrast the features and components of Java such as: platform independence, object orientation, encapsulation, etc.<br>Working With Java Data Types<br>Declare and initialize variables (including casting of primitive data types)<br>Differentiate between object reference variables and primitive variables<br>Know how to read or write to object fields<br>Explain an Object’s Lifecycle (creation, “dereference by reassignment” and garbage collection)<br>Develop code that uses wrapper classes such as Boolean, Double, and Integer<br>Using Operators and Decision Constructs<br>Use Java operators; use parentheses to override operator precedence<br>Test equality between Strings and other objects using == and equals ()<br>Create if and if/else and ternary constructs<br>Use a switch statement<br>Creating and Using Arrays<br>Declare, instantiate, initialize and use a one-dimensional array<br>Declare, instantiate, initialize and use multi-dimensional arrays<br>Using Loop Constructs<br>Create and use while loops<br>Create and use for loops including the enhanced for loop<br>Create and use do/while loops<br>Compare loop constructs<br>Use break and continue<br>Working with Methods and Encapsulation<br>Create methods with arguments and return values; including overloaded methods<br>Apply the static keyword to methods and fields<br>Create and overload constructors; differentiate between default and user defined constructors<br>Apply access modifiers<br>Apply encapsulation principles to a class<br>Determine the effect upon object references and primitive values when they are passed  into methods that change the values<br>Working with Inheritance<br>Describe inheritance and its benefits<br>Develop code that makes use of polymorphism; develop code that overrides methods;  differentiate between the type of a reference and the type of an object<br>Determine when casting is necessary<br>Use super and this to access objects and constructors<br>Use abstract classes and interfaces<br>Handling Exceptions<br>Differentiate among checked exceptions, unchecked exceptions, and Errors<br>Create a try-catch block and determine how exceptions alter normal program flow<br>Describe the advantages of Exception handling<br>Create and invoke a method that throws an exception<br>Recognize common exception classes (such as NullPointerException, ArithmeticException, ArrayIndexOutOfBoundsException, ClassCastException)<br>Working with Selected classes from the Java API<br>Manipulate data using the StringBuilder class and its methods<br>Create and manipulate Strings<br>Create and manipulate calendar data using classes from java.time.LocalDateTime,  java.time.LocalDate, java.time.LocalTime, java.time.format.DateTimeFormatter, java.time.Period<br>Declare and use an ArrayList of a given type<br>Write a simple Lambda expression that consumes a Lambda Predicate expression</p>]]></content>
+    
+    <summary type="html">
+    
+      IT面试, 认证考试, 复习资料 Review Exam Topics
+    
+    </summary>
+    
+      <category term="IT考试资料" scheme="http://laiweijun.com/categories/IT%E8%80%83%E8%AF%95%E8%B5%84%E6%96%99/"/>
+    
+    
+      <category term="面试" scheme="http://laiweijun.com/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="认证考试" scheme="http://laiweijun.com/tags/%E8%AE%A4%E8%AF%81%E8%80%83%E8%AF%95/"/>
+    
+      <category term="复习资料" scheme="http://laiweijun.com/tags/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>复习资料</title>
+    <link href="http://laiweijun.com/2018/04/01/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+    <id>http://laiweijun.com/2018/04/01/复习资料/</id>
+    <published>2018-04-01T09:09:14.000Z</published>
+    <updated>2018-04-01T09:45:46.970Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="复习资料"><a href="#复习资料" class="headerlink" title="复习资料"></a>复习资料</h3><h4 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h4><p><a href="https://github.com/fouber/blog" target="_blank" rel="noopener">前端农民工个人博客</a><br><a href="https://github.com/ElemeFE/node-interview/blob/master/sections/zh-cn/common.md#类型判断" target="_blank" rel="noopener">JavaScript 基础问题</a><br><a href="http://es6.ruanyifeng.com/#docs/let" target="_blank" rel="noopener">ECMAScript 6 入门 阮一峰</a><br><a href="http://bonsaiden.github.io/JavaScript-Garden/zh/#intro" target="_blank" rel="noopener">JavaScript-Garden</a></p><h4 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h4><h3 id="认证考试"><a href="#认证考试" class="headerlink" title="认证考试"></a>认证考试</h3><p><a href="http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=50" target="_blank" rel="noopener">oracle 官方认证</a><br><a href="http://education.oracle.com/pls/web_prod-plq-dad/ou_product_category.getPage?p_cat_id=267&amp;p_org_id=1243197&amp;lang=ZHS#tabs-3" target="_blank" rel="noopener">Java SE Certification</a><br><a href="http://education.oracle.com/pls/web_prod-plq-dad/ou_product_category.getPage?p_cat_id=264&amp;p_org_id=1243197&amp;lang=ZHS#tabs-3" target="_blank" rel="noopener">Java EE Certification</a><br><a href="https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&amp;get_params=p_exam_id:1Z0-851" target="_blank" rel="noopener">Java SE 6 Programmer Certified Professional (retiring May 31, 2018)</a></p>]]></content>
+    
+    <summary type="html">
+    
+      IT面试, 认证考试, 复习资料
+    
+    </summary>
+    
+      <category term="IT考试资料" scheme="http://laiweijun.com/categories/IT%E8%80%83%E8%AF%95%E8%B5%84%E6%96%99/"/>
+    
+    
+      <category term="面试" scheme="http://laiweijun.com/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="认证考试" scheme="http://laiweijun.com/tags/%E8%AE%A4%E8%AF%81%E8%80%83%E8%AF%95/"/>
+    
+      <category term="复习资料" scheme="http://laiweijun.com/tags/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
+  
+  <entry>
     <title>🔒箴言</title>
     <link href="http://laiweijun.com/2018/03/14/%E7%AE%B4%E8%A8%80/"/>
     <id>http://laiweijun.com/2018/03/14/箴言/</id>
     <published>2018-03-14T03:12:22.000Z</published>
     <updated>2018-03-22T04:14:28.102Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" {{passwordTips}} "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">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</div>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" {{passwordTips}} "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">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</div>]]></content>
     
     <summary type="html">
     
@@ -34,11 +86,11 @@
       <category term="箴言" scheme="http://laiweijun.com/categories/%E7%AE%B4%E8%A8%80/"/>
     
     
-      <category term="故事" scheme="http://laiweijun.com/tags/%E6%95%85%E4%BA%8B/"/>
-    
       <category term="历史" scheme="http://laiweijun.com/tags/%E5%8E%86%E5%8F%B2/"/>
     
       <category term="箴言" scheme="http://laiweijun.com/tags/%E7%AE%B4%E8%A8%80/"/>
+    
+      <category term="故事" scheme="http://laiweijun.com/tags/%E6%95%85%E4%BA%8B/"/>
     
   </entry>
   
@@ -49,7 +101,7 @@
     <published>2018-03-08T10:02:20.000Z</published>
     <updated>2018-03-11T02:42:32.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTlPcjVmRVgyNlJvc1BIVlZEUGx5TktQbDRUS0VxRFhsTzFwMlFyR1J4Rm9MWEVHdEhFUXpBNSUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX19IY/kQSZzLsK9lQDXbasDR4dBpy89Wi8GhSPdUjJsToX+ciBqdhJtJfxFlfXvNMk1Is5lqHi6mQJn94TrVo2QirLekmyuPOkeBLtznf+HdrOHprCVZlfd+fZXE8ZYrN1dInu3iXuU6HbtOcoFmEyMkKKLhiWKu8dIU/W/wzrHEL+Z5+b4BJfxRRA9PchNg9prKg8JXcv8pJOe1P23tC10QoZdidwSl0p01SO+G/T9LQrkDrwKymX/3M0TlZ511ncTRl0CUuzolLRtNMIorNWagST3J42roU1goEyYYd4eqaYVVQA9IzI3r+RNCLDPEGWUUM89EdRjuBTKr9wPXQPA1tHY+HMs5XcrTarUva7d2UeMum2xdNL6YuaJDmup7GDUZFD9GsvRU5hlEmslRRmlMY1yO/cwAy4uRVarWhXnrhegKeMufw3dyavyHEkmQpUe8e4Ms1AI4NZsJrmW3iDLQL0u7qOL2O6FxaUgTGkRm3PaTdFbd4mNo0ahlXvKO1lFUwmVTzVhZfVPcRpDLnF4DA0vGYQQ5mlM=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMStXTWllK1hsK3gyaG9BRmlpSDF0c0lQU3RIUXFiY3RTOVY4S1BvTkpHWkNQenYvdTUwRHdMayUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX19ONfH6aV/0znCM0N+d80oVV9WcdCx2YdyyEM8jChGFh6z+DYDbsLeAiK/jfBWi2xNAIQOssHR74X9fbcKg5N+wRZKlnOmEWWChhe4SWcouRXgzE2GiLWvn/59q24F5d4ndVPK+oorxTlo1kstLHvkWm/pzFyd1pu/HJns17q1G1NDNDPWMM5hr8cGW6wG5tI01vkuUdpPc9hgf+CRLI3D8w2nqIzuSGOMeMthKZmybSODVZIi2QYPGrU9UQ1DkeFe5VtLJEUIHWCAhJczmldCioopuRV0Iv+pErTY/3VogKoT6r54L1Xmm4663r4nCeBUiTWzMB99YC4GkIM3jQo7+lK8KgWo8JVQVJNmkfgq52N3oIcEuaydiDWMO5/xjGIaHcbxDWu+s1TP+C5viemowfq6QuZuEDLKBhmwW0S3QCAa8+lEeW7R1+0EeXJ6/xoOfhARWLbL+d9fVLmIn/UrQUD/lXS6WlecnqIUcr157iaEFlL+FE8QI7sTrehFhttcDj83NpxucC5hkgU/GOBpFeG3NaOYTttQ=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>]]></content>
     
     <summary type="html">
     
@@ -137,163 +189,6 @@
       <category term="电驴" scheme="http://laiweijun.com/tags/%E7%94%B5%E9%A9%B4/"/>
     
       <category term="BT种子" scheme="http://laiweijun.com/tags/BT%E7%A7%8D%E5%AD%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2018两会学习</title>
-    <link href="http://laiweijun.com/2018/03/07/2018%E4%B8%A4%E4%BC%9A%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://laiweijun.com/2018/03/07/2018两会学习/</id>
-    <published>2018-03-07T03:27:05.000Z</published>
-    <updated>2018-03-10T17:04:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><hr><p>今年两会发了很多个大红包，减轻了各种人群生产活动的负担，鼓励更多人参与劳动致富走向更好生活质量的中国梦。</p><hr><h2 id="简要"><a href="#简要" class="headerlink" title="简要"></a>简要</h2><ol><li>~~ √ 取消漫游流量 城乡网络全覆盖</li><li>~~ √ 提高个人所得税起征点</li><li>~~ √ 鼓励创业 发展智能产业</li><li>~~ √ 数字中国<br>….</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      2018年两会的学习思考
-    
-    </summary>
-    
-      <category term="学习" scheme="http://laiweijun.com/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="两会" scheme="http://laiweijun.com/tags/%E4%B8%A4%E4%BC%9A/"/>
-    
-      <category term="学习" scheme="http://laiweijun.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>🔒空间布局</title>
-    <link href="http://laiweijun.com/2018/03/06/%E7%A9%BA%E9%97%B4%E5%B8%83%E5%B1%80/"/>
-    <id>http://laiweijun.com/2018/03/06/空间布局/</id>
-    <published>2018-03-06T12:02:23.000Z</published>
-    <updated>2018-03-11T02:11:02.000Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMStyekpnbk5LZ2NTRFRVelBkWHl5WEpHR1dXUktEVGpzbyUzRCUzRmFHRm9ZVE10TXclM0QlM0Q= "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX18rmOiBN0kgjaQNLGbEElI1QtYx39Y3ifZapFUienZUhHbAr9bBCr+mCoAYOozXVVecmyLDzKz8Gvuim95kY6GTlZpxq8YzS9DjDn3xyqzASJ/W0VLADMaQwFyM0MNtG9rhRl+ZWXcAfvYFfGLl7r21YA+BarAEMxcsZiOh5MP2OTJOYygwsIieau8djKvQJ42pJYQaqK6oKiTO3G3F0RWX0wrpth/3X2LCfANkhj1DvYRZy7PWNS/owtza8yp0ASp6HtUvgK2zKtjkMzDR3skUZ1IEE9bYvE0wWt7den0vIcUK+19ykYcUelkgIq0bc5sTQ6mSc5FcUnvag90BO61ndRFaqebWzFAdZOxjQCfx7ryvetGQCZ5kfN7lD87wNEM+bQeuleeekaviazK1i9+AvPQ5e5wdruHow3JkcIUUCzxJ0qUhtePTYCRmxm39daWHXEAQBuC8EpBuSHXauMlYv1i0MtfspbhZje7qX3Q+XdP/YkUaDpJALaKpzsx/ma0VDQpSaGAPsMVuflYt0e8ggmW3Ku84JEsfNUgDhDanKsTezOH48AhVD4mQuUeWf2DRcXAv3H3mPSGqiCVigATAANKyZJekChagzOEl5UOTqS//ZWF+tKwW9R1a6wpf5qtfKes2CicBGF/u22hV5lfwDLrVhnel2eYN2PFlRvJQsjNVuGcCipjp/2DCRbATQxxB/zMysbRc/NfbSJt6uEVXyK/pTSMT9/ByXqbTneQfhWnlrdjVNbvY83NU33KR6uVvVXKJ75PAie6pjqhkBZvfAmvF9baBe8nc3jj5/9+wmMtQZbQg5JDI1R8IaG896rxyWfI5/upamo0nmEo9jOWpd5KP5amGVC2pyr9rHCSYA8Po0lBpVdg1q8BimiL/jBQP4IPo0KgN3ise89V/ciC4mIRl5Rw0QU/ujxaGaa7gVIp/H4sVypy3N0xS28G94g8hd7zkeVvBtnCQCUr+GmAuBiBAD36dvxN/IvhTfL94U4EJaCPcHD4l0MkiYduYkOSCArlzbDj++2kro+iLkFJrvy7zDXqGK/FpktSzLC/xScTuiymVL+Nt2ocDKvmhj7QXCZK8CS8NljOL4ZxUcNHxMQKrRmhrUoYHUWuSlJOF0YaxSY1cfIvM8+ZBtFWvTlGpmrOU8YG8FDKPaCpDKBac8K6gPwFfw/O+8ueE3TJnB/Pv7c34q2BXXCKljNAWErdn3fyZNLNw7yyO+kgaFrogxWPpql8FcIxUmGJ6hUirFleP4Jvpsc/kntAF307Q+XhwZC4CUDRKg4NEEjKrVaOV3SInFRYRhxq9LMBpcYbqwreL9/l3XlXY6EV5P/Ytx6cgOGEU8LXwM05W31unEgC2S9Be4pe02k2ujiV9xYjW8uy1EQRKtMssbl5lp9HwCY/sbQsG+z0pgWYhqCC9MSBuNDHkTgchUpNRm1OEQx8V5ry87rTbTu8wN/hzOujRWwNLvh3r/qWxJp19azQb+AhVTVSksrHZ94jJ3jRub3moobgh4Zv71rHH3sUUv04f3e74bchgkPrWtm/uw7lLzFM14pZ//fO0196zKJhgKYedITw6T1wEj1F7OcP9Qm51pZyLD/d6EaYb5KlFjpn81kV9CKjqV5flaQDlE3rLrUravCPwjBKbwR8ZqSvyRYwW6s34b/8g2wFhmFIY/vHRprfbs4YNspaiO99MQ+L2A9FMWNHOrlrPHvdRf6QJ4t4Z9RrOm1reRGpkbPtHmTlS8SfVNiNpCGcrJdc=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;i class=&quot;fa fa-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; 神秘的空间
-    
-    </summary>
-    
-      <category term="布局" scheme="http://laiweijun.com/categories/%E5%B8%83%E5%B1%80/"/>
-    
-    
-      <category term="加密" scheme="http://laiweijun.com/tags/%E5%8A%A0%E5%AF%86/"/>
-    
-      <category term="布局" scheme="http://laiweijun.com/tags/%E5%B8%83%E5%B1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>迁移数据</title>
-    <link href="http://laiweijun.com/2018/03/06/%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/"/>
-    <id>http://laiweijun.com/2018/03/06/迁移数据/</id>
-    <published>2018-03-06T05:29:46.000Z</published>
-    <updated>2018-03-09T14:51:36.000Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="本文已经迁移直云端"><a href="#本文已经迁移直云端" class="headerlink" title="本文已经迁移直云端"></a>本文已经迁移直云端</h3><p>显示正常<br>可以多端协同编辑博客<br>现在这是mac电脑修改的内容<br>//to do<br>现在这是pc电脑修改的内容<br>//to do</p><h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>可以看到<br>新行<br>~~ test syc<br>新行</p><table><thead><tr><th>Tables</th><th style="text-align:center">Are</th><th style="text-align:right">Cool</th></tr></thead><tbody><tr><td>col 3 is</td><td style="text-align:center">right-aligned</td><td style="text-align:right">$1600</td></tr><tr><td>col 2 is</td><td style="text-align:center">centered</td><td style="text-align:right">$12</td></tr><tr><td>zebra stripes</td><td style="text-align:center">are neat</td><td style="text-align:right">$1</td></tr></tbody></table><p>新行<br>[] good to know everything is ok.</p><h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>真是太好了<br>很好很好，已经可以多端协同编写文章了。</p>]]></content>
-    
-    <summary type="html">
-    
-      多端协同编辑测试
-    
-    </summary>
-    
-      <category term="Hexo练习" scheme="http://laiweijun.com/categories/Hexo%E7%BB%83%E4%B9%A0/"/>
-    
-    
-      <category term="迁移" scheme="http://laiweijun.com/tags/%E8%BF%81%E7%A7%BB/"/>
-    
-      <category term="数据" scheme="http://laiweijun.com/tags/%E6%95%B0%E6%8D%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>🔒今天天气真好！</title>
-    <link href="http://laiweijun.com/2018/03/02/%E3%80%90%E5%8A%A0%E5%AF%86%E3%80%91%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E7%9C%9F%E5%A5%BD%EF%BC%81/"/>
-    <id>http://laiweijun.com/2018/03/02/【加密】今天天气真好！/</id>
-    <published>2018-03-02T06:52:24.000Z</published>
-    <updated>2018-03-11T02:43:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTg1dmx3aGw4YWliMVBxSGZzSGpGQ3psZU5BbHpoRVRLUSUzRCUzRmIyczFPRFklM0Q= "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX19SduxaTjjOg+T2+DrTM2gR51J4olH6pXTyGLc0Jj4yMmTnfDrT5kPCPv+DUrrHpiD99YDtDO+8fq/v7iw2jDC5nKE7DMkp8KaJaiqqpeJoo4QNXWdaKDVQInEm9wujHbzYFWSOPdYtHVKKOIkPruA3xKU72hJETx8ntpzGEZqR9/sUCM2GDKUyNbfFCsAu4R/V7D+zjzVXscwYLC12rEMOIfQehfM7aAeyCAKXszhQlHfTfY52+EbUNdZSXtKsCMOEiyQtJdu/WvR6M3/xayeK3xz/64ZLH2+l94ERIxSdf5FCLoFH0r5r2sJGkLm9J37GoKmE9YAyHq06nCRu0lAmTsM4pgLByynVPJsyaS+e2VpHc2dWBiMCzv11UFcqYCYgZrMU0ESGZ1eq8yYg3fpN/WdlhsjEdBF+/T8R/C0ck05KZYsOkQOA5tkUJIjqkXlzvllOwwWtqJx8Kz1qVr6CK4ZqUvwEPScAcYUHZM7gleyntts3w3/nPYQ87CCQAT9cIzyahw0sg+bI+nk+iETfmDckvM9OEgnHM8MaTdY+26CpkQeq5s1yRQhSTqMlJAGdY/7x5fu+OUAm4YewpizPzofOnhmZUK1LwAkGudkm2Y58Qy7lPLzHQYGhQ4aEwyRJjFwtyYG9WVe/D1i+XV3B/BvQEcKnn8PmMmAunRwU/Ni359nMMGwq</div>]]></content>
-    
-    <summary type="html">
-    
-      &lt;i class=&quot;fa fa-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; 文章访问需要密码&lt;/br&gt;
-    
-    </summary>
-    
-      <category term="Hexo练习" scheme="http://laiweijun.com/categories/Hexo%E7%BB%83%E4%B9%A0/"/>
-    
-    
-      <category term="加密" scheme="http://laiweijun.com/tags/%E5%8A%A0%E5%AF%86/"/>
-    
-      <category term="故事" scheme="http://laiweijun.com/tags/%E6%95%85%E4%BA%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>中文</title>
-    <link href="http://laiweijun.com/2018/03/01/%E4%B8%AD%E6%96%87/"/>
-    <id>http://laiweijun.com/2018/03/01/中文/</id>
-    <published>2018-03-01T15:17:25.000Z</published>
-    <updated>2018-03-06T05:25:05.208Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>中文文字显示测试，看看中文是否可以正常显示。</p><h2 id="以下是测试内容"><a href="#以下是测试内容" class="headerlink" title="以下是测试内容"></a>以下是测试内容</h2><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>这是一个开始字段<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行</p><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>本文内容相当精彩<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行</p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>谢谢您的阅读<br>换行<br>换行<br>换行<br>换行<br>换行<br>换行</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;中文文字显示测试，看看中文是否可以正常显示。&lt;/p&gt;
-&lt;h2 id=&quot;以下是测试内容&quot;&gt;&lt;a href=&quot;#以下是测试内容&quot; class=&quot;headerlink&quot; title
-      
-    
-    </summary>
-    
-      <category term="Hexo练习" scheme="http://laiweijun.com/categories/Hexo%E7%BB%83%E4%B9%A0/"/>
-    
-    
-      <category term="中文" scheme="http://laiweijun.com/tags/%E4%B8%AD%E6%96%87/"/>
-    
-      <category term="测试" scheme="http://laiweijun.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-      <category term="显示" scheme="http://laiweijun.com/tags/%E6%98%BE%E7%A4%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>来自1900</title>
-    <link href="http://laiweijun.com/1900/03/02/%E6%9D%A5%E8%87%AA1999/"/>
-    <id>http://laiweijun.com/1900/03/02/来自1999/</id>
-    <published>1900-03-01T18:15:55.000Z</published>
-    <updated>2018-03-06T05:25:05.210Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>假设这篇文章是1900年的老文章。<br>看看hexo是否会自动归类和正确显示时间信息</p><p>这里有历史旧闻故事</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;假设这篇文章是1900年的老文章。&lt;br&gt;看看hexo是否会自动归类和正确显示时间信息&lt;/p&gt;
-&lt;p&gt;这里有历史旧闻故事&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="Hexo练习" scheme="http://laiweijun.com/categories/Hexo%E7%BB%83%E4%B9%A0/"/>
-    
-    
-      <category term="故事" scheme="http://laiweijun.com/tags/%E6%95%85%E4%BA%8B/"/>
-    
-      <category term="历史" scheme="http://laiweijun.com/tags/%E5%8E%86%E5%8F%B2/"/>
-    
-      <category term="旧闻" scheme="http://laiweijun.com/tags/%E6%97%A7%E9%97%BB/"/>
     
   </entry>
   

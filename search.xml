@@ -1,22 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Java SE 8 Programmer I 1 Z0-808]]></title>
+    <url>%2F2018%2F04%2F01%2FJava-SE-8-Programmer-I-1-Z0-808%2F</url>
+    <content type="text"><![CDATA[Review Exam TopicsAssume the following:Missing package and import statements: If sample code do not include package or import statements, and the question does not explicitly refer to these missing statements, then assume that all sample code is in the same package, or import statements exist to support them.No file or directory path names for classes: If a question does not state the file names or directory locations of classes, then assume one of the following, whichever will enable the code to compile and run:All classes are in one fileEach class is contained in a separate file, and all files are in one directoryUnintended line breaks: Sample code might have unintended line breaks. If you see a line of code that looks like it has wrapped, and this creates a situation where the wrapping is significant (for example, a quoted String literal has wrapped), assume that the wrapping is an extension of the same line, and the line does not contain a hard carriage return that would cause a compilation failure.Code fragments: A code fragment is a small section of source code that is presented without its context. Assume that all necessary supporting code exists and that the supporting environment fully supports the correct compilation and execution of the code shown and its omitted environment.Descriptive comments: Take descriptive comments, such as “setter and getters go here,” at face value. Assume that correct code exists, compiles, and runs successfully to create the described effect.TOPICS Java BasicsDefine the scope of variablesDefine the structure of a Java classCreate executable Java applications with a main method; run a Java program from the command line; produce console outputImport other Java packages to make them accessible in your codeCompare and contrast the features and components of Java such as: platform independence, object orientation, encapsulation, etc.Working With Java Data TypesDeclare and initialize variables (including casting of primitive data types)Differentiate between object reference variables and primitive variablesKnow how to read or write to object fieldsExplain an Object’s Lifecycle (creation, “dereference by reassignment” and garbage collection)Develop code that uses wrapper classes such as Boolean, Double, and IntegerUsing Operators and Decision ConstructsUse Java operators; use parentheses to override operator precedenceTest equality between Strings and other objects using == and equals ()Create if and if/else and ternary constructsUse a switch statementCreating and Using ArraysDeclare, instantiate, initialize and use a one-dimensional arrayDeclare, instantiate, initialize and use multi-dimensional arraysUsing Loop ConstructsCreate and use while loopsCreate and use for loops including the enhanced for loopCreate and use do/while loopsCompare loop constructsUse break and continueWorking with Methods and EncapsulationCreate methods with arguments and return values; including overloaded methodsApply the static keyword to methods and fieldsCreate and overload constructors; differentiate between default and user defined constructorsApply access modifiersApply encapsulation principles to a classDetermine the effect upon object references and primitive values when they are passed into methods that change the valuesWorking with InheritanceDescribe inheritance and its benefitsDevelop code that makes use of polymorphism; develop code that overrides methods; differentiate between the type of a reference and the type of an objectDetermine when casting is necessaryUse super and this to access objects and constructorsUse abstract classes and interfacesHandling ExceptionsDifferentiate among checked exceptions, unchecked exceptions, and ErrorsCreate a try-catch block and determine how exceptions alter normal program flowDescribe the advantages of Exception handlingCreate and invoke a method that throws an exceptionRecognize common exception classes (such as NullPointerException, ArithmeticException, ArrayIndexOutOfBoundsException, ClassCastException)Working with Selected classes from the Java APIManipulate data using the StringBuilder class and its methodsCreate and manipulate StringsCreate and manipulate calendar data using classes from java.time.LocalDateTime, java.time.LocalDate, java.time.LocalTime, java.time.format.DateTimeFormatter, java.time.PeriodDeclare and use an ArrayList of a given typeWrite a simple Lambda expression that consumes a Lambda Predicate expression]]></content>
+      <categories>
+        <category>IT考试资料</category>
+      </categories>
+      <tags>
+        <tag>面试</tag>
+        <tag>认证考试</tag>
+        <tag>复习资料</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[复习资料]]></title>
+    <url>%2F2018%2F04%2F01%2F%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99%2F</url>
+    <content type="text"><![CDATA[复习资料前端前端农民工个人博客JavaScript 基础问题ECMAScript 6 入门 阮一峰JavaScript-Garden 后端认证考试oracle 官方认证Java SE CertificationJava EE CertificationJava SE 6 Programmer Certified Professional (retiring May 31, 2018)]]></content>
+      <categories>
+        <category>IT考试资料</category>
+      </categories>
+      <tags>
+        <tag>面试</tag>
+        <tag>认证考试</tag>
+        <tag>复习资料</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[🔒箴言]]></title>
     <url>%2F2018%2F03%2F14%2F%E7%AE%B4%E8%A8%80%2F</url>
-    <content type="text"><![CDATA[请输入密码 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]]></content>
+    <content type="text"><![CDATA[请输入密码 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]]></content>
       <categories>
         <category>箴言</category>
       </categories>
       <tags>
-        <tag>故事</tag>
         <tag>历史</tag>
         <tag>箴言</tag>
+        <tag>故事</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[🔒Base32编码]]></title>
     <url>%2F2018%2F03%2F08%2FBase32%E7%BC%96%E7%A0%81%2F</url>
-    <content type="text"><![CDATA[请输入密码 U2FsdGVkX19IY/kQSZzLsK9lQDXbasDR4dBpy89Wi8GhSPdUjJsToX+ciBqdhJtJfxFlfXvNMk1Is5lqHi6mQJn94TrVo2QirLekmyuPOkeBLtznf+HdrOHprCVZlfd+fZXE8ZYrN1dInu3iXuU6HbtOcoFmEyMkKKLhiWKu8dIU/W/wzrHEL+Z5+b4BJfxRRA9PchNg9prKg8JXcv8pJOe1P23tC10QoZdidwSl0p01SO+G/T9LQrkDrwKymX/3M0TlZ511ncTRl0CUuzolLRtNMIorNWagST3J42roU1goEyYYd4eqaYVVQA9IzI3r+RNCLDPEGWUUM89EdRjuBTKr9wPXQPA1tHY+HMs5XcrTarUva7d2UeMum2xdNL6YuaJDmup7GDUZFD9GsvRU5hlEmslRRmlMY1yO/cwAy4uRVarWhXnrhegKeMufw3dyavyHEkmQpUe8e4Ms1AI4NZsJrmW3iDLQL0u7qOL2O6FxaUgTGkRm3PaTdFbd4mNo0ahlXvKO1lFUwmVTzVhZfVPcRpDLnF4DA0vGYQQ5mlM=$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});]]></content>
+    <content type="text"><![CDATA[请输入密码 U2FsdGVkX19ONfH6aV/0znCM0N+d80oVV9WcdCx2YdyyEM8jChGFh6z+DYDbsLeAiK/jfBWi2xNAIQOssHR74X9fbcKg5N+wRZKlnOmEWWChhe4SWcouRXgzE2GiLWvn/59q24F5d4ndVPK+oorxTlo1kstLHvkWm/pzFyd1pu/HJns17q1G1NDNDPWMM5hr8cGW6wG5tI01vkuUdpPc9hgf+CRLI3D8w2nqIzuSGOMeMthKZmybSODVZIi2QYPGrU9UQ1DkeFe5VtLJEUIHWCAhJczmldCioopuRV0Iv+pErTY/3VogKoT6r54L1Xmm4663r4nCeBUiTWzMB99YC4GkIM3jQo7+lK8KgWo8JVQVJNmkfgq52N3oIcEuaydiDWMO5/xjGIaHcbxDWu+s1TP+C5viemowfq6QuZuEDLKBhmwW0S3QCAa8+lEeW7R1+0EeXJ6/xoOfhARWLbL+d9fVLmIn/UrQUD/lXS6WlecnqIUcr157iaEFlL+FE8QI7sTrehFhttcDj83NpxucC5hkgU/GOBpFeG3NaOYTttQ=$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});]]></content>
       <categories>
         <category>计算机基础科学</category>
       </categories>
@@ -60,80 +86,6 @@
         <tag>旋风</tag>
         <tag>电驴</tag>
         <tag>BT种子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[2018两会学习]]></title>
-    <url>%2F2018%2F03%2F07%2F2018%E4%B8%A4%E4%BC%9A%E5%AD%A6%E4%B9%A0%2F</url>
-    <content type="text"><![CDATA[今年两会发了很多个大红包，减轻了各种人群生产活动的负担，鼓励更多人参与劳动致富走向更好生活质量的中国梦。 简要 ~~ √ 取消漫游流量 城乡网络全覆盖 ~~ √ 提高个人所得税起征点 ~~ √ 鼓励创业 发展智能产业 ~~ √ 数字中国….]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>两会</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[🔒空间布局]]></title>
-    <url>%2F2018%2F03%2F06%2F%E7%A9%BA%E9%97%B4%E5%B8%83%E5%B1%80%2F</url>
-    <content type="text"><![CDATA[请输入密码 U2FsdGVkX18rmOiBN0kgjaQNLGbEElI1QtYx39Y3ifZapFUienZUhHbAr9bBCr+mCoAYOozXVVecmyLDzKz8Gvuim95kY6GTlZpxq8YzS9DjDn3xyqzASJ/W0VLADMaQwFyM0MNtG9rhRl+ZWXcAfvYFfGLl7r21YA+BarAEMxcsZiOh5MP2OTJOYygwsIieau8djKvQJ42pJYQaqK6oKiTO3G3F0RWX0wrpth/3X2LCfANkhj1DvYRZy7PWNS/owtza8yp0ASp6HtUvgK2zKtjkMzDR3skUZ1IEE9bYvE0wWt7den0vIcUK+19ykYcUelkgIq0bc5sTQ6mSc5FcUnvag90BO61ndRFaqebWzFAdZOxjQCfx7ryvetGQCZ5kfN7lD87wNEM+bQeuleeekaviazK1i9+AvPQ5e5wdruHow3JkcIUUCzxJ0qUhtePTYCRmxm39daWHXEAQBuC8EpBuSHXauMlYv1i0MtfspbhZje7qX3Q+XdP/YkUaDpJALaKpzsx/ma0VDQpSaGAPsMVuflYt0e8ggmW3Ku84JEsfNUgDhDanKsTezOH48AhVD4mQuUeWf2DRcXAv3H3mPSGqiCVigATAANKyZJekChagzOEl5UOTqS//ZWF+tKwW9R1a6wpf5qtfKes2CicBGF/u22hV5lfwDLrVhnel2eYN2PFlRvJQsjNVuGcCipjp/2DCRbATQxxB/zMysbRc/NfbSJt6uEVXyK/pTSMT9/ByXqbTneQfhWnlrdjVNbvY83NU33KR6uVvVXKJ75PAie6pjqhkBZvfAmvF9baBe8nc3jj5/9+wmMtQZbQg5JDI1R8IaG896rxyWfI5/upamo0nmEo9jOWpd5KP5amGVC2pyr9rHCSYA8Po0lBpVdg1q8BimiL/jBQP4IPo0KgN3ise89V/ciC4mIRl5Rw0QU/ujxaGaa7gVIp/H4sVypy3N0xS28G94g8hd7zkeVvBtnCQCUr+GmAuBiBAD36dvxN/IvhTfL94U4EJaCPcHD4l0MkiYduYkOSCArlzbDj++2kro+iLkFJrvy7zDXqGK/FpktSzLC/xScTuiymVL+Nt2ocDKvmhj7QXCZK8CS8NljOL4ZxUcNHxMQKrRmhrUoYHUWuSlJOF0YaxSY1cfIvM8+ZBtFWvTlGpmrOU8YG8FDKPaCpDKBac8K6gPwFfw/O+8ueE3TJnB/Pv7c34q2BXXCKljNAWErdn3fyZNLNw7yyO+kgaFrogxWPpql8FcIxUmGJ6hUirFleP4Jvpsc/kntAF307Q+XhwZC4CUDRKg4NEEjKrVaOV3SInFRYRhxq9LMBpcYbqwreL9/l3XlXY6EV5P/Ytx6cgOGEU8LXwM05W31unEgC2S9Be4pe02k2ujiV9xYjW8uy1EQRKtMssbl5lp9HwCY/sbQsG+z0pgWYhqCC9MSBuNDHkTgchUpNRm1OEQx8V5ry87rTbTu8wN/hzOujRWwNLvh3r/qWxJp19azQb+AhVTVSksrHZ94jJ3jRub3moobgh4Zv71rHH3sUUv04f3e74bchgkPrWtm/uw7lLzFM14pZ//fO0196zKJhgKYedITw6T1wEj1F7OcP9Qm51pZyLD/d6EaYb5KlFjpn81kV9CKjqV5flaQDlE3rLrUravCPwjBKbwR8ZqSvyRYwW6s34b/8g2wFhmFIY/vHRprfbs4YNspaiO99MQ+L2A9FMWNHOrlrPHvdRf6QJ4t4Z9RrOm1reRGpkbPtHmTlS8SfVNiNpCGcrJdc=$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});]]></content>
-      <categories>
-        <category>布局</category>
-      </categories>
-      <tags>
-        <tag>加密</tag>
-        <tag>布局</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[迁移数据]]></title>
-    <url>%2F2018%2F03%2F06%2F%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE%2F</url>
-    <content type="text"><![CDATA[本文已经迁移直云端显示正常可以多端协同编辑博客现在这是mac电脑修改的内容//to do现在这是pc电脑修改的内容//to do 正文可以看到新行~~ test syc新行 Tables Are Cool col 3 is right-aligned $1600 col 2 is centered $12 zebra stripes are neat $1 新行[] good to know everything is ok. 结尾真是太好了很好很好，已经可以多端协同编写文章了。]]></content>
-      <categories>
-        <category>Hexo练习</category>
-      </categories>
-      <tags>
-        <tag>迁移</tag>
-        <tag>数据</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[🔒今天天气真好！]]></title>
-    <url>%2F2018%2F03%2F02%2F%E3%80%90%E5%8A%A0%E5%AF%86%E3%80%91%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E7%9C%9F%E5%A5%BD%EF%BC%81%2F</url>
-    <content type="text"><![CDATA[请输入密码 U2FsdGVkX19SduxaTjjOg+T2+DrTM2gR51J4olH6pXTyGLc0Jj4yMmTnfDrT5kPCPv+DUrrHpiD99YDtDO+8fq/v7iw2jDC5nKE7DMkp8KaJaiqqpeJoo4QNXWdaKDVQInEm9wujHbzYFWSOPdYtHVKKOIkPruA3xKU72hJETx8ntpzGEZqR9/sUCM2GDKUyNbfFCsAu4R/V7D+zjzVXscwYLC12rEMOIfQehfM7aAeyCAKXszhQlHfTfY52+EbUNdZSXtKsCMOEiyQtJdu/WvR6M3/xayeK3xz/64ZLH2+l94ERIxSdf5FCLoFH0r5r2sJGkLm9J37GoKmE9YAyHq06nCRu0lAmTsM4pgLByynVPJsyaS+e2VpHc2dWBiMCzv11UFcqYCYgZrMU0ESGZ1eq8yYg3fpN/WdlhsjEdBF+/T8R/C0ck05KZYsOkQOA5tkUJIjqkXlzvllOwwWtqJx8Kz1qVr6CK4ZqUvwEPScAcYUHZM7gleyntts3w3/nPYQ87CCQAT9cIzyahw0sg+bI+nk+iETfmDckvM9OEgnHM8MaTdY+26CpkQeq5s1yRQhSTqMlJAGdY/7x5fu+OUAm4YewpizPzofOnhmZUK1LwAkGudkm2Y58Qy7lPLzHQYGhQ4aEwyRJjFwtyYG9WVe/D1i+XV3B/BvQEcKnn8PmMmAunRwU/Ni359nMMGwq]]></content>
-      <categories>
-        <category>Hexo练习</category>
-      </categories>
-      <tags>
-        <tag>加密</tag>
-        <tag>故事</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[中文]]></title>
-    <url>%2F2018%2F03%2F01%2F%E4%B8%AD%E6%96%87%2F</url>
-    <content type="text"><![CDATA[中文文字显示测试，看看中文是否可以正常显示。 以下是测试内容开始这是一个开始字段换行换行换行换行换行换行换行换行换行换行 内容本文内容相当精彩换行换行换行换行换行换行换行 最后谢谢您的阅读换行换行换行换行换行换行]]></content>
-      <categories>
-        <category>Hexo练习</category>
-      </categories>
-      <tags>
-        <tag>中文</tag>
-        <tag>测试</tag>
-        <tag>显示</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[来自1900]]></title>
-    <url>%2F1900%2F03%2F02%2F%E6%9D%A5%E8%87%AA1999%2F</url>
-    <content type="text"><![CDATA[假设这篇文章是1900年的老文章。看看hexo是否会自动归类和正确显示时间信息 这里有历史旧闻故事]]></content>
-      <categories>
-        <category>Hexo练习</category>
-      </categories>
-      <tags>
-        <tag>故事</tag>
-        <tag>历史</tag>
-        <tag>旧闻</tag>
       </tags>
   </entry>
 </search>
