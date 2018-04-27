@@ -5,9 +5,9 @@
   <subtitle>less is more</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://laiweijun.com/"/>
-  <updated>2018-04-27T15:09:13.835Z</updated>
-  <id>http://laiweijun.com/</id>
+  <link href="https://weijun-lai.github.io/"/>
+  <updated>2018-04-27T15:18:51.499Z</updated>
+  <id>https://weijun-lai.github.io/</id>
   
   <author>
     <name>Weijun Lai</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>🔒VPN Server</title>
-    <link href="http://laiweijun.com/2018/04/27/VPN-Server/"/>
-    <id>http://laiweijun.com/2018/04/27/VPN-Server/</id>
+    <link href="https://weijun-lai.github.io/2018/04/27/VPN-Server/"/>
+    <id>https://weijun-lai.github.io/2018/04/27/VPN-Server/</id>
     <published>2018-04-27T15:02:48.000Z</published>
-    <updated>2018-04-27T15:09:13.835Z</updated>
+    <updated>2018-04-27T15:18:51.499Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMStvd1pweVFjNEd3UFI2WElFa3AvK1AyZ1crTWJYbWs1czFDSjVXbFo3N05ZN2tjZlUzZXovWiUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX1/KbhXdv28CM26haUxKr1KRN7GRvfezP9kWjc8Cyu1XGoY3u9+iF+SGBUWB4Al7SUwfm0G4R8EiHlFYQodK3eIj6NBIQXnGndIVG+sd1HFo29cjxCw4TP7jpBm5NPSUa8kK3pqk8SFrPTFrOA+3qzAOvWobmhV1tDXL4O3d6aRTwNlw3K5eI2aniGWa8XhGyD0ub7YLt0uaAfHLIwBKcEy1d5P0lwoIugQZqcC25sBJuw7elLzPacqp</div>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTlxWlZEUVYreG5LSE5TaFdqVEVOVGphRXRwenFybGwzdW4yUlRGYzlSSUQ3dEpJM21UWFRsYiUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX18+abbumcG1dMGtFA3dnyq1SrXPoLPMoTPLlhgqEffsPzQRV/wVrIS5I05nSErqTQbyw97WXzlafnWyoLoPC1/boSeijPBsoL7SJM5PE2uXTT5bG6y8f4/woRLfoI3Z/IWrr5LMlZPCgasyH/vk4/TxgyYVsZYR3+DpRjBzGVf5xSunJNoiZCszFt6KYi8og9dU0x+RkMpZyq8DLwzjN5RWRXq+4snb43pXY/zjOx4csDNwd1mKh501</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>]]></content>
     
     <summary type="html">
     
@@ -31,19 +31,19 @@
     
     </summary>
     
-      <category term="Server" scheme="http://laiweijun.com/categories/Server/"/>
+      <category term="Server" scheme="https://weijun-lai.github.io/categories/Server/"/>
     
     
-      <category term="Server" scheme="http://laiweijun.com/tags/Server/"/>
+      <category term="Server" scheme="https://weijun-lai.github.io/tags/Server/"/>
     
-      <category term="VPN" scheme="http://laiweijun.com/tags/VPN/"/>
+      <category term="VPN" scheme="https://weijun-lai.github.io/tags/VPN/"/>
     
   </entry>
   
   <entry>
     <title>Java SE 8 Programmer I 1 Z0-808</title>
-    <link href="http://laiweijun.com/2018/04/01/Java-SE-8-Programmer-I-1-Z0-808/"/>
-    <id>http://laiweijun.com/2018/04/01/Java-SE-8-Programmer-I-1-Z0-808/</id>
+    <link href="https://weijun-lai.github.io/2018/04/01/Java-SE-8-Programmer-I-1-Z0-808/"/>
+    <id>https://weijun-lai.github.io/2018/04/01/Java-SE-8-Programmer-I-1-Z0-808/</id>
     <published>2018-04-01T11:45:26.000Z</published>
     <updated>2018-04-01T13:10:43.216Z</updated>
     
@@ -55,21 +55,21 @@
     
     </summary>
     
-      <category term="IT考试资料" scheme="http://laiweijun.com/categories/IT%E8%80%83%E8%AF%95%E8%B5%84%E6%96%99/"/>
+      <category term="IT考试资料" scheme="https://weijun-lai.github.io/categories/IT%E8%80%83%E8%AF%95%E8%B5%84%E6%96%99/"/>
     
     
-      <category term="面试" scheme="http://laiweijun.com/tags/%E9%9D%A2%E8%AF%95/"/>
+      <category term="面试" scheme="https://weijun-lai.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
-      <category term="认证考试" scheme="http://laiweijun.com/tags/%E8%AE%A4%E8%AF%81%E8%80%83%E8%AF%95/"/>
+      <category term="认证考试" scheme="https://weijun-lai.github.io/tags/%E8%AE%A4%E8%AF%81%E8%80%83%E8%AF%95/"/>
     
-      <category term="复习资料" scheme="http://laiweijun.com/tags/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+      <category term="复习资料" scheme="https://weijun-lai.github.io/tags/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/"/>
     
   </entry>
   
   <entry>
     <title>复习资料</title>
-    <link href="http://laiweijun.com/2018/04/01/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/"/>
-    <id>http://laiweijun.com/2018/04/01/复习资料/</id>
+    <link href="https://weijun-lai.github.io/2018/04/01/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+    <id>https://weijun-lai.github.io/2018/04/01/复习资料/</id>
     <published>2018-04-01T09:09:14.000Z</published>
     <updated>2018-04-05T12:43:21.772Z</updated>
     
@@ -81,25 +81,25 @@
     
     </summary>
     
-      <category term="IT考试资料" scheme="http://laiweijun.com/categories/IT%E8%80%83%E8%AF%95%E8%B5%84%E6%96%99/"/>
+      <category term="IT考试资料" scheme="https://weijun-lai.github.io/categories/IT%E8%80%83%E8%AF%95%E8%B5%84%E6%96%99/"/>
     
     
-      <category term="面试" scheme="http://laiweijun.com/tags/%E9%9D%A2%E8%AF%95/"/>
+      <category term="面试" scheme="https://weijun-lai.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
-      <category term="认证考试" scheme="http://laiweijun.com/tags/%E8%AE%A4%E8%AF%81%E8%80%83%E8%AF%95/"/>
+      <category term="认证考试" scheme="https://weijun-lai.github.io/tags/%E8%AE%A4%E8%AF%81%E8%80%83%E8%AF%95/"/>
     
-      <category term="复习资料" scheme="http://laiweijun.com/tags/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+      <category term="复习资料" scheme="https://weijun-lai.github.io/tags/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/"/>
     
   </entry>
   
   <entry>
     <title>🔒箴言</title>
-    <link href="http://laiweijun.com/2018/03/14/%E7%AE%B4%E8%A8%80/"/>
-    <id>http://laiweijun.com/2018/03/14/箴言/</id>
+    <link href="https://weijun-lai.github.io/2018/03/14/%E7%AE%B4%E8%A8%80/"/>
+    <id>https://weijun-lai.github.io/2018/03/14/箴言/</id>
     <published>2018-03-14T03:12:22.000Z</published>
     <updated>2018-03-22T04:14:28.102Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" {{passwordTips}} "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">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</div>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" {{passwordTips}} "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">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</div>]]></content>
     
     <summary type="html">
     
@@ -107,25 +107,25 @@
     
     </summary>
     
-      <category term="箴言" scheme="http://laiweijun.com/categories/%E7%AE%B4%E8%A8%80/"/>
+      <category term="箴言" scheme="https://weijun-lai.github.io/categories/%E7%AE%B4%E8%A8%80/"/>
     
     
-      <category term="历史" scheme="http://laiweijun.com/tags/%E5%8E%86%E5%8F%B2/"/>
+      <category term="历史" scheme="https://weijun-lai.github.io/tags/%E5%8E%86%E5%8F%B2/"/>
     
-      <category term="箴言" scheme="http://laiweijun.com/tags/%E7%AE%B4%E8%A8%80/"/>
+      <category term="箴言" scheme="https://weijun-lai.github.io/tags/%E7%AE%B4%E8%A8%80/"/>
     
-      <category term="故事" scheme="http://laiweijun.com/tags/%E6%95%85%E4%BA%8B/"/>
+      <category term="故事" scheme="https://weijun-lai.github.io/tags/%E6%95%85%E4%BA%8B/"/>
     
   </entry>
   
   <entry>
     <title>🔒Base32编码</title>
-    <link href="http://laiweijun.com/2018/03/08/Base32%E7%BC%96%E7%A0%81/"/>
-    <id>http://laiweijun.com/2018/03/08/Base32编码/</id>
+    <link href="https://weijun-lai.github.io/2018/03/08/Base32%E7%BC%96%E7%A0%81/"/>
+    <id>https://weijun-lai.github.io/2018/03/08/Base32编码/</id>
     <published>2018-03-08T10:02:20.000Z</published>
     <updated>2018-03-11T02:42:32.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMSt6YjZrVFl1b051dnBTU3duNy9lc0t2bk9aSHMrbEh1MnI3cHdSd0JOcjl0MmR6OS9zcWFORiUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX1/JR/PfSiYf8NgFGjaBdtMWq+2LzMSW0Gz6f8Ws5d6O6MAG2ZX/8OuvW9fLy3uAWz7hiEiZykjFPE12TNf2AVtAawQgLqJHPQo8Io0EQhAHgGdeQTr9/fPkGmMnmXoWzEGFFg77xm4VtduyNkkjh0HKzoPmxmZAAm8aSWx9zdhsmVWjtoN6xpJVOJptGOp32XDLzEdbYKEvc43W4mrfHAy2tuarwQrCXj8mvI0vfG/fror0Y/0uBAxBc5uRT//rVWE9Xgw4nGsuns9AUl98QAQvXz9eXsg6l07GPhqYvUnVHK7Zq5boePaue3Ye41Ck7t7awcAOZRal7KO75fqIETUQNAG/YgRH3gvqlqCCntVNMpMtC1ZRkTqTBWDHJN9vOv6WsPiUsIOYQAaJ4n9p68iE6fwFG1+PkJ0BhAsUEZ6E9o/QzfcgDlc8MaXsgIIxqDF8OjttqlFcTGqeyt1QTbAGUZFe2jjzoI7rhlwV5w0W4hoyx4EVka+3cDbja6/bmM2zcwzaNE+khIkNGXNgPC/YAudWCAIL1mY=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTlSS1ZiU0xZYndTREZyQ1M2aXpPT3RNMmdicGoyclFBNUtPVEViOGk4YVdHck5EdVJRdmt5OSUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX1+VSU3TuA6KmXso1h5f3a6FtyWtr8A+EsF+KUS9QilE2USEVK4M5br0yRPcPgxBOXQ8QJQn9hZAc09Gdo8W3/GW/XuATRU7oId6+LddefAimSfGecF3VNHYY25/AshTkaXpCYh9H9mi6SX5qrB/Vz2ZlvneM2J5LZpD7wFMSapKwRnsUKxLtBNrJ0nY81UPYcTkQ+w9v1CRpTaVrgpuGUl8qwO9iTTYUv0T8G1XCd1z6wJOQ3In0Ree0rUNe6HortAoUR0AesAeGTdNDpKcE7DyrhuJUl4eQX2NAjHFZyDpzwVmICnmUjf9woVuzh8Sr/yrmT67miJdXYtskgje+vUcROJuzEMMAYlR+Gh2XH5g5s6h1GFZuuNLEYU2vkalRlcWmoToNYFk9wx3BHTiNAR/R1bekifdsvtVfVIdKmXw/z6zhakawmSzfiYYy/SPRz6K2H15vlK8GGhe/+5LkLprNkV2/pcJXz0gSxQ8GUd4kgRkVYJ5KTZGHCJWJs6XjLC6UItDMlRTEtXkvSMGnCzcNqesWRIKN8c=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>]]></content>
     
     <summary type="html">
     
@@ -133,25 +133,25 @@
     
     </summary>
     
-      <category term="计算机基础科学" scheme="http://laiweijun.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
+      <category term="计算机基础科学" scheme="https://weijun-lai.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
     
     
-      <category term="Base32" scheme="http://laiweijun.com/tags/Base32/"/>
+      <category term="Base32" scheme="https://weijun-lai.github.io/tags/Base32/"/>
     
-      <category term="加密" scheme="http://laiweijun.com/tags/%E5%8A%A0%E5%AF%86/"/>
+      <category term="加密" scheme="https://weijun-lai.github.io/tags/%E5%8A%A0%E5%AF%86/"/>
     
-      <category term="解密" scheme="http://laiweijun.com/tags/%E8%A7%A3%E5%AF%86/"/>
+      <category term="解密" scheme="https://weijun-lai.github.io/tags/%E8%A7%A3%E5%AF%86/"/>
     
-      <category term="计算机基础科学" scheme="http://laiweijun.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
+      <category term="计算机基础科学" scheme="https://weijun-lai.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
     
-      <category term="原理" scheme="http://laiweijun.com/tags/%E5%8E%9F%E7%90%86/"/>
+      <category term="原理" scheme="https://weijun-lai.github.io/tags/%E5%8E%9F%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>Base64编码</title>
-    <link href="http://laiweijun.com/2018/03/08/Base64%E7%BC%96%E7%A0%81/"/>
-    <id>http://laiweijun.com/2018/03/08/Base64编码/</id>
+    <link href="https://weijun-lai.github.io/2018/03/08/Base64%E7%BC%96%E7%A0%81/"/>
+    <id>https://weijun-lai.github.io/2018/03/08/Base64编码/</id>
     <published>2018-03-08T09:40:18.000Z</published>
     <updated>2018-03-09T14:16:05.000Z</updated>
     
@@ -163,25 +163,25 @@
     
     </summary>
     
-      <category term="计算机基础科学" scheme="http://laiweijun.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
+      <category term="计算机基础科学" scheme="https://weijun-lai.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
     
     
-      <category term="加密" scheme="http://laiweijun.com/tags/%E5%8A%A0%E5%AF%86/"/>
+      <category term="加密" scheme="https://weijun-lai.github.io/tags/%E5%8A%A0%E5%AF%86/"/>
     
-      <category term="解密" scheme="http://laiweijun.com/tags/%E8%A7%A3%E5%AF%86/"/>
+      <category term="解密" scheme="https://weijun-lai.github.io/tags/%E8%A7%A3%E5%AF%86/"/>
     
-      <category term="计算机基础科学" scheme="http://laiweijun.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
+      <category term="计算机基础科学" scheme="https://weijun-lai.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6/"/>
     
-      <category term="原理" scheme="http://laiweijun.com/tags/%E5%8E%9F%E7%90%86/"/>
+      <category term="原理" scheme="https://weijun-lai.github.io/tags/%E5%8E%9F%E7%90%86/"/>
     
-      <category term="Base64" scheme="http://laiweijun.com/tags/Base64/"/>
+      <category term="Base64" scheme="https://weijun-lai.github.io/tags/Base64/"/>
     
   </entry>
   
   <entry>
     <title>下载地址解析</title>
-    <link href="http://laiweijun.com/2018/03/07/%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90/"/>
-    <id>http://laiweijun.com/2018/03/07/下载地址解析/</id>
+    <link href="https://weijun-lai.github.io/2018/03/07/%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90/"/>
+    <id>https://weijun-lai.github.io/2018/03/07/下载地址解析/</id>
     <published>2018-03-07T06:52:41.000Z</published>
     <updated>2018-03-10T11:23:40.000Z</updated>
     
@@ -193,26 +193,26 @@
     
     </summary>
     
-      <category term="WebApp" scheme="http://laiweijun.com/categories/WebApp/"/>
+      <category term="WebApp" scheme="https://weijun-lai.github.io/categories/WebApp/"/>
     
     
-      <category term="下载" scheme="http://laiweijun.com/tags/%E4%B8%8B%E8%BD%BD/"/>
+      <category term="下载" scheme="https://weijun-lai.github.io/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="解析" scheme="http://laiweijun.com/tags/%E8%A7%A3%E6%9E%90/"/>
+      <category term="解析" scheme="https://weijun-lai.github.io/tags/%E8%A7%A3%E6%9E%90/"/>
     
-      <category term="应用" scheme="http://laiweijun.com/tags/%E5%BA%94%E7%94%A8/"/>
+      <category term="应用" scheme="https://weijun-lai.github.io/tags/%E5%BA%94%E7%94%A8/"/>
     
-      <category term="迅雷" scheme="http://laiweijun.com/tags/%E8%BF%85%E9%9B%B7/"/>
+      <category term="迅雷" scheme="https://weijun-lai.github.io/tags/%E8%BF%85%E9%9B%B7/"/>
     
-      <category term="磁力" scheme="http://laiweijun.com/tags/%E7%A3%81%E5%8A%9B/"/>
+      <category term="磁力" scheme="https://weijun-lai.github.io/tags/%E7%A3%81%E5%8A%9B/"/>
     
-      <category term="快车" scheme="http://laiweijun.com/tags/%E5%BF%AB%E8%BD%A6/"/>
+      <category term="快车" scheme="https://weijun-lai.github.io/tags/%E5%BF%AB%E8%BD%A6/"/>
     
-      <category term="旋风" scheme="http://laiweijun.com/tags/%E6%97%8B%E9%A3%8E/"/>
+      <category term="旋风" scheme="https://weijun-lai.github.io/tags/%E6%97%8B%E9%A3%8E/"/>
     
-      <category term="电驴" scheme="http://laiweijun.com/tags/%E7%94%B5%E9%A9%B4/"/>
+      <category term="电驴" scheme="https://weijun-lai.github.io/tags/%E7%94%B5%E9%A9%B4/"/>
     
-      <category term="BT种子" scheme="http://laiweijun.com/tags/BT%E7%A7%8D%E5%AD%90/"/>
+      <category term="BT种子" scheme="https://weijun-lai.github.io/tags/BT%E7%A7%8D%E5%AD%90/"/>
     
   </entry>
   

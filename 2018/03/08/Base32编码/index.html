@@ -91,7 +91,7 @@
 <meta name="keywords" content="Base32,加密,解密,计算机基础科学,原理">
 <meta property="og:type" content="article">
 <meta property="og:title" content="🔒Base32编码">
-<meta property="og:url" content="http://laiweijun.com/2018/03/08/Base32编码/index.html">
+<meta property="og:url" content="https://weijun-lai.github.io/2018/03/08/Base32编码/index.html">
 <meta property="og:site_name" content="Weijun Lai">
 <meta property="og:description" content="本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨">
 <meta property="og:locale" content="zh-Hans">
@@ -129,7 +129,7 @@
 
 
 
-  <link rel="canonical" href="http://laiweijun.com/2018/03/08/Base32编码/"/>
+  <link rel="canonical" href="https://weijun-lai.github.io/2018/03/08/Base32编码/"/>
 
 
 
@@ -316,7 +316,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://laiweijun.com/2018/03/08/Base32编码/">
+    <link itemprop="mainEntityOfPage" href="https://weijun-lai.github.io/2018/03/08/Base32编码/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Weijun Lai">
@@ -354,7 +354,7 @@
       
 
       
-        <script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMSt6YjZrVFl1b051dnBTU3duNy9lc0t2bk9aSHMrbEh1MnI3cHdSd0JOcjl0MmR6OS9zcWFORiUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX1/JR/PfSiYf8NgFGjaBdtMWq+2LzMSW0Gz6f8Ws5d6O6MAG2ZX/8OuvW9fLy3uAWz7hiEiZykjFPE12TNf2AVtAawQgLqJHPQo8Io0EQhAHgGdeQTr9/fPkGmMnmXoWzEGFFg77xm4VtduyNkkjh0HKzoPmxmZAAm8aSWx9zdhsmVWjtoN6xpJVOJptGOp32XDLzEdbYKEvc43W4mrfHAy2tuarwQrCXj8mvI0vfG/fror0Y/0uBAxBc5uRT//rVWE9Xgw4nGsuns9AUl98QAQvXz9eXsg6l07GPhqYvUnVHK7Zq5boePaue3Ye41Ck7t7awcAOZRal7KO75fqIETUQNAG/YgRH3gvqlqCCntVNMpMtC1ZRkTqTBWDHJN9vOv6WsPiUsIOYQAaJ4n9p68iE6fwFG1+PkJ0BhAsUEZ6E9o/QzfcgDlc8MaXsgIIxqDF8OjttqlFcTGqeyt1QTbAGUZFe2jjzoI7rhlwV5w0W4hoyx4EVka+3cDbja6/bmM2zcwzaNE+khIkNGXNgPC/YAudWCAIL1mY=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>
+        <script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTlSS1ZiU0xZYndTREZyQ1M2aXpPT3RNMmdicGoyclFBNUtPVEViOGk4YVdHck5EdVJRdmt5OSUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX1+VSU3TuA6KmXso1h5f3a6FtyWtr8A+EsF+KUS9QilE2USEVK4M5br0yRPcPgxBOXQ8QJQn9hZAc09Gdo8W3/GW/XuATRU7oId6+LddefAimSfGecF3VNHYY25/AshTkaXpCYh9H9mi6SX5qrB/Vz2ZlvneM2J5LZpD7wFMSapKwRnsUKxLtBNrJ0nY81UPYcTkQ+w9v1CRpTaVrgpuGUl8qwO9iTTYUv0T8G1XCd1z6wJOQ3In0Ree0rUNe6HortAoUR0AesAeGTdNDpKcE7DyrhuJUl4eQX2NAjHFZyDpzwVmICnmUjf9woVuzh8Sr/yrmT67miJdXYtskgje+vUcROJuzEMMAYlR+Gh2XH5g5s6h1GFZuuNLEYU2vkalRlcWmoToNYFk9wx3BHTiNAR/R1bekifdsvtVfVIdKmXw/z6zhakawmSzfiYYy/SPRz6K2H15vlK8GGhe/+5LkLprNkV2/pcJXz0gSxQ8GUd4kgRkVYJ5KTZGHCJWJs6XjLC6UItDMlRTEtXkvSMGnCzcNqesWRIKN8c=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>
       
     </div>
     
@@ -479,7 +479,7 @@
             </span>
             
             <span title="字数统计">
-              21
+              23
             </span>
           
 
