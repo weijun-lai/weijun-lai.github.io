@@ -74,7 +74,7 @@
 
 
 
-  <meta name="keywords" content="Base64,加密,解密,计算机基础科学,原理," />
+  <meta name="keywords" content="加密,解密,计算机基础科学,原理,Base64," />
 
 
 
@@ -88,7 +88,7 @@
 
 
 <meta name="description" content="本文学习Base64编码的相关基础知识，通过不同演算过程，详细解释Base64编码加密解密原理，从而对实例代码进行深入探讨">
-<meta name="keywords" content="Base64,加密,解密,计算机基础科学,原理">
+<meta name="keywords" content="加密,解密,计算机基础科学,原理,Base64">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Base64编码">
 <meta property="og:url" content="https://weijun-lai.github.io/2018/03/08/Base64编码/index.html">
@@ -108,7 +108,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":false,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpBigIn"}},
@@ -164,7 +164,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -210,32 +210,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            关于
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-music">
-          <a href="/music/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-music"></i> <br />
-            
-            音乐
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
+            分类
           </a>
         </li>
       
@@ -757,8 +737,6 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Base64/" rel="tag"># Base64</a>
-          
             <a href="/tags/加密/" rel="tag"># 加密</a>
           
             <a href="/tags/解密/" rel="tag"># 解密</a>
@@ -766,6 +744,8 @@
             <a href="/tags/计算机基础科学/" rel="tag"># 计算机基础科学</a>
           
             <a href="/tags/原理/" rel="tag"># 原理</a>
+          
+            <a href="/tags/Base64/" rel="tag"># Base64</a>
           
         </div>
       
@@ -840,8 +820,6 @@
 
   <aside id="sidebar" class="sidebar">
     
-      <div id="sidebar-dimmer"></div>
-    
     <div class="sidebar-inner">
 
       
@@ -874,7 +852,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/">
+                <a href="/archives">
               
                   <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">日志</span>
@@ -984,6 +962,13 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -1023,13 +1008,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-          <span id="scrollpercent"><span>0</span>%</span>
-        
-      </div>
     
 
     

@@ -74,7 +74,7 @@
 
 
 
-  <meta name="keywords" content="加密,解密,计算机基础科学,原理,Base32," />
+  <meta name="keywords" content="Base32,加密,解密,计算机基础科学,原理," />
 
 
 
@@ -88,7 +88,7 @@
 
 
 <meta name="description" content="本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨">
-<meta name="keywords" content="加密,解密,计算机基础科学,原理,Base32">
+<meta name="keywords" content="Base32,加密,解密,计算机基础科学,原理">
 <meta property="og:type" content="article">
 <meta property="og:title" content="🔒Base32编码">
 <meta property="og:url" content="https://weijun-lai.github.io/2018/03/08/Base32编码/index.html">
@@ -108,7 +108,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":false,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpBigIn"}},
@@ -164,7 +164,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -210,32 +210,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            关于
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-music">
-          <a href="/music/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-music"></i> <br />
-            
-            音乐
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
+            分类
           </a>
         </li>
       
@@ -354,7 +334,7 @@
       
 
       
-        <script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTlsZVYrWXh4NGJPZVkrNld3aHE4dUVYUDlJREdXTTV3bDVmRGFRWVFDT1hKcmRDOGZ1cG80NCUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX19eafOwr2MpEqlztl8ph8w8lgrXCkpaus6aGRk9xHpXShzjLLUnMt/KbhNxEiFq23N3fLsOsIatFh6zFOA72C4utAooZefpmueSV3e+VX0NDcLIcYXI29KG6O6JAMOzkTenXUyKVoY8cEqcYO50oJsO0Ci8afr21WJf/ab+tGL4VVxT7NK/KE/u2L+ZxsAiR5fmSfxXDUM20CbyB1+cshJ/dpAMepoO62AO/Br8ciINEGxuOBMBDu8YHIZnmnIShFfuQvlfEeE3DN4y5JyO180Xerjol1JbWr0Px9q1u+sEcLq2Bt7iJ3nWZXc/0EaJZfl5th/p0E6P89YKs1maN3kdg87PCrij2NTuTG5xtPW6Q8rdqQLewHkTdY+9EnwRa1GYzQk+w0F4TfQJZ7ekO1IrmLxon6h4rTKbMjUFTDDgfTZv01fN1OGNwtAZJAhDHB2UgceUmG298LP/CdJHU5AkNxz7pt+XPRK25wIlZEMVXFwom/KjoT0sVl14QaHhTEDgjYkM0xZ688UvY0DgtnRr42+43Kb89Po=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>
+        <script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMStPN2hHL3B4TzZrcm51ZmhvWnFVblpPNng0MDc2RndXdDFrT1dteCtrWTlJdlhUMnNSb3B2aSUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX19S5k1r0u1NkE5yLr5D6bgrNOc3zpxZGyJa4iQweveY4TQS8NU7uTlJLns2SUWOsXQXj5FdAi5lnO97F7sZm5zMii9mMiHmY2nLX7PHYcvVdi0gQiXd4y0zmQoSamtRpIHbLg8+flcHyV2nNXOAo5EC0utlbKRbz0hHXYURhvdMAaZO8iP/EHB3guqXLLZG3YD/waYRNzKMj92EqTip25mLytk8W2fzuGzMwRi3qhOr125gDBsFHrOOqXqlriBetf26/lxzSMjaYTfeK0qxL0jCZ00b1I1Xv46/2IDFXJA2p1DBrVyLOF2qM7k9X38xDCcsvRzUatwqYUgID+8kElPf1Hml9uobixMFt+sJga3wX2RdHsMtfowefTVL1yReXZh9c9BvHr36UlegfuXtsqIM9UOxq0JAUduCHFxHb9BV+szHdTlDGl6DeQD62BHmZgHleIdO+PFBUovalx7/0U40af+S7Cp0AuDfjxenyHCUOj9r07xGzmZXKMGFZUpa5CaPlJxiApOYgmVMN1nqWfoB4XlxQl54PGQ=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>
       
     </div>
     
@@ -479,7 +459,7 @@
             </span>
             
             <span title="字数统计">
-              25
+              17
             </span>
           
 
@@ -509,6 +489,8 @@
       
         <div class="post-tags">
           
+            <a href="/tags/Base32/" rel="tag"># Base32</a>
+          
             <a href="/tags/加密/" rel="tag"># 加密</a>
           
             <a href="/tags/解密/" rel="tag"># 解密</a>
@@ -516,8 +498,6 @@
             <a href="/tags/计算机基础科学/" rel="tag"># 计算机基础科学</a>
           
             <a href="/tags/原理/" rel="tag"># 原理</a>
-          
-            <a href="/tags/Base32/" rel="tag"># Base32</a>
           
         </div>
       
@@ -592,8 +572,6 @@
 
   <aside id="sidebar" class="sidebar">
     
-      <div id="sidebar-dimmer"></div>
-    
     <div class="sidebar-inner">
 
       
@@ -617,7 +595,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/">
+                <a href="/archives">
               
                   <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">日志</span>
@@ -710,6 +688,13 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -749,13 +734,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-          <span id="scrollpercent"><span>0</span>%</span>
-        
-      </div>
     
 
     

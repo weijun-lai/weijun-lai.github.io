@@ -107,7 +107,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":false,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpBigIn"}},
@@ -163,7 +163,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -209,32 +209,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            关于
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-music">
-          <a href="/music/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-music"></i> <br />
-            
-            音乐
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
+            分类
           </a>
         </li>
       
@@ -320,7 +300,7 @@
       <div class="post-body">
         
         
-          <script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMStZd0pweE9FQ1ZYbDhMd2dKWFc5Zlo1YU16UHlsMnd1dyUzRCUzRkpYVTFPVEkzSlhVMU5EQTVKWFUxT1RJM0pYVTFNakk1 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">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</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>
+          <script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTlSVzRCMnRWVmgrVFM4Vk9vUXlZTVdnVGdrQ01IY2NnUSUzRCUzRkpYVTFPVEkzSlhVMU5EQTVKWFUxT1RJM0pYVTFNakk1 "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">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</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>
         
       </div>
       
@@ -353,8 +333,6 @@
 
   <aside id="sidebar" class="sidebar">
     
-      <div id="sidebar-dimmer"></div>
-    
     <div class="sidebar-inner">
 
       
@@ -378,7 +356,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/">
+                <a href="/archives">
               
                   <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">日志</span>
@@ -471,6 +449,13 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -510,13 +495,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-          <span id="scrollpercent"><span>0</span>%</span>
-        
-      </div>
     
 
     

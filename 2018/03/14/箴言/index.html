@@ -108,7 +108,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":false,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpBigIn"}},
@@ -164,7 +164,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -210,32 +210,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            关于
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-music">
-          <a href="/music/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-music"></i> <br />
-            
-            音乐
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
+            分类
           </a>
         </li>
       
@@ -350,7 +330,7 @@
       
 
       
-        <script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" {{passwordTips}} "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">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</div>
+        <script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" {{passwordTips}} "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">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</div>
       
     </div>
     
@@ -475,7 +455,7 @@
             </span>
             
             <span title="字数统计">
-              77
+              90
             </span>
           
 
@@ -584,8 +564,6 @@
 
   <aside id="sidebar" class="sidebar">
     
-      <div id="sidebar-dimmer"></div>
-    
     <div class="sidebar-inner">
 
       
@@ -609,7 +587,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/">
+                <a href="/archives">
               
                   <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">日志</span>
@@ -702,6 +680,13 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -741,13 +726,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-          <span id="scrollpercent"><span>0</span>%</span>
-        
-      </div>
     
 
     
