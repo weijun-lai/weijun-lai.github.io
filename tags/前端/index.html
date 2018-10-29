@@ -74,7 +74,7 @@
 
 
 
-  <meta name="keywords" content="Base32,加密,解密,计算机基础科学,原理," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -87,18 +87,16 @@
 
 
 
-<meta name="description" content="本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨">
-<meta name="keywords" content="Base32,加密,解密,计算机基础科学,原理">
-<meta property="og:type" content="article">
-<meta property="og:title" content="🔒Base32编码">
-<meta property="og:url" content="https://weijun-lai.github.io/2018/03/08/Base32编码/index.html">
+<meta name="description" content="life is awesome">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Weijun Lai">
+<meta property="og:url" content="https://weijun-lai.github.io/tags/前端/index.html">
 <meta property="og:site_name" content="Weijun Lai">
-<meta property="og:description" content="本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨">
+<meta property="og:description" content="life is awesome">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-11T02:42:32.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="🔒Base32编码">
-<meta name="twitter:description" content="本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨">
+<meta name="twitter:title" content="Weijun Lai">
+<meta name="twitter:description" content="life is awesome">
 
 
 
@@ -129,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="https://weijun-lai.github.io/2018/03/08/Base32编码/"/>
+  <link rel="canonical" href="https://weijun-lai.github.io/tags/前端/"/>
 
 
 
 
 
-  <title>🔒Base32编码 | Weijun Lai</title>
+  <title>标签: 前端 | Weijun Lai</title>
   
 
 
@@ -164,7 +162,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-left ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -302,267 +300,54 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
+  
+  
+  
+  <div class="post-block tag">
 
-  
+    <div id="posts" class="posts-collapse">
+      <div class="collection-title">
+        <h2>前端<small>标签</small>
+        </h2>
+      </div>
 
-  
-  
-  
+      
+        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://weijun-lai.github.io/2018/03/08/Base32编码/">
+    <header class="post-header">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Weijun Lai">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Weijun Lai">
-    </span>
-
-    
-      <header class="post-header">
-
+      <h3 class="post-title">
         
-        
-          <h2 class="post-title" itemprop="name headline">🔒Base32编码</h2>
-        
-
-        
-            <div class="post-meta post-description">
-                <i class="fa fa-key" aria-hidden="true"></i> 本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨
-            </div>
-        
-
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTlSVllCWm15Q2hOWUNpL0JJeXJYK1lsOWtCTUcxbDRxVFNiSUM0aWJ4Y3VyaVZHcXVGZzB1UCUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX19LHdXPK9nmhtjaiw4URYuEhY19hNKuLSn+DiNahvZTOyH6b2tPJAaUxvsk4c7NashWSw2U9lI4sV2I06Q1yajf3R4oMyTxckBKojy5UQ3cE5ipBf0kjC8ZWgp1YU97bw+A6irlUjEn5o6jaY5ryovv8v3P0t+LcvoZie0CnJm3DAGTXuqVAjXvl2Ec6Ij53/mJ+kWvXw4eC8O8Rr5+E38t72GyTjI7uKeAVsBL/bOpoxdbKbir4G6vBXHA8ZX18mbAFggseokM18pnWb+R1NkgFoXVn4GzsNXhTvTkGXKwIP5xZCpfKi0q/3ZdCenI29ZHMN+8hZHfTZop9vA+X6TBKwN1/ibgWkAnNWk4v3aevPXRPTJgzYZ5ECWaImdw0CmC77ua/FIC7cQMkOZZCjGTT+9Gbjh6qu4wWDAGpnDYvxkSP/cljIQ1+2MsMIz8NLz99OEfc5D4jP95bc5truXqDE836K3cgxlB0GtE54xb6XBVQVv04bXENHpV8lUZSYopNONsi8BUltckhWOABD1daC1yYcoTGdY=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>
-      
-    </div>
-    
-    
-    
-
-
-
-    
-
-    
-      <div>
-        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-  <div></div>
-  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-    <span>赏</span>
-  </button>
-  <div id="QR" style="display: none;">
-
-    
-      <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/images/wechatpay.png" alt="Weijun Lai 微信支付"/>
-        <p>微信支付</p>
-      </div>
-    
-
-    
-      <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/images/alipay.jpg" alt="Weijun Lai 支付宝"/>
-        <p>支付宝</p>
-      </div>
-    
-
-    
-
-    <div id="qrcode" style="display: inline-block;"><br/></div>
-  </div>
-</div>
-
-      </div>
-    
-
-    
-
-
-
-    <div class="post-meta">
-      <span class="post-time">
-        
-          <span class="post-meta-item-icon">
-            <i class="fa fa-calendar-o"></i>
-          </span>
-          
-          <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-08T18:02:20+08:00">
-            2018-03-08
-          </time>
-        
-
-        
-
-        
-      </span>
-
-      
-        <span class="post-category" >
-        
-          <span class="post-meta-divider">|</span>
-        
-          <span class="post-meta-item-icon">
-            <i class="fa fa-folder-o"></i>
-          </span>
-          
-          
-            <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/计算机基础科学/" itemprop="url" rel="index">
-                <span itemprop="name">计算机基础科学</span>
-              </a>
-            </span>
-
-            
-            
-          
-        </span>
-      
-
-      
-        
-          <span class="post-comments-count">
-            <span class="post-meta-divider">|</span>
-            <span class="post-meta-item-icon">
-              <i class="fa fa-comment-o"></i>
-            </span>
-            <a href="/2018/03/08/Base32编码/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count valine-comment-count" data-xid="/2018/03/08/Base32编码/" itemprop="commentCount"></span>
+            <a class="post-title-link" href="/2018/10/29/最近弄前端/" itemprop="url">
+              
+                <span itemprop="name">最近弄前端</span>
+              
             </a>
-          </span>
         
-      
+      </h3>
 
-      
-      
-         <span id="/2018/03/08/Base32编码/" class="leancloud_visitors" data-flag-title="🔒Base32编码">
-           <span class="post-meta-divider">|</span>
-           <span class="post-meta-item-icon">
-             <i class="fa fa-eye"></i>
-           </span>
-           
-             <span class="leancloud-visitors-count"></span>
-         </span>
-      
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-10-29T23:37:55+08:00"
+              content="2018-10-29" >
+          10-29
+        </time>
+      </div>
 
-      
-
-      
-        <div class="post-wordcount">
-          
-            
-              <span class="post-meta-divider">|</span>
-            
-            <span class="post-meta-item-icon">
-              <i class="fa fa-file-word-o"></i>
-            </span>
-            
-            <span title="字数统计">
-              22
-            </span>
-          
-
-          
-            <span class="post-meta-divider">|</span>
-          
-
-          
-            <span class="post-meta-item-icon">
-              <i class="fa fa-clock-o"></i>
-            </span>
-            
-            <span title="阅读时长">
-              1
-            </span>
-          
-        </div>
-      
-
-    </div>
-
-
-
-
-
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/Base32/" rel="tag"># Base32</a>
-          
-            <a href="/tags/加密/" rel="tag"># 加密</a>
-          
-            <a href="/tags/解密/" rel="tag"># 解密</a>
-          
-            <a href="/tags/计算机基础科学/" rel="tag"># 计算机基础科学</a>
-          
-            <a href="/tags/原理/" rel="tag"># 原理</a>
-          
-        </div>
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2018/03/08/Base64编码/" rel="next" title="Base64编码">
-                <i class="fa fa-chevron-left"></i> Base64编码
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/03/14/箴言/" rel="prev" title="🔒箴言">
-                🔒箴言 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-  
-  
-  
+    </header>
   </article>
 
 
-
-    <div class="post-spread">
       
     </div>
+
   </div>
+  
+  
+  
+
+  
 
 
           </div>
@@ -570,13 +355,6 @@
 
 
           
-
-  
-    <div class="comments" id="comments">
-    </div>
-  
-
-
 
         </div>
         
@@ -835,10 +613,6 @@
   
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
-
-
 
   
 

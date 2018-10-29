@@ -74,7 +74,7 @@
 
 
 
-  <meta name="keywords" content="Base32,加密,解密,计算机基础科学,原理," />
+  <meta name="keywords" content="前端,FrontEnd," />
 
 
 
@@ -87,18 +87,18 @@
 
 
 
-<meta name="description" content="本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨">
-<meta name="keywords" content="Base32,加密,解密,计算机基础科学,原理">
+<meta name="description" content="好久没写博客，今天上了看看">
+<meta name="keywords" content="前端,FrontEnd">
 <meta property="og:type" content="article">
-<meta property="og:title" content="🔒Base32编码">
-<meta property="og:url" content="https://weijun-lai.github.io/2018/03/08/Base32编码/index.html">
+<meta property="og:title" content="最近弄前端">
+<meta property="og:url" content="https://weijun-lai.github.io/2018/10/29/最近弄前端/index.html">
 <meta property="og:site_name" content="Weijun Lai">
-<meta property="og:description" content="本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨">
+<meta property="og:description" content="好久没写博客，今天上了看看">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-11T02:42:32.000Z">
+<meta property="og:updated_time" content="2018-10-29T15:40:06.482Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="🔒Base32编码">
-<meta name="twitter:description" content="本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨">
+<meta name="twitter:title" content="最近弄前端">
+<meta name="twitter:description" content="好久没写博客，今天上了看看">
 
 
 
@@ -129,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="https://weijun-lai.github.io/2018/03/08/Base32编码/"/>
+  <link rel="canonical" href="https://weijun-lai.github.io/2018/10/29/最近弄前端/"/>
 
 
 
 
 
-  <title>🔒Base32编码 | Weijun Lai</title>
+  <title>最近弄前端 | Weijun Lai</title>
   
 
 
@@ -316,7 +316,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://weijun-lai.github.io/2018/03/08/Base32编码/">
+    <link itemprop="mainEntityOfPage" href="https://weijun-lai.github.io/2018/10/29/最近弄前端/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Weijun Lai">
@@ -333,12 +333,12 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">🔒Base32编码</h2>
+          <h2 class="post-title" itemprop="name headline">最近弄前端</h2>
         
 
         
             <div class="post-meta post-description">
-                <i class="fa fa-key" aria-hidden="true"></i> 本文学习Base32编码的相关基础知识，通过不同演算过程，详细解释Base32编码加密解密原理，从而对实例代码进行深入探讨
+                好久没写博客，今天上了看看
             </div>
         
 
@@ -354,7 +354,8 @@
       
 
       
-        <script src="/assets/js/APlayer.min.js"> </script><link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="/js/src/jquery-qrcode-0.14.0/demo/jquery.min.js"></script><div id="security"><div class="input-container"><input type="hidden" id="tips" value=" VTJGc2RHVmtYMTlSVllCWm15Q2hOWUNpL0JJeXJYK1lsOWtCTUcxbDRxVFNiSUM0aWJ4Y3VyaVZHcXVGZzB1UCUzRkpYVTFPVEkzSlhVNU9FTkZKWFUxT1RJM0pYVTJSRFpC "><input type="password" class="form-control" id="pass" placeholder=" 请输入密码 " /><label id="labelmsg" for="pass"><i class="fa fa-keyboard-o" aria-hidden="true"></i>  请输入密码 </label><div class="bottom-line"></div></div></div><div id="encrypt-blog" class="encrypt plaintext" style="display: none;">U2FsdGVkX19LHdXPK9nmhtjaiw4URYuEhY19hNKuLSn+DiNahvZTOyH6b2tPJAaUxvsk4c7NashWSw2U9lI4sV2I06Q1yajf3R4oMyTxckBKojy5UQ3cE5ipBf0kjC8ZWgp1YU97bw+A6irlUjEn5o6jaY5ryovv8v3P0t+LcvoZie0CnJm3DAGTXuqVAjXvl2Ec6Ij53/mJ+kWvXw4eC8O8Rr5+E38t72GyTjI7uKeAVsBL/bOpoxdbKbir4G6vBXHA8ZX18mbAFggseokM18pnWb+R1NkgFoXVn4GzsNXhTvTkGXKwIP5xZCpfKi0q/3ZdCenI29ZHMN+8hZHfTZop9vA+X6TBKwN1/ibgWkAnNWk4v3aevPXRPTJgzYZ5ECWaImdw0CmC77ua/FIC7cQMkOZZCjGTT+9Gbjh6qu4wWDAGpnDYvxkSP/cljIQ1+2MsMIz8NLz99OEfc5D4jP95bc5truXqDE836K3cgxlB0GtE54xb6XBVQVv04bXENHpV8lUZSYopNONsi8BUltckhWOABD1daC1yYcoTGdY=</div><script>$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});</script>
+        <script src="/assets/js/APlayer.min.js"> </script><p>还没想好写什么，就是重新练练手，看看hexo是不是有新版本</p>
+
       
     </div>
     
@@ -408,8 +409,8 @@
             <i class="fa fa-calendar-o"></i>
           </span>
           
-          <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-08T18:02:20+08:00">
-            2018-03-08
+          <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-29T23:37:55+08:00">
+            2018-10-29
           </time>
         
 
@@ -429,8 +430,8 @@
           
           
             <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/计算机基础科学/" itemprop="url" rel="index">
-                <span itemprop="name">计算机基础科学</span>
+              <a href="/categories/前端/" itemprop="url" rel="index">
+                <span itemprop="name">前端</span>
               </a>
             </span>
 
@@ -447,8 +448,8 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-comment-o"></i>
             </span>
-            <a href="/2018/03/08/Base32编码/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count valine-comment-count" data-xid="/2018/03/08/Base32编码/" itemprop="commentCount"></span>
+            <a href="/2018/10/29/最近弄前端/#comments" itemprop="discussionUrl">
+              <span class="post-comments-count valine-comment-count" data-xid="/2018/10/29/最近弄前端/" itemprop="commentCount"></span>
             </a>
           </span>
         
@@ -456,7 +457,7 @@
 
       
       
-         <span id="/2018/03/08/Base32编码/" class="leancloud_visitors" data-flag-title="🔒Base32编码">
+         <span id="/2018/10/29/最近弄前端/" class="leancloud_visitors" data-flag-title="最近弄前端">
            <span class="post-meta-divider">|</span>
            <span class="post-meta-item-icon">
              <i class="fa fa-eye"></i>
@@ -479,7 +480,7 @@
             </span>
             
             <span title="字数统计">
-              22
+              24
             </span>
           
 
@@ -509,15 +510,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Base32/" rel="tag"># Base32</a>
+            <a href="/tags/前端/" rel="tag"># 前端</a>
           
-            <a href="/tags/加密/" rel="tag"># 加密</a>
-          
-            <a href="/tags/解密/" rel="tag"># 解密</a>
-          
-            <a href="/tags/计算机基础科学/" rel="tag"># 计算机基础科学</a>
-          
-            <a href="/tags/原理/" rel="tag"># 原理</a>
+            <a href="/tags/FrontEnd/" rel="tag"># FrontEnd</a>
           
         </div>
       
@@ -530,8 +525,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/03/08/Base64编码/" rel="next" title="Base64编码">
-                <i class="fa fa-chevron-left"></i> Base64编码
+              <a href="/2018/05/07/加密演示/" rel="next" title="🔒加密演示">
+                <i class="fa fa-chevron-left"></i> 🔒加密演示
               </a>
             
           </div>
@@ -539,10 +534,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/03/14/箴言/" rel="prev" title="🔒箴言">
-                🔒箴言 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
