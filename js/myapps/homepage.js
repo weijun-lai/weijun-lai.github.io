@@ -33,7 +33,9 @@ function showHomeContent() {
   $('#homeContent').html(text);
 
   animationText('greed',greedText,10,10,false,1000);
-
+  setTimeout(() => {
+    showBlogList()
+  }, 5000);
 }
 
 // $('body').css({"opacity":"0"});
@@ -41,4 +43,5 @@ hideBlogList();
 
 $(document).ready(function() {
   showHomeContent();
+  
 });
