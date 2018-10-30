@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Electronjs资料库]]></title>
     <url>%2F2018%2F10%2F30%2FElectronjs%E8%B5%84%E6%96%99%E5%BA%93%2F</url>
-    <content type="text"><![CDATA[Web轻量级跨平台桌面应用开发 官网： https://electronjs.org/]]></content>
+    <content type="text"><![CDATA[Web轻量级跨平台桌面应用开发 官网： https://electronjs.org/ 快速入门60秒：0x01 新建第一个Eletron应用 &amp;&amp; 拉Demo代码 &amp;&amp; 跑Demo0x02 安装编译打包工具 electron-packager0x03 打包项目应用 0x01新建第一个Eletron应用 &amp;&amp; 拉Demo代码 &amp;&amp; 跑Demo12345678# 克隆快速上手Demo项目$ git clone https://github.com/electron/electron-quick-start# 进入项目根目录$ cd electron-quick-start# 安装依赖并启动项目$ npm install &amp;&amp; npm start 0x02 安装编译打包工具 electron-packager12345# 用于 npm scriptsnpm install electron-packager --save-dev# 用于全局命令行 clinpm install electron-packager -g 0x03 打包项目应用12345# 进入项目根目录$ cd electron-quick-start# 执行打包程序electron-packager . 高级主题部署类：指定平台参数等打包脚手架建立项目已有项目添加Electron输出打包修改打包后个性化混淆源码后打包发布定制安装部署程序自动化测试代码 技术类进程间通信分布式进程通信云计算提供商APIs接口对接本地系统APIs对接远程调试]]></content>
       <categories>
         <category>前端</category>
       </categories>
@@ -28,12 +28,12 @@
   <entry>
     <title><![CDATA[🔒加密演示]]></title>
     <url>%2F2018%2F05%2F07%2F%E5%8A%A0%E5%AF%86%E6%BC%94%E7%A4%BA%2F</url>
-    <content type="text"><![CDATA[请输入密码 U2FsdGVkX19CDAEPn4nlhoaqo7tH/FnvzNIhrIXfZB6eDZDZh3FGjbKFmQsg1sxLJJlzY1gZzhP86mwMA3FdoKBuGBgx+taOd5xwwF0lZbOhRCSe3qztp08KuWe6vSvn]]></content>
+    <content type="text"><![CDATA[请输入密码 U2FsdGVkX1+6ahqluKWkXOKwKS+CzLrs3W1pTQwc1/hRvGZu/7919ky0Kzva5+4/PA7nPgXp5RisOuKXr4h2yOH+iZfEt2qo5WLnui9Awru9LOYfmpbUxCFT4oLe9o+w]]></content>
   </entry>
   <entry>
     <title><![CDATA[🔒VPN Server]]></title>
     <url>%2F2018%2F04%2F27%2FVPN-Server%2F</url>
-    <content type="text"><![CDATA[请输入密码 U2FsdGVkX19pTB/bXWVPOGIhoZpTPMdKP9TLV/KX1p5icdGnYZXO6UmPk/2aBAkq2n27++6pW9/543Jmkj3huBMu5XOh2ElL0W8pzoMeghm91Tuhsj69ID5H8veZ44vW28WKdIRBYt/bOXbdkjqRzjB2rnI8J31hrBoD3ePF03Bh/0M2RmW0UB3/gC2EeAY3Eewjt3kGrYXQ5m9tUV4VzN+k5+hRVTvs7VCgiWENXviUEXTOFSlx4r8qYM59OWYaDqfKumppezkKqr6qB6I2lzVktN0TqKlZtXA+sSzEfbzPhyDyjeJK8Ud+tWSqzjiGAAMjn4zVea5aCT+757WdXVmNtgWNECKDvgGricPDyPlzSmzAEpECgptCG3XE0UhTh04Uk2y5ejzQQgysBzwndsCOSZqYSsn1bjszVgHxS0ufsLTtHEypGfqrCp7N0Xg3/v0HIem7YERUK1l9UqPQ5GuugfahyaGkkXmY+SNj+P5Gy2W7GU2yDGXM52u+WAZJXcnaY3eQj+QkLGKZXYtnSOi00YW+TY8M1OTLRO+vzzHdDvZ0S1sgtqcziQKv7B+ttphnenjn+JETs1VMUnuOVnmLIWxmNmvhgcqInfCK96ahozahdYaQVDChIiN1WOJCAtpa16IFjWBYdIY/13z0aGaHdxbFEik84LRB4HPvolLQMnZnHhsSgDi9JUAg28ORIY4lsdzXWSiLFm6V6N4FyNlSGh2FmDbySlFzCbdwPniQXIslQdJk7ccTkUCxTnJpgWRp1JZkkHrnnrx8m1Wmr606YtlF1viCiPlFW5D10n+8XDKeoqr4ncqViB3qfPU1oRKoQxuUBjJ0tSFnvEGdiuWACVKxzP4MBib3I3hCTcR1PYC90LXbaiQzrMD6yskle8ZW2HY3xnycHybk6D+p17zIcsA4HCqamaqafhmLv1ZIu8FmHcV8IcUcPItzZT9pIHvqa04W3zczwGUNK4CN2/ZkFxG7joGReAMf63q2h+ZrD7K1v51hhBySWAh9sjk5]]></content>
+    <content type="text"><![CDATA[请输入密码 U2FsdGVkX1+SjeDsxZz91/m2X5DJTpGDVx0DMOoAcWPAe429G+vsM7tV6ht8xa8s+zrEkHsfrKLUtokcAjqz15UFWEnKwl58Ua42rzvw9CLmONnIFBeKwwf6r6kjVIHdYPeDhXMmOjophny7BMGsSj43QVRFJV2RgAcRHD+7C4ISMGIc+HwzICEQvb4RAmBvhTEsLGtWgb1MEeyZYcuF2pw9ZV8VAarFi6If08qfcJlYopIuu8ZmW1DY1QUiv5+2bdJTKbUpFWE6bOZSF4/IgD5OtWQ20Fak+6/8mL3Sgd5/yuPbuBEjwexWn1AkCIikynDIkzIRt+LbH45ptVKvfZdJ60HqSIkUiglqSkrDvdqt2axFqGw8ElfHsFDOg2PvjxoMg9EkPR2OCxBsx2z6XwrmHPs7+51T9WpptQsweKnooZEoX/7DmveNtof2IIZI/8EYlzYbQ008cZTxjrJCBt36MMkRS144mXA0whmSKnEuOT0RXGevMhAC6dutHAXg+/ycHIZcTtHhyC9Jtx8dgMHmzLwG143OO1Ccjk+WjODIZl/OnUA9jXXTi8mlCUdlAgfG0e3ilBnt6D9wBDiEj1I6ZeIRsYoeRwkfFpemYpWcCO91ByPvia5kIcDwihNIq4BKUNezAHUy519IdQPACU8fw4zgQjC0xK9kTzWNp6SVZaKFIoi3g2Vlw8ObP8ajU3h2KKHsNlJamYTV0gyv/105HNBjEXHvhz+MiV8lLL9uQ0muhkmH1v55DXsY+cjBjcIRNIF0y2PEO3D9KZlZdkOpg0qPK7BTdtH2CLPJ70YAkYBUI+hKYjXeuVhbyk1loJ74yyWcbdHT0AfkbbBnSKYTY8tjcg9yFY+qC7/Pg/MEdIAhb3TGIG/IbOoHZkGLw0zdBPRnLHmkgBDvt23WAEJTzoMKEgGBHB/iC6BGmKAkFWXUG0qWR9DM2anvHpmJBKRmTKGvPivDOrkyt9ghjqPXVUmXAEaVH8Yovx0x92KbwGWlYxDIwDG380e47dwK]]></content>
       <categories>
         <category>Server</category>
       </categories>
@@ -71,7 +71,7 @@
   <entry>
     <title><![CDATA[🔒箴言]]></title>
     <url>%2F2018%2F03%2F14%2F%E7%AE%B4%E8%A8%80%2F</url>
-    <content type="text"><![CDATA[请输入密码 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]]></content>
+    <content type="text"><![CDATA[请输入密码 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]]></content>
       <categories>
         <category>箴言</category>
       </categories>
@@ -84,16 +84,16 @@
   <entry>
     <title><![CDATA[🔒Base32编码]]></title>
     <url>%2F2018%2F03%2F08%2FBase32%E7%BC%96%E7%A0%81%2F</url>
-    <content type="text"><![CDATA[请输入密码 U2FsdGVkX18+OenJX9YBKIiOrWDkSiROiRjz2J9A1pEHuUgdky+6LqVpgCVvIZ6nADLmVv66QImXBmzc1moLr3Z75qwL11d2kKadr1eMrRDH3R2YOVysqMlsxqhXYPVJXDL2TTkGcyFQfEjX/e1SklHc7Fet1ZWVPYHael+gyxkXuYsKSjBXYkWhCd6t+O3nOkkSYiVSVk8z0Zv/al8ZFD+L7cy+HAc4U20+XI8aAYXrfzGJWj9VZYHjlSzkdMWacH8fN7+G3dJfpKMt2/+x9oohpJMF5pLQAnJeYFEnCF2DJipdE00uYILaNug+OE9JcP79jHJwpVlgE7xq4CXuRw4XyCOV510JANncZBIDqdpQkvAul0GwmKsy5WeuBz8GUkh6S5GH5UTl+BwmYx2mr+BgI8xmmomUk0XVSaYvJzfJGVS59aR9k3pGCJvBMvtudkZv8+yO2FlKFQybESOhIAjG46tZ5vb0WDP8rLsx2tg2gnKy23bX7umdI0YmDjm1rpltP5EiahODfUTFYGoG8P62XEH8fwFUsMJ1MCnDQ4M=$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});]]></content>
+    <content type="text"><![CDATA[请输入密码 U2FsdGVkX19LkjnTbxavo3sVG5FIDo8oFbf9mQ15TlerF+9e+NP9ZbSTV8yy9bUK9WRmRvqLPtY+MFOnKJVaWT4+xMt7InUSBezFHzgAaJaRgKsF+yfQAWH/WD+KyBPW4RuN96tITVf34U2krqbLMZmJlxpZY19STVbzlH3Smfr0Ocv/gNHTXPLAgBh8kBjQImyCLGaOxr9ffEminaKiuB5ys7ae6H0/izpHSJwKD3aT/g0lEs9PuCJG63IQiX0DF0cGNjPiBBOhHf4B8Qu4uQGco6QAyRvAHvsnss82e0dCytmW5gO2uQiORnMsZNzSLC01njvfadUMrIAlEsWSXgrce2hkGKbOx41Nmdf+rZDkSTCFPxyiFMOOA15N560yrqz0i00qeCWUDi4xS0s0gGyWk5WQ7KhTOfGa1SC1f6zMYhu84Rdh/CVp4al25IF07XdsRX43x2t6TZL3sbVa6Uw790LOLz3L6FT9z/h9ehkv4V6Ljd4QMrZwaPOTj/8Pyw8VsVw0uin96Vidbv722IINVEkq2hDMGJdB1Euvfz4=$(document).ready(function() { $('#header,#comments,#footer,.post-meta,.post-footer').addClass('opacity0InOut');});]]></content>
       <categories>
         <category>计算机基础科学</category>
       </categories>
       <tags>
-        <tag>Base32</tag>
         <tag>加密</tag>
         <tag>解密</tag>
         <tag>计算机基础科学</tag>
         <tag>原理</tag>
+        <tag>Base32</tag>
       </tags>
   </entry>
   <entry>
@@ -104,11 +104,11 @@
         <category>计算机基础科学</category>
       </categories>
       <tags>
+        <tag>Base64</tag>
         <tag>加密</tag>
         <tag>解密</tag>
         <tag>计算机基础科学</tag>
         <tag>原理</tag>
-        <tag>Base64</tag>
       </tags>
   </entry>
   <entry>
