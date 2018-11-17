@@ -1,4 +1,20 @@
 
+function siteTitleEffect() {
+  let tID = null
+  let count = 0
+  let char = '_'
+  let siteTitle = null
+  let siteTitleArr = document.getElementsByClassName('site-title')
+  if(siteTitleArr){
+    siteTitle = siteTitleArr[0]
+    console.log(siteTitle)
+    tID = setInterval(function(){
+      char = (count++)%2==0?'_':''
+      siteTitle.innerHTML = "Weijun Lai"+char
+    },2000)
+  }
+  
+}
 
 function showBlogList() {
   // $('#header,#comments,#footer,#sidebar,.post-meta,.post-footer').css({"display":"block"});
@@ -9,6 +25,7 @@ function showBlogList() {
 
   $('#blogContent').css({"display":"block"});
   $('#homeContent').css({"display":"none"});
+  siteTitleEffect()
 }
 
 function hideBlogList() {
