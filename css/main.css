@@ -2057,7 +2057,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fffaff;
+  background: #06f699;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3207,7 +3207,7 @@ hr {
 .webapp .copyright-info {
   width: 100%;
   text-align: right;
-  font-size: 0.3em;
+  font-size: 13px;
 }
 .center {
   margin: auto;
