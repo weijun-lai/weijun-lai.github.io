@@ -1,6 +1,5 @@
 
 function siteTitleEffect() {
-  if(tID){ clearInterval(tID)}
   let tID = null
   let count = 0
   let char = '_'
@@ -12,7 +11,7 @@ function siteTitleEffect() {
     tID = setInterval(function(){
       char = (count++)%2==0?'_':''
       siteTitle.innerHTML = "Weijun Lai"+char
-    },2000)
+    },800)
   }
   
 }
