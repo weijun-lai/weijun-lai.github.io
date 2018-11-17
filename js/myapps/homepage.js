@@ -60,9 +60,8 @@ function showHomeContent() {
 // $('body').css({"opacity":"0"});
 hideBlogList();
 
-siteTitleEffect();
 
 $(document).ready(function() {
   showHomeContent();
-  
+  siteTitleEffect();
 });
