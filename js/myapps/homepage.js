@@ -11,7 +11,7 @@ function siteTitleEffect() {
     tID = setInterval(function(){
       char = (count++)%2==0?'_':''
       siteTitle.innerHTML = "Weijun Lai"+char
-    },800)
+    },500)
   }
 }
 
@@ -53,6 +53,7 @@ function showHomeContent() {
   animationText('greed',greedText,10,10,false,1000);
   setTimeout(() => {
     showBlogList()
+    siteTitleEffect()
   }, 5000);
 }
 
