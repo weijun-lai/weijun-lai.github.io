@@ -1,5 +1,6 @@
 
 function siteTitleEffect() {
+  if(tID){ clearInterval(tID)}
   let tID = null
   let count = 0
   let char = '_'
