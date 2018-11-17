@@ -13,7 +13,6 @@ function siteTitleEffect() {
       siteTitle.innerHTML = "Weijun Lai"+char
     },800)
   }
-  
 }
 
 function showBlogList() {
@@ -25,7 +24,7 @@ function showBlogList() {
 
   $('#blogContent').css({"display":"block"});
   $('#homeContent').css({"display":"none"});
-  siteTitleEffect()
+  
 }
 
 function hideBlogList() {
@@ -59,6 +58,8 @@ function showHomeContent() {
 
 // $('body').css({"opacity":"0"});
 hideBlogList();
+
+siteTitleEffect();
 
 $(document).ready(function() {
   showHomeContent();
